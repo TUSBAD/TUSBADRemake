@@ -1,0 +1,60 @@
+{
+	"criteria": {
+		"farmer": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Farmer\"]}"
+				}
+			}
+		},
+		"agent": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Agent\"]}"
+				}
+			}
+		},
+		"pastor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Pastor\"]}"
+				}
+			}
+		},
+		"augur": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"NPC\",\"Augur\"]}"
+				}
+			}
+		},
+		"villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"farmer",
+			"agent",
+			"pastor",
+			"augur",
+			"villager"
+		]
+	],
+	"rewards": {
+		"function": "tusb_remake:talk_event/"
+	}
+}

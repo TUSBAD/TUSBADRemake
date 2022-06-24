@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"something": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_projectile": true
+					}
+				},
+				"player": {
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "debug:death"
+	}
+}
