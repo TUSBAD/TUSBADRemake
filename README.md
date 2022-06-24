@@ -12,6 +12,8 @@ v12を難なくクリアできる人や、他二次創作をクリアしてい�
 
 # 追加要素
 
+#バグ報告・要望等
+[こちら](https://github.com/FreyCIelu/TUSBAD_v12.5/issues/new/choose) か [Discord](https://discord.gg/KZ4DGTW) までお願いします。
 
 # Wiki
 [こちら](https://github.com/FreyCIelu/TUSBFanMade-Another_Dimension/wiki)
