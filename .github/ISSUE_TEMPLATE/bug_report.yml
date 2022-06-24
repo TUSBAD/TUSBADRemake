@@ -12,7 +12,7 @@ body:
 - type: dropdown
   id: Version
   attributes:
-    label: 発生したVer
+    label: 発生したTUSBADのVersion
     options:
       - vβ0.1.0 (MCver1.10.2)
       - vβ0.2.0 (MCver1.10.2)
