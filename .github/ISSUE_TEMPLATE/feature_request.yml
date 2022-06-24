@@ -2,7 +2,7 @@ name: 要望&アイデア
 description: 新しいアイデアを提案する
 title: "[要望] <ここにタイトルを入力>"
 labels: [提案]
-body: 
+body:
 - type: markdown
   attributes:
     value: |
@@ -17,8 +17,7 @@ body:
       - 島・エリア・建築物
       - ギミック
       - Mob
-      - アイテム・TUSBメモリー
-      - 刻印
+      - アイテム
       - 交易
       - 釣り・報酬・ドロップアイテム
       - レシピ
@@ -32,7 +31,7 @@ body:
   attributes:
     label: アイデア概要
     description: |
-      新しいアイデアについての説明を記入する。  
+      新しいアイデアについての説明を記入する。
       画像のアップロードも可能です。
   validations:
     required: true
