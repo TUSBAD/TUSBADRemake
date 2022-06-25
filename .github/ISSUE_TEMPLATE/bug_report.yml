@@ -22,6 +22,22 @@ body:
 - type: checkboxes
   id: type
   attributes:
+    label: 発生したバグカテゴリ
+    options:
+      - label: 島・エリア・建築物
+      - label: ギミック
+      - label: Mob
+      - label: アイテム
+      - label: 交易
+      - label: レシピ
+      - label: 職業スキル
+      - label: 進捗
+      - label: テクスチャ
+  validations:
+    required: true
+- type: checkboxes
+  id: type
+  attributes:
     label: 発生したバグの深刻度
     options:
       - label: 無害 (通常プレイに支障なし)
