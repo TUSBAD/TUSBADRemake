@@ -15,14 +15,13 @@ body:
   attributes:
     label: 質問したいTUSBADのVersion
     options:
-      - vβ0.2.0 (MCver1.10.2)
       - v12.5,1 (MCver1.18.2)
   validations:
     required: true
 - type: checkboxes
   id: type
   attributes:
-    label: 質問したいカテゴリ(複数選択可)
+    label: 質問したいカテゴリ (複数選択可)
     options:
       - label: 島・エリア・建築物
       - label: ギミック
