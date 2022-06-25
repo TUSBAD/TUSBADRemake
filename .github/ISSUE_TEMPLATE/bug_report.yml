@@ -22,7 +22,7 @@ body:
 - type: checkboxes
   id: type
   attributes:
-    label: 発生したバグカテゴリ
+    label: 発生したバグのカテゴリ
     options:
       - label: 島・エリア・建築物
       - label: ギミック
