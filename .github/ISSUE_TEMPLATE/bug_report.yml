@@ -19,6 +19,15 @@ body:
       - v12.5,1 (MCver1.18.2)
   validations:
     required: true
+- type: checkboxes
+  id: type
+  attributes:
+    label: 発生したバグの深刻度
+    options:
+      - label: 無害 (通常プレイに支障なし)
+      - label: 軽度 (多少支障が出る)
+      - label: 重度 (支障が出るが進行不可ではない)
+      - label: 致命的 (進行不可)
 - type: textarea
   id: "overview"
   attributes:
