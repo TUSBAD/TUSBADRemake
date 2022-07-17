@@ -3,30 +3,30 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-tellraw @s[scores={ShowSkill=6000}] {"text":"・サモンP：スノー"}
-tellraw @s[scores={ShowSkill=6010}] {"text":"・サモンE：マーチャント"}
-tellraw @s[scores={ShowSkill=6020}] {"text":"・ヘイカモンα"}
-tellraw @s[scores={ShowSkill=6021}] {"text":"・ヘイカモンβ"}
-tellraw @s[scores={ShowSkill=6030}] {"text":"・サモンE：スーパードラゴン"}
-tellraw @s[scores={ShowSkill=6040}] {"text":"・サモンP：ウルフ"}
-tellraw @s[scores={ShowSkill=6050}] {"text":"・サモンE：ヒーリングキャット"}
-tellraw @s[scores={ShowSkill=6060}] {"text":"・サモンP：ゴーレム"}
-tellraw @s[scores={ShowSkill=6070}] {"text":"・サモンE：バルーン"}
-tellraw @s[scores={ShowSkill=6080}] {"text":"・サモンE：グライダー"}
-tellraw @s[scores={ShowSkill=6200}] {"text":"・フィールα"}
-tellraw @s[scores={ShowSkill=6201}] {"text":"・フィールβ"}
-tellraw @s[scores={ShowSkill=6202}] {"text":"・フィールγ"}
-tellraw @s[scores={ShowSkill=6210}] {"text":"・金タライ"}
-tellraw @s[scores={ShowSkill=6220}] {"text":"・ディールα"}
-tellraw @s[scores={ShowSkill=6221}] {"text":"・ディールβ"}
-tellraw @s[scores={ShowSkill=6222}] {"text":"・ディールγ"}
-tellraw @s[scores={ShowSkill=6230}] {"text":"・ぽんぽんα"}
-tellraw @s[scores={ShowSkill=6231}] {"text":"・ぽんぽんβ"}
-tellraw @s[scores={ShowSkill=6240}] {"text":"・つんつんα"}
-tellraw @s[scores={ShowSkill=6241}] {"text":"・つんつんβ"}
-tellraw @s[scores={ShowSkill=6250}] {"text":"・あつあつタライ"}
-tellraw @s[scores={ShowSkill=6260}] {"text":"・サモンB：オブシディアン"}
-tellraw @s[scores={ShowSkill=6270}] {"text":"・ぽむぽむハナビ"}
-tellraw @s[scores={ShowSkill=6280}] {"text":"・サモンB：エンダーチェスト"}
-tellraw @s[scores={ShowSkill=6290}] {"text":"・きらきらタライ"}
-tellraw @s[scores={ShowSkill=6300}] {"text":"・サモン：ぷちブラック"}
+execute if score @s ShowSkill matches 6000 run data modify storage tusb_remake: skill_name set value "サモンP：スノー"
+execute if score @s ShowSkill matches 6010 run data modify storage tusb_remake: skill_name set value "サモンE：マーチャント"
+execute if score @s ShowSkill matches 6020 run data modify storage tusb_remake: skill_name set value "ヘイカモンα"
+execute if score @s ShowSkill matches 6021 run data modify storage tusb_remake: skill_name set value "ヘイカモンβ"
+execute if score @s ShowSkill matches 6030 run data modify storage tusb_remake: skill_name set value "サモンE：スーパードラゴン"
+execute if score @s ShowSkill matches 6040 run data modify storage tusb_remake: skill_name set value "サモンP：ウルフ"
+execute if score @s ShowSkill matches 6050 run data modify storage tusb_remake: skill_name set value "サモンE：ヒーリングキャット"
+execute if score @s ShowSkill matches 6060 run data modify storage tusb_remake: skill_name set value "サモンP：ゴーレム"
+execute if score @s ShowSkill matches 6070 run data modify storage tusb_remake: skill_name set value "サモンE：バルーン"
+execute if score @s ShowSkill matches 6080 run data modify storage tusb_remake: skill_name set value "サモンE：グライダー"
+execute if score @s ShowSkill matches 6200 run data modify storage tusb_remake: skill_name set value "フィールα"
+execute if score @s ShowSkill matches 6201 run data modify storage tusb_remake: skill_name set value "フィールβ"
+execute if score @s ShowSkill matches 6202 run data modify storage tusb_remake: skill_name set value "フィールγ"
+execute if score @s ShowSkill matches 6210 run data modify storage tusb_remake: skill_name set value "金タライ"
+execute if score @s ShowSkill matches 6220 run data modify storage tusb_remake: skill_name set value "ディールα"
+execute if score @s ShowSkill matches 6221 run data modify storage tusb_remake: skill_name set value "ディールβ"
+execute if score @s ShowSkill matches 6222 run data modify storage tusb_remake: skill_name set value "ディールγ"
+execute if score @s ShowSkill matches 6230 run data modify storage tusb_remake: skill_name set value "ぽんぽんα"
+execute if score @s ShowSkill matches 6231 run data modify storage tusb_remake: skill_name set value "ぽんぽんβ"
+execute if score @s ShowSkill matches 6240 run data modify storage tusb_remake: skill_name set value "つんつんα"
+execute if score @s ShowSkill matches 6241 run data modify storage tusb_remake: skill_name set value "つんつんβ"
+execute if score @s ShowSkill matches 6250 run data modify storage tusb_remake: skill_name set value "あつあつタライ"
+execute if score @s ShowSkill matches 6260 run data modify storage tusb_remake: skill_name set value "サモンB：オブシディアン"
+execute if score @s ShowSkill matches 6270 run data modify storage tusb_remake: skill_name set value "ぽむぽむハナビ"
+execute if score @s ShowSkill matches 6280 run data modify storage tusb_remake: skill_name set value "サモンB：エンダーチェスト"
+execute if score @s ShowSkill matches 6290 run data modify storage tusb_remake: skill_name set value "きらきらタライ"
+execute if score @s ShowSkill matches 6300 run data modify storage tusb_remake: skill_name set value "サモン：ぷちブラック"

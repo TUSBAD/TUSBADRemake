@@ -12,3 +12,5 @@ scoreboard players set @s Hunger -1
 function tusb_remake:login/first_reset
 
 team join FriendlyTeam @s
+
+tag @s add Resolved

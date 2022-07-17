@@ -3,30 +3,30 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-tellraw @s[scores={ShowSkill=4000}] {"text":"・キアリク"}
-tellraw @s[scores={ShowSkill=4010}] {"text":"・ハートブースト"}
-tellraw @s[scores={ShowSkill=4011}] {"text":"・ハートブーストⅡ"}
-tellraw @s[scores={ShowSkill=4012}] {"text":"・ハートブーストⅢ"}
-tellraw @s[scores={ShowSkill=4013}] {"text":"・ハートブーストⅣ"}
-tellraw @s[scores={ShowSkill=4014}] {"text":"・ハートブーストⅤ"}
-tellraw @s[scores={ShowSkill=4020}] {"text":"・リジェネレーション"}
-tellraw @s[scores={ShowSkill=4021}] {"text":"・リジェネレーションⅡ"}
-tellraw @s[scores={ShowSkill=4022}] {"text":"・リジェネレーションⅢ"}
-tellraw @s[scores={ShowSkill=4030}] {"text":"・クイック"}
-tellraw @s[scores={ShowSkill=4031}] {"text":"・クイックⅡ"}
-tellraw @s[scores={ShowSkill=4040}] {"text":"・バオル"}
-tellraw @s[scores={ShowSkill=4050}] {"text":"・レイズ"}
-tellraw @s[scores={ShowSkill=4200}] {"text":"・ケアル"}
-tellraw @s[scores={ShowSkill=4201}] {"text":"・ケアルⅡ"}
-tellraw @s[scores={ShowSkill=4202}] {"text":"・ケアルⅢ"}
-tellraw @s[scores={ShowSkill=4203}] {"text":"・ケアルⅣ"}
-tellraw @s[scores={ShowSkill=4204}] {"text":"・ケアルⅤ"}
-tellraw @s[scores={ShowSkill=4210}] {"text":"・ディア"}
-tellraw @s[scores={ShowSkill=4211}] {"text":"・ディアⅡ"}
-tellraw @s[scores={ShowSkill=4212}] {"text":"・ディアⅢ"}
-tellraw @s[scores={ShowSkill=4213}] {"text":"・ディアⅣ"}
-tellraw @s[scores={ShowSkill=4214}] {"text":"・ディアⅤ"}
-tellraw @s[scores={ShowSkill=4220}] {"text":"・フラワーギフト"}
-tellraw @s[scores={ShowSkill=4221}] {"text":"・フラワーギフトⅡ"}
-tellraw @s[scores={ShowSkill=4222}] {"text":"・フラワーギフトⅢ"}
-tellraw @s[scores={ShowSkill=4230}] {"text":"・ホーリー"}
+execute if score @s ShowSkill matches 4000 run data modify storage tusb_remake: skill_name set value "キアリク"
+execute if score @s ShowSkill matches 4010 run data modify storage tusb_remake: skill_name set value "ハートブースト"
+execute if score @s ShowSkill matches 4011 run data modify storage tusb_remake: skill_name set value "ハートブーストⅡ"
+execute if score @s ShowSkill matches 4012 run data modify storage tusb_remake: skill_name set value "ハートブーストⅢ"
+execute if score @s ShowSkill matches 4013 run data modify storage tusb_remake: skill_name set value "ハートブーストⅣ"
+execute if score @s ShowSkill matches 4014 run data modify storage tusb_remake: skill_name set value "ハートブーストⅤ"
+execute if score @s ShowSkill matches 4020 run data modify storage tusb_remake: skill_name set value "リジェネレーション"
+execute if score @s ShowSkill matches 4021 run data modify storage tusb_remake: skill_name set value "リジェネレーションⅡ"
+execute if score @s ShowSkill matches 4022 run data modify storage tusb_remake: skill_name set value "リジェネレーションⅢ"
+execute if score @s ShowSkill matches 4030 run data modify storage tusb_remake: skill_name set value "クイック"
+execute if score @s ShowSkill matches 4031 run data modify storage tusb_remake: skill_name set value "クイックⅡ"
+execute if score @s ShowSkill matches 4040 run data modify storage tusb_remake: skill_name set value "バオル"
+execute if score @s ShowSkill matches 4050 run data modify storage tusb_remake: skill_name set value "レイズ"
+execute if score @s ShowSkill matches 4200 run data modify storage tusb_remake: skill_name set value "ケアル"
+execute if score @s ShowSkill matches 4201 run data modify storage tusb_remake: skill_name set value "ケアルⅡ"
+execute if score @s ShowSkill matches 4202 run data modify storage tusb_remake: skill_name set value "ケアルⅢ"
+execute if score @s ShowSkill matches 4203 run data modify storage tusb_remake: skill_name set value "ケアルⅣ"
+execute if score @s ShowSkill matches 4204 run data modify storage tusb_remake: skill_name set value "ケアルⅤ"
+execute if score @s ShowSkill matches 4210 run data modify storage tusb_remake: skill_name set value "ディア"
+execute if score @s ShowSkill matches 4211 run data modify storage tusb_remake: skill_name set value "ディアⅡ"
+execute if score @s ShowSkill matches 4212 run data modify storage tusb_remake: skill_name set value "ディアⅢ"
+execute if score @s ShowSkill matches 4213 run data modify storage tusb_remake: skill_name set value "ディアⅣ"
+execute if score @s ShowSkill matches 4214 run data modify storage tusb_remake: skill_name set value "ディアⅤ"
+execute if score @s ShowSkill matches 4220 run data modify storage tusb_remake: skill_name set value "フラワーギフト"
+execute if score @s ShowSkill matches 4221 run data modify storage tusb_remake: skill_name set value "フラワーギフトⅡ"
+execute if score @s ShowSkill matches 4222 run data modify storage tusb_remake: skill_name set value "フラワーギフトⅢ"
+execute if score @s ShowSkill matches 4230 run data modify storage tusb_remake: skill_name set value "ホーリー"

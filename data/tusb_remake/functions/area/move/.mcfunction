@@ -7,7 +7,7 @@
 scoreboard players operation @s USBDimension = @s AreaChangeFlag
 
 ### エリア処理持ち込み判定 BringItemError
-function tusb_remake:area/move/check_item/
+execute at @s run function tusb_remake:area/move/check_item/
 
 ### テーブルマウンテンに移動できたとき
 tag @s[scores={AreaChangeFlag=11}] add IgnoreEnderChest
@@ -22,7 +22,7 @@ execute if entity @s[scores={AreaChangeFlag=12}] run function tusb_remake:area/m
 execute if entity @s[scores={AreaChangeFlag=13}] run function tusb_remake:area/move/tocult_colde
 execute if entity @s[scores={AreaChangeFlag=-100}] run function tusb_remake:area/move/nether
 execute if entity @s[scores={AreaChangeFlag=-90}] run function tusb_remake:area/move/nether_trial
-execute if entity @s[scores={AreaChangeFlag=-89}] run function tusb_remake:area/move/nether_trial
+execute if entity @s[scores={AreaChangeFlag=-89}] run function tusb_remake:area/move/nether_dungeon
 execute if entity @s[scores={AreaChangeFlag=110}] run function tusb_remake:area/move/end
 
 ### エリア移動時に初期地点があった場合、そこに移動させる

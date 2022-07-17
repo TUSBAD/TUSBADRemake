@@ -38,3 +38,5 @@ execute if score _ TUSB matches 2.. run scoreboard players remove _ TUSB 2
 
 execute if score _ TUSB matches 1.. run clear @s minecraft:emerald 1
 execute if score _ TUSB matches 1.. run scoreboard players remove _ TUSB 1
+
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 0.5

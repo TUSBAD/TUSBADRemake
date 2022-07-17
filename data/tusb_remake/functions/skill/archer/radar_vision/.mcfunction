@@ -10,9 +10,12 @@ execute store result score @s RadarVision run time query gametime
 execute if score @s ActivatedSkill matches 3050 run scoreboard players add @s RadarVision 60
 execute if score @s ActivatedSkill matches 3051..3059 run scoreboard players add @s RadarVision 100
 
+### 何かに乗っているなら降ろす
+execute if predicate tusb_remake:is_riding run tp @s ~ ~0.45 ~
+
 ### 戻ってくる場所を一応表示
-execute if score @s ActivatedSkill matches 3050 run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:60,WaitTime:0,Tags:[SystemEntity],CustomName:'"レーダーサイト"',CustomNameVisible:true,Passengers:[{id:"minecraft:snowball",Item:{id:"minecraft:beacon",Count:1b},Tags:[SystemEntity]}]}
-execute if score @s ActivatedSkill matches 3051..3059 run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:100,WaitTime:0,Tags:[SystemEntity],CustomName:'"レーダーサイト"',CustomNameVisible:true,Passengers:[{id:"minecraft:snowball",Item:{id:"minecraft:beacon",Count:1b},Tags:[SystemEntity]}]}
+execute if score @s ActivatedSkill matches 3050 at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:60,WaitTime:0,Tags:[SystemEntity],CustomName:'"レーダーサイト"',CustomNameVisible:true,Passengers:[{id:"minecraft:snowball",Item:{id:"minecraft:beacon",Count:1b},Tags:[SystemEntity]}]}
+execute if score @s ActivatedSkill matches 3051..3059 at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:100,WaitTime:0,Tags:[SystemEntity],CustomName:'"レーダーサイト"',CustomNameVisible:true,Passengers:[{id:"minecraft:snowball",Item:{id:"minecraft:beacon",Count:1b},Tags:[SystemEntity]}]}
 
 ### 戻る場所を記録
 function #oh_my_dat:please

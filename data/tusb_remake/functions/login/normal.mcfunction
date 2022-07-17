@@ -8,5 +8,7 @@ scoreboard players add @s MP 0
 scoreboard players set @s[scores={MP=..0,MPMaxFlag=1..}] MPMaxFlag 0
 scoreboard players reset @s[scores={MP=..0}] CoolTickCounter
 tag @s add ShowVote
-scoreboard players set @s[scores={Job=1..}] ShowSkillSlot 4
-tag @s add Pray
+### ログイン時のメッセージ表示を待機
+tag @s add LoginMessage
+# function tusb_remake:login/schedule
+schedule function tusb_remake:login/schedule 5s append

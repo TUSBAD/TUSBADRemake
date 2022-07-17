@@ -5,9 +5,7 @@
 
 scoreboard objectives add Settings dummy "設定"
 ### 観光モード
-scoreboard players set Sightseeing Settings 0
-### 強制夜モード
-scoreboard players set ForceNight Settings 1
+scoreboard players set SightseeingDeath Settings 0
 ### デバッグモード
 scoreboard players set Debug Settings 0
 ### 祈り有効モード
@@ -23,6 +21,17 @@ scoreboard players set MaxPortalCount Settings 50
 time set 14000
 weather rain 15
 data modify storage tusb_remake: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???"}
+data modify storage tusb_remake: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0}
+data modify storage tusb_remake: nether_boss_count set value 1
+data modify storage tusb_remake: nether_boss_clear set value false
+
+gamerule doDaylightCycle false
+data modify storage tusb_remake: settings set value {force_night:true}
+
+data modify storage tusb_remake: settings.is_sightseeing set value false
+
+### 苗木を既に入手しているかどうか
+data modify storage tusb_remake: settings.saplings set value {oak:false,birch:false,spruce:false,jungle:false,acacia:false,dark_oak:false}
 
 ### ワープポータル初期化しておく
 data remove storage tusb_remake: portal

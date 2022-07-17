@@ -13,4 +13,4 @@ execute as @a[distance=..10,gamemode=!spectator] rotated as @s run tp @s ~ ~1 ~ 
 
 ### ダメージ処理
 data modify storage score_damage: Argument set value {Damage:20.00}
-execute positioned ~-0.5 ~1 ~-0.5 as @e[dy=0,type=#tusb_remake:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23b}]}] at @s run function tusb_remake:skill/summoner/summon_petit_black/black/hit
+execute positioned ~-0.5 ~1 ~-0.5 as @e[dy=0,type=#tusb_remake:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function tusb_remake:skill/summoner/summon_petit_black/black/hit

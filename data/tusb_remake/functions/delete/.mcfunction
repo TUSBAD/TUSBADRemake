@@ -10,7 +10,7 @@ tag @e[tag=RidingRequired,predicate=!tusb_remake:is_riding] add Garbage
 ### 時間削除処理(CooldownRequired / PortalCooldown=0)
 tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage
 ### 自然スライム系削除
-execute as @e[tag=Slimy,nbt={AbsorptionAmount:0f}] run function tusb_remake:delete/slimy/
+execute as @e[type=#tusb_remake:slimey,nbt={AbsorptionAmount:0f}] run function tusb_remake:delete/slimey/
 
 ### 不要エンティティ削除
 execute as @e[tag=Garbage] run function tusb_remake:delete/kill

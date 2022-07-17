@@ -17,6 +17,9 @@ execute as @s[scores={CurrentMode=2210..2219}] run function tusb_remake:skill/ni
 ### エンアスピル
 execute as @s[scores={EnAspir=0..}] run function tusb_remake:skill/black_mage/enaspir/hit
 
+### レガシー
+execute if data entity @s SelectedItem.tag.Legacy run function tusb_remake:skill/hit/legacy/
+
 scoreboard players reset @s DamageDealt
 scoreboard players reset @s DamageDealtAbsorbed
 scoreboard players reset @s DamageDealtResisted

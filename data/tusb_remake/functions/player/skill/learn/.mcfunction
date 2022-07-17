@@ -12,4 +12,4 @@ execute if entity @s[scores={Job=6}] run function tusb_remake:player/skill/learn
 
 tellraw @s[scores={ShowSkill=0..}] {"text":"新しいスキルを覚えた！"}
 ### 覚えたスキル名の表示
-function tusb_remake:player/skill/show/
+execute if score @s ShowSkill matches 0.. run function tusb_remake:player/skill/show/

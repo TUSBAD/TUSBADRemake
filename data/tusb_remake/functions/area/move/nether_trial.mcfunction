@@ -9,3 +9,6 @@ title @s title {"text":"ネザーアスレ","color":"dark_red","bold":true,"unde
 
 ### Adv処理
 tag @s add Adv
+
+### 手持ちアイテムがないはずなのでクリアしちゃえ！！
+clear @s[gamemode=!creative]

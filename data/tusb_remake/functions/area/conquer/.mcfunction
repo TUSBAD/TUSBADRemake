@@ -18,7 +18,9 @@ function tusb_remake:area/conquer/total
 execute as @a at @s run playsound minecraft:entity.ender_dragon.death master @s ~ ~ ~ 0.3 2 0.3
 execute as @a at @s run particle minecraft:happy_villager ~ ~ ~ 1 1 1 0 30 normal
 execute as @a at @s run particle minecraft:instant_effect ~ ~1 ~ 1 1 1 0.1 90 normal
-execute as @a at @s run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:10,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Type:1b,Flicker:true,Trail:true,Colors:[I;16774552],FadeColors:[I;16777215]},{Type:0b,Flicker:false,Trail:false,Colors:[I;65407,16777215,16777215],FadeColors:[I;16777215]}]}}}}
+execute as @a at @s run summon minecraft:firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Type:1b,Flicker:true,Trail:true,Colors:[I;16774552],FadeColors:[I;16777215]},{Type:0b,Flicker:false,Trail:false,Colors:[I;65407,16777215,16777215],FadeColors:[I;16777215]}]}}},Tags:[ConquerFirework]}
+execute as @e[type=firework_rocket,tag=ConquerFirework] at @s run tp @s 0.0 0.0 0.0
+
 title @a times 5 150 20
 title @a subtitle {"translate":"攻略率 : %1$s/%2$s (%3$s.%4$s%%)","italic":true,"color":"white","with":[{"nbt":"conquer.count.total","storage":"tusb_remake:","bold":true,"italic":false},{"score":{"name":"MaxPortalCount","objective":"Settings"}},{"nbt":"conquer.rate.int[]","storage":"tusb_remake:","separator":""},{"nbt":"conquer.rate.cent[]","storage":"tusb_remake:","separator":""}]}
 title @a title {"text":"島を攻略した！","color":"gold","bold":true}
@@ -32,7 +34,12 @@ execute store result storage math: in int 1 run scoreboard players operation 経
 function #math:clock
 
 data modify storage tusb_remake: _ set value ""
-execute if score Sightseeing Settings matches 1.. run data modify storage tusb_remake: _ set value "(観光モード)"
-tellraw @a [{"translate":"攻略タイム : %1$s","italic":true,"bold":true,"color":"white","with":[{"translate":"%1$s時間%2$s分%3$s秒","italic":false,"with":[{"nbt":"out.total_hour","storage":"math:"},{"nbt":"out.minute","storage":"math:"},{"nbt":"out.second","storage":"math:"}]}]},{"nbt":"_","storage":"tusb_remake:"}]
+execute if score SightseeingDeath Settings matches 1.. run data modify storage tusb_remake: _ set value '[{"text":"(観光中の死:","color":"gray","italic":false},{"score":{"name":"SightseeingDeath","objective":"Settings"},"color":"red"},")"]'
+tellraw @a [{"translate":"攻略タイム : %1$s","italic":true,"bold":true,"color":"white","with":[{"translate":"%1$s時間%2$s分%3$s秒","italic":false,"with":[{"nbt":"out.total_hour","storage":"math:"},{"nbt":"out.minute","storage":"math:"},{"nbt":"out.second","storage":"math:"}]}]},{"nbt":"_","storage":"tusb_remake:","interpret":true}]
 
 scoreboard players reset @s UseEnderEye
+
+### 夜をつかさどる島だった場合、夜固定を解除
+execute in minecraft:overworld if block 3 77 87 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/luna
+### 交易島だった場合、祈りを解禁
+execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/traders_island

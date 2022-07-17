@@ -7,4 +7,4 @@
 function tusb_remake:system/load_chunk
 ### コマブロ設置
 setblock ~ ~ ~ minecraft:air
-setblock ~ ~ ~ minecraft:command_block[facing=up]{Command:"/function tusb_remake:run_command"}
+setblock ~ ~ ~ minecraft:command_block[facing=up]{Command:"/function tusb_remake:open_warp_crystal/"}

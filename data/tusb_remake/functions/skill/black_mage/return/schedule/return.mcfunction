@@ -6,6 +6,6 @@
 title @s actionbar {"text":"ルーラ発動！！","color":"dark_aqua","bold":true}
 
 ### 交易島に戻す
-data modify storage literal_tp: destination set value {Pos:[-57.5d,15.5d,18.5d],Dimension:"minecraft:overworld"}
-data modify storage literal_tp: destination.Rotation set from entity @s Rotation
-function #literal_tp:go
+data modify storage anywhere: at set value {Pos:[-57.5d,15.5d,18.5d],Dimension:"minecraft:overworld"}
+data modify storage anywhere: at.Rotation set from entity @s Rotation
+function #anywhere:tp

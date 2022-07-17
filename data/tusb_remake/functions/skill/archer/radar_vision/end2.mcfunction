@@ -5,8 +5,8 @@
 
 ### ライブラリぱわーーーーーーーー！！！！！！
 function #oh_my_dat:please
-data modify storage literal_tp: destination set from storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.RadarVision
-function #literal_tp:go
+data modify storage anywhere: at set from storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.RadarVision
+function #anywhere:tp
 
 ### 終了処理
 gamemode survival @s

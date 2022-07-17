@@ -12,3 +12,6 @@ data modify storage tusb_remake: area_name.table_mountain set value "テーブ�
 
 ### Adv処理
 tag @s add Adv
+
+### 手持ちアイテムがないはずなのでクリアしちゃえ！！
+clear @s[gamemode=!creative]
