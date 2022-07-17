@@ -25,7 +25,7 @@ execute positioned -2721 43 -38 align xyz if entity @s[dx=0,dy=0,dz=0] run tp @s
 execute positioned -96 14 56 align xyz if entity @s[dx=1,dy=0,dz=0] run tp @s 24.5 18.5 -1825.5 180 0
 
 ### テーブルマウンテンの地下水路の村からのランダムワープ
-execute positioned 47 67 -2186 align xyz as @s[dx=0] at 0-0-1-0-1 positioned ~ ~ ~-2 at @e[type=area_effect_cloud,distance=..0.1,sort=nearest,limit=1] facing entity @e[type=area_effect_cloud,distance=..1.1,sort=random,limit=1] feet positioned as @s positioned ~ ~ ~-4 positioned ^ ^ ^2 positioned 47.5 ~ ~ run tp @s ~ ~ ~
+execute positioned 47 67 -2186 align xyz as @s[dx=0] positioned -1919.5 6.5 -191.5 positioned ~ ~ ~-2 at @e[type=area_effect_cloud,distance=..0.1,sort=nearest,limit=1] facing entity @e[type=area_effect_cloud,distance=..1.1,sort=random,limit=1] feet positioned as @s positioned ~ ~ ~-4 positioned ^ ^ ^2 positioned 47.5 ~ ~ run tp @s ~ ~ ~
 
 ### チュートリアルワープ
 execute if data storage tusb_remake: portal.cloudia.tutorial positioned -1885 114 -194 align xyz if entity @s[dx=0,dy=1,dz=0] run tp @s -1887 115.5 -189

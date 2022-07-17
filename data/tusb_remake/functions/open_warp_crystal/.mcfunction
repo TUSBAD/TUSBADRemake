@@ -44,3 +44,9 @@ execute in minecraft:the_nether positioned -101 115 -343 if block ~ ~ ~ minecraf
 execute in minecraft:the_nether positioned -1858 77 -58 if block ~ ~ ~ minecraft:command_block{powered:true} run function tusb_remake:area/portal/nether/dungeon_down/open
 ## 迷い断ち切る地
 execute in minecraft:the_nether positioned -1937 119 -34 if block ~ ~ ~ minecraft:command_block{powered:true} run function tusb_remake:area/portal/nether/dungeon_up/open
+
+## エンド
+execute in minecraft:the_end positioned -673 65 12 if block ~ ~ ~ minecraft:command_block{powered:true} run function tusb_remake:area/portal/the_end/garden/open
+execute in minecraft:the_end positioned -1155 147 12 if block ~ ~ ~ minecraft:command_block{powered:true} run function tusb_remake:area/portal/the_end/stairs/open
+execute in minecraft:the_end positioned -1416 113 9 if block ~ ~ ~ minecraft:command_block{powered:true} run function tusb_remake:area/portal/the_end/skyblock/open
+

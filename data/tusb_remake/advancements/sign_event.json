@@ -534,7 +534,7 @@
 				"location": {
 					"block": {
 						"tag": "minecraft:signs",
-						"nbt": "{Text2:'{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tellraw @a[r=16] {\\\\\"text\\\\\":\\\\\"薄暗い空間に線路が見えます。\\\\\",\\\\\"color\\\\\":\\\\\"gray\\\\\",\\\\\"bold\\\\\":\\\\\"true\\\\\"}\"},\"text\":\"=このﾁｪｽﾄｷｰのﾋﾝﾄ=\"}'}"
+						"nbt": "{Text3:'{\"bold\":true,\"color\":\"black\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound entity.experience_orb.pickup master @a[r=16] ~ ~ ~ 1 0.5 0\"},\"text\":\"=-=-=-=-=-=-=-=-=\"}',Text4:'{\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/particle enchantmenttable ~ ~1 ~ 0.1 0.1 0.1 1 90\"},\"text\":\"\"}'}"
 					}
 				}
 			}
