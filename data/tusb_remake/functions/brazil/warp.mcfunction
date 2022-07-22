@@ -11,4 +11,4 @@ tp @s[scores={Job=..0}] -1786 113 -137 -90 0
 ## 職業があるとき通常世界
 tp @s[scores={Job=1..}] 0 5 2 -90 -30
 ## スポナーにサイレントをつけて音バグ回避
-execute at @s[scores={Job=1..}] as @e[type=minecraft:spawner_minecart] run data modify entity @s Silent set value true
+execute at @s[scores={Job=1..}] in minecraft:overworld run schedule function tusb_remake:brazil/apply_silent 1s

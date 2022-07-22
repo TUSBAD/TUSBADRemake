@@ -25,9 +25,12 @@ data modify storage tusb_remake: conquer.count set value {skyland:0,nether:0,end
 data modify storage tusb_remake: nether_boss_count set value 1
 data modify storage tusb_remake: nether_boss_clear set value false
 
+### 最初は夜固定
 gamerule doDaylightCycle false
 data modify storage tusb_remake: settings set value {force_night:true}
 
+### 最初はキープインベントリなし
+gamerule keepInventory false
 data modify storage tusb_remake: settings.is_sightseeing set value false
 
 ### 苗木を既に入手しているかどうか
@@ -42,4 +45,4 @@ execute store result storage tusb_remake: start_time int 1 run time query gameti
 ### スキルスロットのタイトルを設定
 data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"text":"サポートアクション","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"サポートアクション","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'},mode:{a:'[{"text":"モードスキル","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"モードスキル","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'}}
 
-execute in minecraft:overworld positioned -1896.000000 118.000000 -136.000000 run summon minecraft:marker ~ ~ ~ {CustomName:'"システムマーカー"',UUID:[I;0,1,0,1]}
+# execute in minecraft:overworld positioned -1896.000000 118.000000 -136.000000 run summon minecraft:marker ~ ~ ~ {CustomName:'"システムマーカー"',UUID:[I;0,1,0,1]}

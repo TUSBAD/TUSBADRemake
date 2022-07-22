@@ -6,7 +6,7 @@
 data modify storage tusb_remake: projectile_loop set value false
 
 ### ヒットした対象に対して処理
-execute as @e[tag=NearProjectile,nbt={HurtTime:10s}] at @s run function tusb_remake:skill/projectile/hit
+execute as @e[tag=NearProjectile] at @s run function tusb_remake:skill/projectile/check_hit
 
 ### Projectileのスケジュールで実行
 execute as @e[tag=Projectile] at @s run function tusb_remake:skill/projectile/check/

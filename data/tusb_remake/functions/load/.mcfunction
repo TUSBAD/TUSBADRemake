@@ -277,10 +277,9 @@ gamerule doMobLoot true
 gamerule doMobSpawning true
 gamerule doTileDrops true
 gamerule doInsomnia false
-gamerule keepInventory false
 gamerule randomTickSpeed 3
 gamerule showDeathMessages true
-gamerule spawnRadius 5
+gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true
 difficulty hard
 defaultgamemode adventure

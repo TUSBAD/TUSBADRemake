@@ -8,7 +8,7 @@ playsound minecraft:entity.shulker.teleport master @a[distance=..32] ~ ~ ~ 0.2 0
 particle minecraft:portal ~ ~-0.5 ~ 0 0 0 3 20 force
 
 ### 吸い込み効果 なんかめっちゃ目が回る感じになる！
-execute as @e[distance=..10,type=#tusb_remake:mob] rotated as @s run tp @s ~ ~1 ~ ~6 ~
+execute as @e[distance=..10,type=#tusb_remake:mob,nbt=!{Invulnerable:true}] rotated as @s run tp @s ~ ~1 ~ ~6 ~
 execute as @a[distance=..10,gamemode=!spectator] rotated as @s run tp @s ~ ~1 ~ ~6 ~
 
 ### ダメージ処理

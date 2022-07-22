@@ -35,7 +35,7 @@ data modify storage tusb_remake: _.21 set value {name:["チェインアロー","
 data modify storage tusb_remake: _.22 set value {name:["ワイルドヒーリング","ワイルドヒーリング+"],level:[10,30],cost:10,description:[["自身の体力を回復する。"],["自身の体力・状態異常を回復する。"]],condition:"食事を取る"}
 data modify storage tusb_remake: _.23 set value {name:["ブラストショット","ブラストショットⅡ"],level:[25,45],cost:5,description:[["爆発する特殊な矢を放つ。"]],condition:"利き手で弓を構え矢を放つ"}
 data modify storage tusb_remake: _.24 set value {name:["バードストライク"],level:[26],cost:5,description:[["敵を墜落させる特殊な矢を放つ。"]],condition:"利き手で弓を構え矢を放つ"}
-data modify storage tusb_remake: _.25 set value {name:["ガストキャノン","ガストキャノンⅡ"],level:[39,49],cost:7,description:[["放った矢を火球に変える。","アドベンチャーダンジョンでは使用できない。"]],condition:"利き手で弓を構え矢を放つ"}
+data modify storage tusb_remake: _.25 set value {name:["ガストキャノン","ガストキャノンⅡ"],level:[39,49],cost:7,description:[["放った矢を火球に変える。"]],condition:"利き手で弓を構え矢を放つ"}
 data modify storage tusb_remake: _.26 set value {name:["フェイタルショット"],level:[50],cost:100,description:[["周囲の敵を弱体化する特殊な矢を放つ。"]],condition:"利き手で弓を構え矢を放つ",range:[10],duration:[20]}
 
 

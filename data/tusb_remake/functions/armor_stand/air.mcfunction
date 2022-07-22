@@ -3,5 +3,5 @@
 ### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
-setblock ~ ~ ~ minecraft:air
-setblock ~ ~-1 ~ minecraft:air
+fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:birch_sign
+fill ~ ~-1 ~ ~ ~-1 ~ minecraft:air replace minecraft:white_wool

@@ -9,7 +9,8 @@ execute store result score Difficulty Settings if entity @a
 scoreboard players operation Difficulty Settings *= Difficulty Settings
 ### 観光モードじゃないときは達成率も反映する
 execute store result score _ TUSB run data get storage tusb_remake: conquer.count.total 10000
-execute store result storage math: in int 1 run scoreboard players operation _ TUSB /= MaxPortalCount Settings
+execute store result storage math: in int 0.01 run scoreboard players operation _ TUSB /= MaxPortalCount Settings
+execute store result score _ TUSB run data get storage math: in
 execute unless data storage tusb_remake: settings{is_sightseeing:true} run scoreboard players operation Difficulty Settings += _ TUSB
 
 data modify storage tusb_remake: difficulty_modifier set value {speed:0,resistance:0}

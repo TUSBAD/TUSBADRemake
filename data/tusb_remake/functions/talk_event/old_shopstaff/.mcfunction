@@ -22,5 +22,6 @@ execute as @e[distance=..8,type=minecraft:villager,name="ブロント",tag=ShopS
 ### それ以外
 execute as @e[distance=..8,type=minecraft:villager,tag=ShopStaff] run tag @s add NewShopStaff
 execute as @e[distance=..8,type=minecraft:villager,tag=ShopStaff] run tag @s remove ShopStaff
+execute as @e[distance=..8,type=minecraft:villager,tag=NewShopStaff] run data modify entity @s VillagerData.level set value 100
 
 tag @s remove TalkingToOldStaff

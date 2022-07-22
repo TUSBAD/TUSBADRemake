@@ -3,14 +3,12 @@
 		"place": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"items": [
-					{
-						"items": [
-							"minecraft:armor_stand"
-						],
-						"nbt": "{Tags:[\"SignStand\"]}"
-					}
-				]
+				"item": {
+					"items": [
+						"minecraft:armor_stand"
+					],
+					"nbt": "{EntityTag:{Tags:[\"SignStand\"]}}"
+				}
 			}
 		}
 	},

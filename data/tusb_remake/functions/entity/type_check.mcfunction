@@ -46,6 +46,8 @@ execute as @s[type=minecraft:zombified_piglin] run data merge entity @s {AngerTi
 
 ### クリーパーの爆発を早める
 execute as @s[type=minecraft:creeper,nbt={Fuse:30s}] run data merge entity @s {Fuse:15s}
+### クリーパー産のAECは消す
+kill @s[type=minecraft:area_effect_cloud,nbt={RadiusPerTick:-0.008333334f}]
 
 ### 応急処置 TODO
 effect clear @s[type=stray] invisibility
