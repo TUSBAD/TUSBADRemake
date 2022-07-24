@@ -68,7 +68,7 @@ tag @e[type=spawner_minecart,tag=CooldownRequired,nbt={PortalCooldown:300}] add 
 
 ###### 島ギミック ########
 ## エンダーチェスト島のワープ
-execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17,team=!NotExit,nbt=!{Passengers:[]}] at @s if block ~ ~-1 ~ #tusb_remake:stained_glass_and_pane run spreadplayers ~ ~ 1 300 false @s
+execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17,team=!NotExit,nbt=!{Passengers:[]}] at @s if block ~ ~-1 ~ #tusb_remake:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
 ## ホッパー島のワープ
 execute positioned 177 39 -75 if entity @a[distance=..60,gamemode=!spectator] run function tusb_remake:clock/gimmic/hopper/
 

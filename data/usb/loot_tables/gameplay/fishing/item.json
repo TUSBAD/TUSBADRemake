@@ -170,7 +170,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14,Amplifier:2b}],HideFlags:32,display:{Lore:['{\"text\":\"§aマナがぽちょっと詰まった飲み物。\"}','{\"text\":\"§a飲むとMPが大きく回復する。\"}','\"\"','{\"text\":\"§7スプラッシュ化不可\"}'],Name:'{\"text\":\"§2§lハイエーテル\"}'}}"
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,Potion:\"minecraft:water\",display:{Lore:['{\"text\":\"§aマナがぽちょっと詰まった飲み物。\"}','{\"text\":\"§a飲むとMPが大きく回復する。\"}','\"\"','{\"text\":\"§7スプラッシュ化不可\"}'],Name:'{\"text\":\"§2§lハイエーテル\"}'}}"
                         }
                     ]
                 },
@@ -181,7 +181,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14,Amplifier:1b}],HideFlags:32,display:{Lore:['{\"text\":\"§bマナがちょぴっと詰まった瓶。\"}','{\"text\":\"§b中身に触れるとMPが回復する。\"}'],Name:'{\"text\":\"§3§lエリアエーテル\"}'}}"
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:1b}],HideFlags:32,Potion:\"minecraft:water\",display:{Lore:['{\"text\":\"§bマナがちょぴっと詰まった瓶。\"}','{\"text\":\"§b中身に触れるとMPが回復する。\"}'],Name:'{\"text\":\"§3§lエリアエーテル\"}'}}"
                         }
                     ]
                 },
@@ -424,7 +424,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,1],Amount:-0.025d,Operation:2,Slot:\"offhand\",AttributeName:\"minecraft:generic.max_health\"},{Name:'{\"text\":\"wax\"}',Amount:-1d,Operation:0,UUID:[I;0,2,0,2],Slot:\"offhand\",AttributeName:\"minecraft:generic.knockback_resistance\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,3],Amount:2d,Operation:0,Slot:\"offhand\",AttributeName:\"minecraft:generic.attack_damage\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,4],Amount:-0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"minecraft:generic.movement_speed\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,5],Amount:-4d,Operation:0,Slot:\"offhand\",AttributeName:\"minecraft:generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:fortune\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s}],HideFlags:2,display:{Lore:['{\"text\":\"§6§lとある泉の中から\"}','{\"text\":\"§6§l現れた女神から貰ったと言われている\"}','{\"text\":\"§6§l不思議な斧\"}','{\"text\":\"§6§l左利き用に作られている。\"}'],Name:'{\"text\":\"§6§l泉から出てきた斧\"}'}}"
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUID:[I;0,2,0,1],Amount:-0.025d,Operation:2,Slot:\"offhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",Amount:-1d,Operation:0,UUID:[I;0,2,0,2],Slot:\"offhand\",AttributeName:\"generic.knockback_resistance\"},{Name:\"wax\",UUID:[I;0,2,0,3],Amount:2d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_damage\"},{Name:\"wax\",UUID:[I;0,2,0,4],Amount:-0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,2,0,5],Amount:-4d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:fortune\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s}],HideFlags:2,display:{Lore:['{\"text\":\"§6§lとある泉の中から\"}','{\"text\":\"§6§l現れた女神から貰ったと言われている\"}','{\"text\":\"§6§l不思議な斧\"}','{\"text\":\"§6§l左利き用に作られている。\"}'],Name:'{\"text\":\"§6§l泉から出てきた斧\"}'}}"
                         }
                     ]
                 },
@@ -435,7 +435,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,1],Amount:4d,Operation:0,Slot:\"mainhand\",AttributeName:\"minecraft:generic.max_health\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,2],Amount:0.01d,Operation:0,Slot:\"mainhand\",AttributeName:\"minecraft:generic.knockback_resistance\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,3],Amount:2d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.armor\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:4s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:looting\",lvl:1s}],HideFlags:2,display:{Lore:['{\"text\":\"§7§lとある泉の中から\"}','{\"text\":\"§7§l現れた女神から貰ったと言われている\"}','{\"text\":\"§7§l不思議な斧\"}','{\"text\":\"§7§l右利き用に作られている。\"}'],Name:'{\"text\":\"§f§l泉から出てきた斧\"}'}}"
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUID:[I;0,1,0,1],Amount:4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",UUID:[I;0,1,0,2],Amount:0.01d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.knockback_resistance\"},{Name:\"wax\",UUID:[I;0,1,0,3],Amount:2d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.armor\"},{Name:\"wax\",UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:4s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:looting\",lvl:1s}],HideFlags:2,display:{Lore:['{\"text\":\"§7§lとある泉の中から\"}','{\"text\":\"§7§l現れた女神から貰ったと言われている\"}','{\"text\":\"§7§l不思議な斧\"}','{\"text\":\"§7§l右利き用に作られている。\"}'],Name:'{\"text\":\"§f§l泉から出てきた斧\"}'}}"
                         }
                     ]
                 },
@@ -450,7 +450,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{Name:'{\"text\":\"wax\"}',Amount:8d,Operation:0,UUID:[I;0,2,0,1],Slot:\"offhand\",AttributeName:\"minecraft:generic.max_health\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,2],Amount:0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"minecraft:generic.movement_speed\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,3],Amount:0.08d,Operation:0,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\"},{Name:'{\"text\":\"wax\"}',UUID:[I;0,2,0,5],Amount:6d,Operation:0,Slot:\"offhand\",AttributeName:\"minecraft:generic.attack_damage\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:efficiency\",lvl:5s}],HideFlags:3,display:{Lore:['{\"text\":\"§8§lとある若者が泉に落とした\"}','{\"text\":\"§8§l不思議な斧\"}','{\"text\":\"§8§lボロボロで使い物にならなさそうだ。\"}'],Name:'{\"text\":\"§8§l泉に落ちた斧\"}'}}"
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",Amount:8d,Operation:0,UUID:[I;0,2,0,1],Slot:\"offhand\",AttributeName:\"generic.max_health\"},{Name:\"wax\",UUID:[I;0,2,0,2],Amount:0.01d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,1,0,3],Amount:0.08d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.movement_speed\"},{Name:\"wax\",UUID:[I;0,1,0,4],Amount:-4d,Operation:0,Slot:\"mainhand\",AttributeName:\"generic.attack_speed\"},{Name:\"wax\",UUID:[I;0,2,0,5],Amount:6d,Operation:0,Slot:\"offhand\",AttributeName:\"generic.attack_damage\"}],RepairCost:1000000000,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:efficiency\",lvl:5s}],HideFlags:3,display:{Lore:['{\"text\":\"§8§lとある若者が泉に落とした\"}','{\"text\":\"§8§l不思議な斧\"}','{\"text\":\"§8§lボロボロで使い物にならなさそうだ。\"}'],Name:'{\"text\":\"§8§l泉に落ちた斧\"}'}}"
                         }
                     ]
                 },
