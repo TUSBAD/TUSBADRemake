@@ -1,6 +1,6 @@
 #> tusb_remake:area/conquer/new_shop
 # 新しいお店が追加されるときの処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### もし頭のアイテムが壊れていたら、設置してあるものを被る

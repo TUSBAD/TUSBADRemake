@@ -1,6 +1,6 @@
 #> tusb_remake:player/pick_exp/default/
 # 経験値取得処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 経験値を得られるプレイヤーがいた場合、経験値取得メッセージを出す

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/nagi_harai/apply
 ### 薙ぎ払いの対象に効果をかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.ender_dragon.flap master @a[distance=..32] ~ ~ ~ 2 1.2 0

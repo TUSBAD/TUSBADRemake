@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/pattern6/change_color
 # パターン６
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute unless data storage tusb_remake: pattern6.color run data modify storage tusb_remake: pattern6.color set value 6

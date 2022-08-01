@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_super_dragon/
 # スーパードラゴンを召喚(6030)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 演出

@@ -1,9 +1,9 @@
 #> tusb_remake:skill/black_mage/drain/player
 # ドレインで吸う側
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-### 
+###
 particle minecraft:portal ~ ~1.5 ~ 0.1 0.1 0.1 1 90 force
 
 ### リメイク：回復量を倍に

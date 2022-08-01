@@ -1,12 +1,12 @@
 #> tusb_remake:skill/change/white_mage
 # 白魔導士のスキルのレベルチェック
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 白魔導士なので、白魔導士のものをコピーしてくる
 data modify storage tusb_remake: change_skill_table set value {}
 data modify storage tusb_remake: change_skill_table set from storage tusb_remake: skill_table.white_mage
-### 
+###
 data modify storage tusb_remake: change_skill set value {}
 execute if score _ ChangeSkill matches 0 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.0
 execute if score _ ChangeSkill matches 1 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.1

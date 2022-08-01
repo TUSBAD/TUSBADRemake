@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/enchase/shoot/
 # 弓矢を発射したらエンチェイスをかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if entity @s[tag=EnChase1] anchored eyes positioned ^ ^ ^ anchored feet as @e[distance=..2,type=#tusb_remake:arrow,nbt={life:0s},sort=nearest,limit=1] run function tusb_remake:skill/archer/enchase/shoot/1

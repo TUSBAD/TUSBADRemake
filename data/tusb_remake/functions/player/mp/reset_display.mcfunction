@@ -1,6 +1,6 @@
 #> tusb_remake:player/mp/reset_display
 # 右側のMP表示のリセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 今ワールドにいるプレイヤーのMPは保存

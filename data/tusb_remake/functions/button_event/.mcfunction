@@ -1,6 +1,6 @@
 #> tusb_remake:button_event/
 #
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## スキル設定場の超作業台

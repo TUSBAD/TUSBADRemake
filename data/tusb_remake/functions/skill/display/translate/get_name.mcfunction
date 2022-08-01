@@ -1,6 +1,6 @@
 #> tusb_remake:skill/display/translate/get_name
 ## スキルテーブルを設定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 最初のスキル(並べ替えているので最後にある)

@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/white_rider/summon
 # ホワイトライダーのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me は死天召喚を唱えた！

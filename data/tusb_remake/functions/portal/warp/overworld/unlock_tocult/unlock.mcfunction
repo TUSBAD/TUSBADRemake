@@ -1,6 +1,6 @@
 #> tusb_remake:portal/warp/overworld/unlock_tocult/unlock
 # トカルトコルデ入り口のゲートを開放する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 解除の音

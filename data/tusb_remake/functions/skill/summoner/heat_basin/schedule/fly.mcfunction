@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/heat_basin/schedule/fly
 ### あつあつタライが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: hit set value false

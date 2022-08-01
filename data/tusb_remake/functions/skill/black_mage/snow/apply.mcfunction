@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/snow/apply
 # 雪の壁を出す
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # execute rotated ~ 0 positioned ^-1.5 ^ ^1.5 run fill ~ ~ ~ ~ ~1 ~ minecraft:snow_block keep

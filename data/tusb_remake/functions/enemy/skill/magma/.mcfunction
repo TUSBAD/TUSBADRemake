@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/magma/
 # はぐれマグマのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score @s MobCastTime matches 0..7 run function tusb_remake:enemy/skill/magma/explode/

@@ -1,6 +1,6 @@
 #> tusb_remake:player/get_saplings
 ## プレイヤーのインベントリに苗木があれば、苗木の販売を解禁する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 苗木を手に入れていたらフラグをセット

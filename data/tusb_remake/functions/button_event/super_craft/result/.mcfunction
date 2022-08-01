@@ -1,6 +1,6 @@
 #> tusb_remake:button_event/super_craft/result/
 # 結果反映
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 結果が変化していなかったら

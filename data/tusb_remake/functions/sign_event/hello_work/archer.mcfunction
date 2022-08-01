@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/hello_work/archer
 # 狩人の説明
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 particle minecraft:crit ~ ~ ~ 1 1 1 0 100 force
 playsound minecraft:entity.arrow.hit master @a[distance=..10] ~ ~ ~ 0.5 2 0

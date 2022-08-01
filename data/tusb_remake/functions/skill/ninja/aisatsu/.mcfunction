@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/aisatsu/
 # アイサツを発動させる(200X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.iron_golem.attack master @a[distance=..16] ~ ~ ~ 1 1.4 0

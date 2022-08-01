@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/ghast_cannon/apply/
 ### 矢をガストキャノンにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound item.flintandsteel.use master @a[distance=..16] ~ ~ ~ 1 1.2 0

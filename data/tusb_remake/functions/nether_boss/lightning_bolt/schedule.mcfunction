@@ -1,6 +1,6 @@
 #> tusb_remake:nether_boss/lightning_bolt/schedule
 # ライトニングボルト
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute as 0-0-1-0-4 at @s run spreadplayers ~-10 ~41 0 9 under 255 false @e[distance=..1,tag=FrontWaterBolt,limit=1]

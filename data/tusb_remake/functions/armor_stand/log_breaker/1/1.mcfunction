@@ -1,6 +1,6 @@
 #> tusb_remake:armor_stand/log_breaker/1/1
 # 看板を設置する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 function tusb_remake:armor_stand/log_breaker/1/1/x

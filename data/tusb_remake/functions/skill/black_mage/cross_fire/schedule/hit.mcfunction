@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/cross_fire/schedule/hit
 # クロスファイアーが当たった時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.zombie.infect master @a[distance=..32] ~ ~ ~ 2 1.4 0

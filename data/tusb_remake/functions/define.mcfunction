@@ -1,4 +1,4 @@
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 #define storage tusb_remake:
 #define tag/function #oh_my_dat:please

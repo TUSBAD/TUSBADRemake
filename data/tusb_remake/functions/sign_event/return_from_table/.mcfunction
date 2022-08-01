@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/return_from_table/
 # テーブルマウンテンの帰還するやつ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 戻る前の演出

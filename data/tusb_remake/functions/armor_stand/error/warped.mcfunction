@@ -1,6 +1,6 @@
 #> tusb_remake:armor_stand/error/warped
 # 歪んだ印板エラー
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 summon item ~ ~ ~ {Item:{id:"armor_stand",Count:1b,tag:{display:{Name:'{"text":"歪んだ印板","color":"gray","italic":false}',Lore:['{"text":"適さない場所で使われ歪んでしまった印板。"}','["文字が歪んで読めなくなっているが",{"text":"使えそう","color":"gray"},"だ。"]']}}},Tags:[ReturnedSignStand],Motion:[0d,0.1d,0d]}

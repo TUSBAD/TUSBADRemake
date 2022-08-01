@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/clock/0
 # 時計島起動前
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 達成率が00~10

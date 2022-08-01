@@ -1,6 +1,6 @@
 #> tusb_remake:area/portal/nether/dungeon_up/close
 # 迷い断ち切る地へのワープ閉じる
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # クリスタルのmin.min -1948 123 -55

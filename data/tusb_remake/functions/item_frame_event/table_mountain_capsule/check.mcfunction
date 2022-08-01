@@ -1,6 +1,6 @@
 #> tusb_remake:item_frame_event/table_mountain_capsule/check
 # ガチャガチャ回した
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### エメラルドブロックだった時

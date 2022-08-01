@@ -1,6 +1,6 @@
 #> tusb_remake:skill/projectile/check/chaser/
 # エンチェイス
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage score_damage: Argument set value {Damage:0.00,DamageType:"Projectile"}

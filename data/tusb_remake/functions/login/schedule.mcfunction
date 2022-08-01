@@ -1,6 +1,6 @@
 #> tusb_remake:login/schedule
 # ログイン時にエラーがない場合の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### もし職業があれば、現在のスキル設定を表示

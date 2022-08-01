@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_balloon/schedule/check
 ### バルーン発射までの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.note_block.harp master @a[distance=..16] ~ ~ ~ 0.3 1.4 0

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/ghast_cannon/shoot
 # ガストキャノンを発動(325X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

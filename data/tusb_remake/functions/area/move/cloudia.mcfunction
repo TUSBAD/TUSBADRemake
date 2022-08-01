@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/cloudia
 # クラウディアに移動したときの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s[x=-2725,y=88,z=-382,distance=3..] run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 4 0.5 0

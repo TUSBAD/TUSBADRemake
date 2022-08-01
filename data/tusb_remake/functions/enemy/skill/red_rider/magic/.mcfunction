@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/red_rider/magic/
 # レッドライダーのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me は更なる戦を唱えた！

@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/give_trialset
 # お試しセットを渡します
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### お試しセットを渡す

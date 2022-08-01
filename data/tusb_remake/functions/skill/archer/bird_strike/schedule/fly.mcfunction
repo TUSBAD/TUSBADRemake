@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/bird_strike/schedule/fly
 ### ステークスファイアが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.grass.fall master @a[distance=..48] ~ ~ ~ 4 1.6 0

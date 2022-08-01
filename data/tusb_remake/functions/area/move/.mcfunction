@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/
 # エリア移動した時の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### ディメンションの番号を設定

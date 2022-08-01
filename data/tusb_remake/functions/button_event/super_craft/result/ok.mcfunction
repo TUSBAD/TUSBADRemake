@@ -1,6 +1,6 @@
 #> tusb_remake:button_event/super_craft/result/ok
 # 結果が変化していたら
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute positioned -2739 90 -362 run playsound minecraft:block.anvil.use master @a[distance=..12] ~ ~ ~ 1 1.587

@@ -1,6 +1,6 @@
 #> tusb_remake:player/pick_exp/default/get
 # 経験値を得られる人がいる場合
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players operation @a[distance=..50,tag=ExpTarget] ExpToLevel -= @s ItemCount

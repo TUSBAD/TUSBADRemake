@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/ice_storm/schedule/fly
 ### アイスストームが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.anvil.land master @a[distance=..32] ~ ~100 ~ 0.05 2 0.05

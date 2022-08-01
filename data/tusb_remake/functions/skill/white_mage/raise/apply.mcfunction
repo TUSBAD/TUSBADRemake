@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/raise/apply
 # レイズをかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.firework_rocket.launch master @a ~ ~ ~ 1 1.2 0

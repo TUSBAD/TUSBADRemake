@@ -1,6 +1,6 @@
 #> tusb_remake:area/portal/close
 # ワープポータル閉じる
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 forceload add ~-1 ~-1 ~3 ~3

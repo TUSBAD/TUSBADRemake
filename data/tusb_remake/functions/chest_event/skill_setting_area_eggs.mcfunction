@@ -1,6 +1,6 @@
 #> tusb_remake:chest_event/skill_setting_area_eggs
 # テーブルマウンテンの試供品をリセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## クローンコマンドを破壊！！！

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/thunder_bolt/schedule/test
 # サンダーボルトの範囲をテスト
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 威力を設定

@@ -1,6 +1,6 @@
 #> tusb_remake:button_event/reload_anvil/
 # テーブルマウンテンの金床復活
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## テーブルマウンテンの無限金床生成

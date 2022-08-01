@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/katon/
 # 火遁を発動させる(206X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.zombie.infect master @a[distance=..16] ~ ~ ~ 1 0.5 0

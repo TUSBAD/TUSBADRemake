@@ -1,6 +1,6 @@
 #> tusb_remake:player/use_firework/
 # 花火を使った時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### エリトラ装備だったら消費を検証する

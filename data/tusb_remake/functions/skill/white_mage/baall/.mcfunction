@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/baall/
 # バオルを発動させる(404X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：効果時間30秒アップ

@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/ruin_command_block/trigger
 # コマンドブロック遺跡のコマンドを修正する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data merge block 1538 139 1324 {Command:"tp @p 1547 124 1332"}

@@ -1,6 +1,6 @@
 #> tusb_remake:personal_locker/open/personal
-# 
-### Copyright © 2022 赤石愛
+#
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 個人ストレージを呼び出し

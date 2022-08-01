@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/shinen/pollute
 # 深淵様のスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me はポリュートを唱えた！

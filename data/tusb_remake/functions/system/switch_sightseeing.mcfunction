@@ -1,6 +1,6 @@
 #> tusb_remake:system/switch_sightseeing
 # 観光モードを切り替えます
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result storage tusb_remake: settings.is_sightseeing byte 1 unless data storage tusb_remake: settings{is_sightseeing:true}

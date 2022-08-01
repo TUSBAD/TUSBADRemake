@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/flower_gift/apply/
 ### 雪玉をフラワーギフトにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute as @e[distance=0,type=snowball,limit=1] run function tusb_remake:skill/white_mage/flower_gift/apply/snowball

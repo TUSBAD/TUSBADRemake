@@ -1,6 +1,6 @@
 #> tusb_remake:nether_boss/clear
 # ネザーボスの攻撃タイミングの確認
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # ##* ネザーボス用エンティティ

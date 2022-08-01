@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/pattern6/count_up/3
 # パターン６
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute in minecraft:the_nether positioned -469 58 1198 run clone ~ ~ ~ ~19 ~ ~ ~ 70 1202 filtered minecraft:jack_o_lantern

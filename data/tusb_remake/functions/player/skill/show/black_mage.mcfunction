@@ -1,6 +1,6 @@
 #> tusb_remake:player/skill/show/black_mage
 # 黒魔導士スキル名称の表示
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score @s ShowSkill matches 5000 run data modify storage tusb_remake: skill_name set value "スノウ"

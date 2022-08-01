@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/gold_basin/summon
 # 金タライ発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_weighted_pressure_plate"},Time:1,DropItem:false,HurtEntities:false,FallHurtMax:25,FallHurtAmount:25f,FallDistance:1f,Tags:[PreKanaTarai,Tarai]}

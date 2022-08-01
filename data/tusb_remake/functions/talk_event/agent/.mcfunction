@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/agent/
 # エージェントとの会話
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### エージェント

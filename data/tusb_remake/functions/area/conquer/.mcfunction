@@ -1,6 +1,6 @@
 #> tusb_remake:area/conquer/
 # 島攻略時の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if predicate tusb_remake:area/nether run function tusb_remake:area/conquer/nether

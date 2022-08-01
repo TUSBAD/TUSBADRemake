@@ -1,6 +1,6 @@
 #> tusb_remake:inventory_event/
 # インベントリに入手したときの処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## 古いCanPlaceOn -> "minecraft:all"

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/grow/
 # グロウを召喚
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.grass.break master @a[distance=..16] ~ ~ ~ 1 0.5 0

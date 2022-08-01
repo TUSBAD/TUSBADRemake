@@ -1,6 +1,6 @@
 #> tusb_remake:player/food/limit
 # 満腹度を制限する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score @s FoodMax < @s Food run effect give @s minecraft:hunger 1 127 true

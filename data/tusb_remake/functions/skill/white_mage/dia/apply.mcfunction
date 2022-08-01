@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/dia/apply
 ### 雪玉をディアにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data merge entity @s {Tags:[Dia,Projectile,FlyingObject,Driftable,TypeChecked],NoGravity:true}

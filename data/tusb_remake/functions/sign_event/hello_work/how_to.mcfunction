@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/hello_work/how_to
 # 職業の就き方
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 particle minecraft:enchant ~ ~ ~ 1.5 1.5 1.5 1 500 force
 playsound minecraft:entity.cat.ambient master @a[distance=..10] ~ ~ ~ 0.2 1

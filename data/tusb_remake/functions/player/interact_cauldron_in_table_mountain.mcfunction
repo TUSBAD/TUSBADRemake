@@ -1,6 +1,6 @@
 #> tusb_remake:player/interact_cauldron_in_table_mountain
 # テーブルマウンテンで大釜を使ったとき
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 回路のコマンドを修正するよ！

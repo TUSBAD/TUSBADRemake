@@ -1,6 +1,6 @@
 #> tusb_remake:inventory_event/carve_halloween
 # ハロウィンヘッドをくりぬいてかぶれるようにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage player_item_tuner: condition.if set value {id:"minecraft:pumpkin",tag:{display: {Name: '{"text":"§6§lハロウィンヘッド"}'}}}

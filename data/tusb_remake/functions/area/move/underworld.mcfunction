@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/underworld
 # 地下世界に移動したときの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 0.6 0.7 0

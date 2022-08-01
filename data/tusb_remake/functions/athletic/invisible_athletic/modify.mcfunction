@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/invisible_athletic/modify
 # 透明アスレチックのコマンドを修正する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 足場表示用

@@ -1,6 +1,6 @@
 #> tusb_remake:login/normal
 # ログイン時にエラーがない場合の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 正常な時の処理

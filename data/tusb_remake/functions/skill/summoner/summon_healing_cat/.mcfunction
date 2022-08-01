@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_healing_cat/
 # サモンヒーリングを召喚(6050)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.cat.ambient master @a[distance=..16] ~ ~ ~ 1 1.2 0

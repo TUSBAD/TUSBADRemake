@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/hello_work/black_mage
 # 黒魔導士の説明
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 particle minecraft:witch ~ ~ ~ 1 1 1 0 100 force
 playsound minecraft:entity.ghast.shoot master @a[distance=..10] ~ ~ ~ 0.5 2 0

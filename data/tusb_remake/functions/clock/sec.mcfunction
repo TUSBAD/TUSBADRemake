@@ -1,6 +1,6 @@
 #> tusb_remake:clock/sec
 # １秒毎に実行したいもの
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # マナリフレッシュ
@@ -61,7 +61,7 @@ execute as @a[tag=Doom] run function tusb_remake:doom/
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air align xyz run kill @e[dx=0,tag=Spawner]
 
 ## CooldownRequired 誤差許容長期用
-tag @e[tag=CooldownRequiredLong,nbt={PortalCooldown:0}] add Garbage 
+tag @e[tag=CooldownRequiredLong,nbt={PortalCooldown:0}] add Garbage
 
 ## カートスポナーポータルin対策
 tag @e[type=spawner_minecart,tag=CooldownRequired,nbt={PortalCooldown:300}] add Garbage

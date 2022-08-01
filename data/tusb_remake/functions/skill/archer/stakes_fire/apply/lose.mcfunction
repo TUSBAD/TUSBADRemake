@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/stakes_fire/apply/lose
 ### ステークスファイアで負けた
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 賭けに負けた矢のデータを作成する

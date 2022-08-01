@@ -1,6 +1,6 @@
 #> tusb_remake:player/sleep/
 # 寝た時の効果
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 effect give @s[gamemode=adventure] minecraft:instant_damage 1 0 true

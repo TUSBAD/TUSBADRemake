@@ -1,6 +1,6 @@
 #> tusb_remake:system/load_chunk
 ## チャンクを読み込む
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 現在地点がforceloadされているかチェック

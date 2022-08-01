@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/enaspir/apply
 ### 次に近接攻撃をするとMPが回復する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 particle minecraft:note ~ ~1 ~ 0.5 0.5 0.5 0 30 force

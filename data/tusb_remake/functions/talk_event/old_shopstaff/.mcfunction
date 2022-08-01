@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/old_shopstaff/
 # 古い交易島村人に話しかけた時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 tag @s add TalkingToOldStaff

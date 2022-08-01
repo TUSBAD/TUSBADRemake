@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/reward
 ## 報酬部屋へのワープ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## チャンクロード

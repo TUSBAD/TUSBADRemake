@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/hello_work/ninja
 # 忍者の説明
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 particle minecraft:explosion ~ ~ ~ 1 1 1 0 100 force
 playsound minecraft:entity.firework_rocket.large_blast master @a[distance=..10] ~ ~ ~ 1 2 0

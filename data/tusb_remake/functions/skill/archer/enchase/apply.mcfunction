@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/enchase/apply
 ### 次に弓を使うと、エンチェイスがかかる
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score _ ActivatedSkill matches 3040 run tag @s add EnChase1

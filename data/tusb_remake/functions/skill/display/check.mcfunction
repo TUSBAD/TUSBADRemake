@@ -1,6 +1,6 @@
 #> tusb_remake:skill/display/check
 ## 設定できるレベルになっているかどうかをチェック
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 最後のスキルの最初に覚えるレベルを取得

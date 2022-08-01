@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/snow/schedule/
 ### スノウの効果判定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: _ set value false

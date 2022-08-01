@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/skyland
 # 通常世界に移動したときの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s[x=-53,y=23,z=34,distance=3..] run playsound minecraft:entity.firework_rocket.launch master @s ~ ~ ~ 4 0.5 0

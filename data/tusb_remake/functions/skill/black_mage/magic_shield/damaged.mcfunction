@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/magic_shield/damaged
 # マジックシールドを解除
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：効果が切れてから１秒間も無敵

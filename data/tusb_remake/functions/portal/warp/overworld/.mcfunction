@@ -1,6 +1,6 @@
 #> tusb_remake:portal/warp/overworld/
 ## オーバーワールドでのワープをチェックして実行
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### TODO: 本番環境なら(EGWが生きてるので)一部要らない

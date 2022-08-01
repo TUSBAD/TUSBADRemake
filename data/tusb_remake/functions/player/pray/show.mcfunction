@@ -1,6 +1,6 @@
 #> tusb_remake:player/pray/show
 # 祈りを捧げるを表示する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## 祈り(最後の手段) ## 最初に教会に行くまで使えない

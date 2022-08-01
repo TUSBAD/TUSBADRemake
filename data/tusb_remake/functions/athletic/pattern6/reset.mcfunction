@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/pattern6/reset
 # パターン６開始
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 fill -470 66 1203 -449 70 1202 air replace minecraft:jack_o_lantern

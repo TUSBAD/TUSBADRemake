@@ -1,6 +1,6 @@
 #> tusb_remake:clock/gimmic/nether/angry
 # 近くのぶたさんの怒りを自分に向ける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### ぶたさんの怒る対象を自分にする

@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/niconico/modify
 # ニコニコ島のコマンドを修正する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data merge block ~00 ~ ~00 {Command:"fill 107 40 3 107 41 3 minecraft:obsidian"}

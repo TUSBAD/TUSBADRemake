@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/clock/clone
 # 時計島変身
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### チャンク読み込み

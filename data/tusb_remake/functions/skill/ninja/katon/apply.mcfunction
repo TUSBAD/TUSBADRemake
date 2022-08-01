@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/katon/apply
 # 火遁を発動させる(202X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：効果時間30秒アップ

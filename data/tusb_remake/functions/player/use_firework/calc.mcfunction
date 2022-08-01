@@ -1,6 +1,6 @@
 #> tusb_remake:player/use_firework/calc
 # 花火を使った時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 耐久力を1/6消費する

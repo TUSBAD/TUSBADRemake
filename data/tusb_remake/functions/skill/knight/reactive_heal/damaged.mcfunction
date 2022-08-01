@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/reactive_heal/damaged
 # リアクティブヒールを発動(123X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/enaspir/
 # エンアスピル付与(304X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.experience_orb.pickup master @a[distance=..24] ~ ~ ~ 1.5 0.5 0

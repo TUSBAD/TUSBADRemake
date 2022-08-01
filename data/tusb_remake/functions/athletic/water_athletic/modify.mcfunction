@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/water_athletic/modify
 # 水のアスレチックのコマンドを修正する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 途切れる水その１

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/iron_will/
 # アイアンウィル発動(101X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.anvil.land master @a[distance=..16] ~ ~ ~ 1 1.4 0

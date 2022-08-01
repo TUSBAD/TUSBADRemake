@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/close_tower_bank/trigger
 # タワーバンクを閉鎖する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute in minecraft:overworld run data merge block -2814 76 -398 {Text1:'{"bold":true,"color":"dark_gray","text":"- = - = - = - = - = -"}',Text2:'{"bold":true,"color":"black","text":"封鎖中"}',Text3:'{"bold":true,"color":"dark_gray","text":"- = - = - = - = - = -"}',Text4:'{"text":""}'}

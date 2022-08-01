@@ -1,6 +1,6 @@
 #> tusb_remake:armor_stand/pick_up
 # 特殊なアーマースタンドからアイテムを拾い上げた時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 近くの特殊アーマースタンドで、もうアイテムを持っていなかったら、しんでもらう

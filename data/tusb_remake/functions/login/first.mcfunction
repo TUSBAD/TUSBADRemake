@@ -1,6 +1,6 @@
 #> tusb_remake:login/first
 # 初回ログイン時にだけする処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 最初は通常世界にいることにする -> 最初にクラウディアに出てくると、タイトルが表示される

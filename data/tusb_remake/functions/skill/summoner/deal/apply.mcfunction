@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/deal/apply
 # ディール発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.wither.hurt master @a[distance=..30] ~ ~ ~ 3 1.4 0

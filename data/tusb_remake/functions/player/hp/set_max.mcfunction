@@ -1,6 +1,6 @@
 #> tusb_remake:player/hp/set_max
 # 最大HPを設定しなおします
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 attribute @s minecraft:generic.max_health modifier remove 0-0-a1-0-1

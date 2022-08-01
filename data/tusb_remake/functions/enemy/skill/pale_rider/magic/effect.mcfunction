@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/pale_rider/magic/effect
 # ペイルライダーのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me は死の宣告の効果を受けた！

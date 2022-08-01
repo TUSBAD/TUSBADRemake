@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/dia/throw
 # ディアを発動(421X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

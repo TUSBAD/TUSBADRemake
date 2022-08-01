@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suiton/apply
 # 水遁を発動させる(202X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：効果時間30秒アップ

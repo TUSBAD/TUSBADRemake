@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/bird_strike/hit/schedule/fall
 # バードストライク効果中
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 particle minecraft:cloud ~ ~ ~ 0.1 0.2 0.1 0.1 1 force

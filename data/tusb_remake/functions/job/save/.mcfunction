@@ -1,6 +1,6 @@
 #> tusb_remake:job/save/
 # 職業のデータをセーブする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 現在の職業のレベルと必要経験値をセーブデータとする

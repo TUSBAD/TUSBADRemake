@@ -1,6 +1,6 @@
 #> tusb_remake:event/rank/
 # イベントモブ召喚
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 tag @s remove CauseEvent

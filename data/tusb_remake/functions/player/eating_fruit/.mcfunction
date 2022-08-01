@@ -1,6 +1,6 @@
 #> tusb_remake:player/eating_fruit/
 # コーラスフルーツを食べた時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me 「この果物、虫はいってるうううううう！！！」

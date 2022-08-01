@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/energy_save/apply
 ### 次にスキルを使うと、消費MPが減る
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 tag @s add EnergySave

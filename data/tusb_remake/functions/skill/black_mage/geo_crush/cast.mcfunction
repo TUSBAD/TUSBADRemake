@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/geo_crush/cast
 # ジオクラッシュ発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 0.5 0.1

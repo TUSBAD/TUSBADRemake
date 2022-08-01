@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/pastor/trigger/
 # 牧師との会話処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 牧師の近くでNOと答えていたら

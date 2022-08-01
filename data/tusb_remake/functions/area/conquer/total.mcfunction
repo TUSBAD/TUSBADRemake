@@ -1,6 +1,6 @@
 #> tusb_remake:area/conquer/total
 # 攻略したとき共通
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### トータル攻略数を取得

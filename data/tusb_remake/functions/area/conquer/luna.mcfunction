@@ -1,6 +1,6 @@
 #> tusb_remake:area/conquer/luna
 # 夜をつかさどる島だった場合
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### もしもまだ昼を取り戻していなければ、メッセージを出す

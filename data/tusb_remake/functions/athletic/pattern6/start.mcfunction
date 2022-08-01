@@ -1,6 +1,6 @@
 #> tusb_remake:athletic/pattern6/start
 # パターン６開始
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 fill -460 64 1206 -459 64 1207 minecraft:lime_stained_glass_pane replace #tusb_remake:stained_glass_pane

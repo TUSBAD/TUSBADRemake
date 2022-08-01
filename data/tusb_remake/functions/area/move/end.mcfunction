@@ -1,6 +1,6 @@
 #> tusb_remake:area/move/end
 # エンドに移動したときの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound minecraft:entity.zombie.infect master @s ~ ~ ~ 4 0.5 0

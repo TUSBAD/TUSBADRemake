@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/poof_trap/schedule/check
 ### ニフラムトラップの効果判定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.fire.ambient master @a[distance=..16] ~ ~ ~ 0.5 2 0

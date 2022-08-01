@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/hyorogan/
 # 兵糧丸を発動させる(205X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.player.burp master @a[distance=..16] ~ ~ ~ 1 0.8 0

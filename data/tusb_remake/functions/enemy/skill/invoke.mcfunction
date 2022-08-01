@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/invoke
 # 敵のスキルやつ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### もしも大きいすぎてもいいように0-19にする

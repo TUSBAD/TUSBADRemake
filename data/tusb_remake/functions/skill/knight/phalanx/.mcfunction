@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/phalanx/
 # ファランクスを発動させる(100X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.anvil.use master @a[distance=..16] ~ ~ ~ 1 1.4 0

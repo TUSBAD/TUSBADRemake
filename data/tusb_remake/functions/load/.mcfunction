@@ -1,6 +1,6 @@
 #> tusb_remake:load/
 # リロード時リセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### システムマーカーが何で動かされたか分からないので、ロード時に初期位置にずらす

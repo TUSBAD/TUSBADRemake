@@ -1,6 +1,6 @@
 #> tusb_remake:skill/init_table/
 ## スキルテーブルを設定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### スキル設定表示用のごり押し変換テーブル

@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/clock/ring
 # 時計島うるさい
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # 時計鳴らす

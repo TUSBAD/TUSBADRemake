@@ -1,6 +1,6 @@
 #> tusb_remake:player/eating_fruit/drop/offhand
 # 左手のアイテムを減らすよ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: item set from entity @s Inventory[{Slot:-106b}]

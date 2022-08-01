@@ -1,13 +1,13 @@
 #> tusb_remake:sign_event/warp_sign/
 #
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## 看板をレッドストーンブロックに置き換える
 fill ~-6 ~-6 ~-6 ~6 ~6 ~6 minecraft:redstone_block replace #minecraft:signs{Text1:'{"text":""}',Text2:'{"bold":true,"color":"dark_aqua","text":"ワープクリスタル"}'}
 
 ## 開通チェック
-# execute in minecraft:overworld run schedule 
+# execute in minecraft:overworld run schedule
 function tusb_remake:open_warp_crystal/
 
 # fill ~-6 ~-6 ~-6 ~6 ~6 ~6 minecraft:birch_sign[rotation=0]{Text1:'{"text":""}',Text2:'{"bold":true,"color":"dark_aqua","text":"ワープクリスタル"}'} replace minecraft:oak_sign[rotation=0]{Text1:'{"text":""}',Text2:'{"bold":true,"color":"dark_aqua","text":"ワープクリスタル"}'}

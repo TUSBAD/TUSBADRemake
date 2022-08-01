@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/thunder_bolt/ready
 # サンダーボルトの範囲をテスト
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 summon minecraft:arrow ~ ~ ~ {Fire:20s,life:1190s,damage:0d,Tags:[ThunderBolt,SystemEntity,TypeChecked]}

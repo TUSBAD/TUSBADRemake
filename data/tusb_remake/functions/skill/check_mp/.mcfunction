@@ -1,6 +1,6 @@
 #> tusb_remake:skill/check_mp/
 ## チュートリアルの残りの看板の設定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### スニーク

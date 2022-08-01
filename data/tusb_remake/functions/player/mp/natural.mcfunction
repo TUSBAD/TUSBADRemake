@@ -1,6 +1,6 @@
 #> tusb_remake:player/mp/natural
 # MPの自然回復処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 最大MPじゃなかったら、次の回復のタイマーをセット

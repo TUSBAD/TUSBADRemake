@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/extra_hint/
 # エクストラドメインのヒント看板
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 tellraw @s {"text":"～このチェストの鍵のヒント～","color":"white","bold":true,"underlined":true}

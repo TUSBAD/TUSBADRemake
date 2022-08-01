@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/mana_refresh/
 # マナリフレッシュを発動させる(504X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.portal.trigger master @a[distance=..16] ~ ~100 ~ 0.1 2 0.4

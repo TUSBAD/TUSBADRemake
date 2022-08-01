@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/fortune/
 # 占い師のところの占い看板
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 籤を出す

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/projectile/
 # 飛んでるやーつ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: projectile_loop set value false

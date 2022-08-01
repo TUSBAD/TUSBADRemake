@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/table_bridge/trigger
 # テーブルマウンテンの橋でゾンビさんたちが湧くようにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute positioned ~ 18 ~ run function tusb_remake:gimmic/table_bridge/modify

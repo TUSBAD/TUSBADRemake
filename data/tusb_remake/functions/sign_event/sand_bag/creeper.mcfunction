@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/sand_bag/creeper
 # スキル設定場のサンドバッグ看板
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 summon minecraft:creeper -2727 89 -417 {DeathLootTable:"minecraft:empty",ExplosionRadius:0b,Fuse:30s,Tags:[SandBag]}

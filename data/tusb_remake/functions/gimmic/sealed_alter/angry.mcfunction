@@ -1,6 +1,6 @@
 #> tusb_remake:gimmic/sealed_alter/angry
 # かつての驚異島
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 setblock ~ ~ ~ minecraft:spawner{SpawnCount:1s,SpawnRange:5s,MaxNearbyEntities:16s,Delay:1s,MaxSpawnDelay:10s,MinSpawnDelay:10s,RequiredPlayerRange:32s,SpawnData:{entity:{id:"minecraft:silverfish",CustomName:'"お知らせ"',CustomNameVisible:true,ArmorItems:[{},{},{},{id:"minecraft:white_wool",Count:1b}],ArmorDropChances:[0f,0f,0f,2f]}}} destroy

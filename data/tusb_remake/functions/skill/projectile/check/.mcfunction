@@ -1,6 +1,6 @@
 #> tusb_remake:skill/projectile/check/
 # 近くのモブをチェック
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # 接地矢無効化

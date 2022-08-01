@@ -1,6 +1,6 @@
 #> tusb_remake:area/portal/nether/dungeon_entrance/close
 # 煉獄 入り口のワープ閉じる
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # クリスタルのmin.min 12 15 -76

@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/white_rider/magic
 # ホワイトライダーのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me は勝利の上の支配を唱えた！

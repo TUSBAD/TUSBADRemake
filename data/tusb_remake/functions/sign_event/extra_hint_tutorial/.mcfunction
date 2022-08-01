@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/extra_hint_tutorial/
 # エクストラドメインのヒント看板
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 tellraw @s {"text":"～鍵付き宝箱の開け方～","color":"dark_aqua","bold":true}

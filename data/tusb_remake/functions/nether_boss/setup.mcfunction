@@ -1,6 +1,6 @@
 #> tusb_remake:nether_boss/setup
 # ネザーボスのおめめの準備
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute as 0-0-1-0-5 at @s run kill @e[distance=..3]

@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/gullivers_land/cannon_launch
 # ガリバー大砲の発射
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.end_gateway.spawn master @a[distance=..32] -35 71 762 3 1.4 1

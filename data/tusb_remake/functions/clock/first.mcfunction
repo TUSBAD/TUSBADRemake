@@ -1,6 +1,6 @@
 #> tusb_remake:clock/first
 # 毎ティック最初に実行したいもの
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### ワープポータル処理待ちの時はチェックする

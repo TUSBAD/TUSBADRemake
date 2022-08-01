@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/return/schedule/return
 # ルーラ待機(507X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 title @s actionbar {"text":"ルーラ発動！！","color":"dark_aqua","bold":true}

@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/hello_work/summoner
 # 召喚士の説明
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 
 particle minecraft:enchant ~ ~1.25 ~ 0 0 0 5 200 force
 playsound minecraft:block.portal.trigger master @a[distance=..10] ~ ~ ~ 0.5 2 0

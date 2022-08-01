@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/flower_gift/schedule/hit/3
 # フラワーギフトが当たった時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 効果量が小さければ、上書きできるように消しておく

@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/black_rider/summon
 # ブラックライダーのスキル
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me は死霊召喚を唱えた！

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_petit_black/cast
 # ぷちブラックを召喚
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.portal.travel master @a[distance=..32] ~ ~100 ~ 0.1 1.6 0.1

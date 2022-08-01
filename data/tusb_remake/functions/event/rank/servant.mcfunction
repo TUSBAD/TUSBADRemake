@@ -1,6 +1,6 @@
 #> tusb_remake:event/rank/servant
 # イベントモブ召喚
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 me 「恐ろしい気配がする…！」

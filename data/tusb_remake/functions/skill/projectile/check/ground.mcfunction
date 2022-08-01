@@ -1,6 +1,6 @@
 #> tusb_remake:skill/projectile/check/ground
 # 近くのモブをチェック
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 地面についたときに発動するスキルだったら発動

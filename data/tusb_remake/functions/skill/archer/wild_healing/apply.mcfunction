@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/wild_healing/apply
 ### ワイルドヒーリングの発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1.9 0

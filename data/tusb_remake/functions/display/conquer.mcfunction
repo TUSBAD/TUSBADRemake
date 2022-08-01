@@ -1,6 +1,6 @@
 #> tusb_remake:display/conquer
 # 攻略率表示
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score 経過時間 Settings run time query gametime

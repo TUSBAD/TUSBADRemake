@@ -1,6 +1,6 @@
 #> tusb_remake:tocult_process/in_water
 # トカルトコルデのいろんな処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 水の中での松明消費判定

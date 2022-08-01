@@ -1,6 +1,6 @@
 #> tusb_remake:sign_event/unseal_table/
 # テーブルマウンテンのガラスの封印を解く
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 fill -105 1 42 -84 21 68 minecraft:white_stained_glass replace minecraft:barrier

@@ -1,6 +1,6 @@
 #> tusb_remake:armor_stand/log_breaker/2/1
 # 看板を設置する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ #minecraft:logs run setblock ~ ~ ~ minecraft:air destroy

@@ -1,6 +1,6 @@
 #> tusb_remake:entity/type_check
 # 新しいエンティティのタイプをチェックして、いろいろ設定する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## Enemy := team=!FriendlyTeam & type=tusb_remake:mob & Invulnerable:false
@@ -61,4 +61,3 @@ tag @s[type=#tusb_remake:slimey,nbt=!{AbsorptionAmount:0f}] add FromSpawner
 
 ### チェック済みにする
 tag @s add TypeChecked
-

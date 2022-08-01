@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/tsuremai/hit
 # 連舞を発動(221X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

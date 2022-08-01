@@ -1,6 +1,6 @@
 #> tusb_remake:personal_locker/open/seek
-# 
-### Copyright © 2022 赤石愛
+#
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if block ~ ~ ~ minecraft:ender_chest run function tusb_remake:personal_locker/open/personal

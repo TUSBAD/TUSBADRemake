@@ -1,6 +1,6 @@
 #> tusb_remake:load/once
 # 設定のリセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard objectives add Settings dummy "設定"

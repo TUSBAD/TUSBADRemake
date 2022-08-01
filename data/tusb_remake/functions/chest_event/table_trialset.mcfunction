@@ -1,6 +1,6 @@
 #> tusb_remake:chest_event/table_trialset
 # テーブルマウンテンの試供品をリセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## テーブルマウンテンの試供品のデータがなければ、データを取得

@@ -1,6 +1,6 @@
 #> tusb_remake:entity/limit_sapling
 # 苗木の取引を制限する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### まだ手に入れてない苗木は販売数が０になる
