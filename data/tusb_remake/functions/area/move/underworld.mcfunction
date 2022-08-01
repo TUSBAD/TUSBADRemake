@@ -4,8 +4,8 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 0.6 0.7 0
-title @s subtitle {"text":"= The Underworld =","italic":true,"color":"dark_gray"}
-title @s title {"text":"地下世界","color":"dark_blue","bold":true,"underlined":true}
+title @s subtitle [{"text":"= ","color":"#ffffff"},{"text":"菌糸蔓延る","bold":true,"color":"#586bfe"},{"text":"常闇","bold":true,"color":"#787878"},{"text":"の地","bold":true,"color":"#586bfe"},{"text":" =","color":"#ffffff"}]
+title @s title {"text":"地下世界","color":"#787878","bold":true,"underlined":true}
 
 ### エリア侵入記録
 data modify storage tusb_remake: area_name.underworld set value "地下世界"
