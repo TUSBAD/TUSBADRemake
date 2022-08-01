@@ -21,6 +21,7 @@ execute if entity @s[scores={AreaChangeFlag=10}] run function tusb_remake:area/m
 execute if entity @s[scores={AreaChangeFlag=11}] run function tusb_remake:area/move/table_mountain
 execute if entity @s[scores={AreaChangeFlag=12}] run function tusb_remake:area/move/gullivers_land
 execute if entity @s[scores={AreaChangeFlag=13}] run function tusb_remake:area/move/tocult_colde
+execute if entity @s[scores={AreaChangeFlag=15}] run function tusb_remake:area/move/niflheimr
 execute if entity @s[scores={AreaChangeFlag=-100}] run function tusb_remake:area/move/nether
 execute if entity @s[scores={AreaChangeFlag=-90}] run function tusb_remake:area/move/nether_trial
 execute if entity @s[scores={AreaChangeFlag=-89}] run function tusb_remake:area/move/nether_dungeon
