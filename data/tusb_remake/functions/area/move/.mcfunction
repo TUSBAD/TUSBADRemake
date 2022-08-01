@@ -16,6 +16,7 @@ tag @s[scores={AreaChangeFlag=11}] add IgnoreEnderChest
 title @s[scores={AreaChangeFlag=-100..}] times 30 40 40
 execute if entity @s[scores={AreaChangeFlag=0}] run function tusb_remake:area/move/skyland
 execute if entity @s[scores={AreaChangeFlag=1}] run function tusb_remake:area/move/underworld
+execute if entity @s[scores={AreaChangeFlag=3}] run function tusb_remake:area/move/revskyland
 execute if entity @s[scores={AreaChangeFlag=10}] run function tusb_remake:area/move/cloudia
 execute if entity @s[scores={AreaChangeFlag=11}] run function tusb_remake:area/move/table_mountain
 execute if entity @s[scores={AreaChangeFlag=12}] run function tusb_remake:area/move/gullivers_land
