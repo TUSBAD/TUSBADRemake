@@ -4,8 +4,8 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound minecraft:entity.firework_rocket.twinkle_far master @s ~ ~ ~ 4 0.5 0
-title @s subtitle {"text":"= Gulliver's Land =","italic":true,"color":"gold"}
-title @s title {"text":"ガリバーランド","color":"yellow","bold":true,"underlined":true}
+title @s subtitle [{"text":"= ","color":"white"},{"text":"小さき隠者達の逆転世界","bold":true,"color":"#ffd700"},{"text":" =","color":"white"}]
+title @s title {"text":"ガリバーランド","color":"#ffd700","bold":true,"underlined":true}
 
 ### エリア侵入記録
 data modify storage tusb_remake: area_name.gullivers_land set value "ガリバーランド"
