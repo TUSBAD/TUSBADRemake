@@ -33,6 +33,7 @@ body:
       - label: 職業スキル
       - label: 進捗
       - label: テクスチャ
+      - label: その他
 - label: その他
   validations:
     required: true
