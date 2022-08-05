@@ -1,5 +1,5 @@
 {
-  "type": "tusb_remake:test",
+  "type": "tusb_remake:debug",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
