@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/decoy/
 # デコイを発動させる(103X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score @s ActivatedSkill matches 1030 as @e[distance=..15,type=#tusb_remake:mob,tag=Enemy] run function tusb_remake:skill/knight/decoy/tp

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/dia/schedule/fly
 ### 飛んでいるディアの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.rabbit.hurt master @a[distance=..32] ~ ~ ~ 0.5 2 0.1

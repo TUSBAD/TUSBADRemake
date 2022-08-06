@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/majin_giri/apply
 ### 魔人斬りで対象を斬る
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.zombie.break_wooden_door master @a[distance=..16] ~ ~ ~ 0.4 0.8 0

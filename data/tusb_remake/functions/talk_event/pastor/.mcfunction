@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/pastor/
 # エージェントとの会話
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 牧師

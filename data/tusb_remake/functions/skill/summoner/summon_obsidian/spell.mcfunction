@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_obsidian/spell
 # 黒曜石を召喚(626X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

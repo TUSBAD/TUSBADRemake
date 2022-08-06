@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/wind_wall/check
 # ウィンドウォールをチェックします
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 particle minecraft:sweep_attack ~ ~1 ~ 2 2 2 0 1 force

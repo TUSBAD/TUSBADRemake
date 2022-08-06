@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/decoy/tp
 # デコイの引き寄せ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.enderman.teleport master @a[distance=..32] ~ ~ ~ 2 2 0

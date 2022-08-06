@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/shinku_giri/launch
 ### 真空斬りの弾を発射
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 発動

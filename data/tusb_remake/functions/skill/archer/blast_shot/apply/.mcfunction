@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/blast_shot/apply/
 ### 矢をブラストショットにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound item.flintandsteel.use master @a[distance=..16] ~ ~ ~ 1 1.2 0

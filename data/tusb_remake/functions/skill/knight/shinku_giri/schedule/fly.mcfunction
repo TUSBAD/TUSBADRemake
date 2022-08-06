@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/shinku_giri/schedule/fly
 ### 真空斬りの弾を飛ばす
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.wither.shoot master @a[distance=..16] ~ ~ ~ 0.5 2 0.1

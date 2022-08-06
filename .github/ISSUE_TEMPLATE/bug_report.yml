@@ -16,7 +16,7 @@ body:
     options:
       - vβ0.1.0 (MCver1.10.2)
       - vβ0.2.0 (MCver1.10.2)
-      - v12.5,1 (MCver1.18.2)
+      - v12.5 (MCver1.19.x)
   validations:
     required: true
 - type: checkboxes
@@ -33,17 +33,18 @@ body:
       - label: 職業スキル
       - label: 進捗
       - label: テクスチャ
+      - label: その他
   validations:
     required: true
 - type: checkboxes
   id: severity
   attributes:
-    label: 発生したバグの深刻度
+    label: 発生したバグの状態
     options:
-      - label: 無害 (通常プレイに支障なし)
-      - label: 軽度 (多少支障が出る)
-      - label: 重度 (支障が出るが進行不可ではない)
-      - label: 致命的 (進行不可)
+      - label: 通常プレイに支障なし
+      - label: 多少支障が出る
+      - label: 支障が出るが進行不可ではない
+      - label: 進行不可
 - type: textarea
   id: "overview"
   attributes:

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/chain_arrow/apply/
 ### 矢をチェインアローにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute at @s run playsound entity.mooshroom.shear master @a[distance=..32] ~ ~ ~ 0.2 1.2 0

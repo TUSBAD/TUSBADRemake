@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/ice_storm/schedule/hit
 # アイスストームが当たった時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.item.break master @a[distance=..32] ~ ~ ~ 2 1.6 0.1

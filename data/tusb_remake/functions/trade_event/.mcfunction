@@ -1,6 +1,6 @@
 #> tusb_remake:trade_event/
 # 職業変更の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 既に職業についていたら、初回無料の申請書を取り上げる

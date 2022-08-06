@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/tsuntsun/fungus/attack/iron_golem
 # アイアンゴーレムによる攻撃をかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.wither.hurt master @a[distance=..32] ~ ~ ~ 2 1.21 0.1

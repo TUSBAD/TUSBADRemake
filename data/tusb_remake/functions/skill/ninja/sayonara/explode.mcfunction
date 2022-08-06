@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/sayonara/explode
 ### サヨナラの爆発
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.firework_rocket.twinkle_far master @a ~ ~ ~ 3 0.5 0.1
@@ -18,8 +18,8 @@ tp @e[type=item,distance=..16,nbt={Age:0s}] @s
 ### 40..59 16ｍ
 ### 60..79 28ｍ
 ### 80.. 40ｍ
-### 100.. レイズ   
-### 400            
+### 100.. レイズ
+### 400
 
 ### ダメージ計算 MP * 4
 data modify storage score_damage: Argument set value {Damage:0.00,DamageType:"Blast"}

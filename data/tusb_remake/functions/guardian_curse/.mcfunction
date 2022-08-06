@@ -1,6 +1,6 @@
 #> tusb_remake:guardian_curse/
 # エルダーガーディアンの呪いを受けた時、効果を変更する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## ガーディアン呪い効果変更

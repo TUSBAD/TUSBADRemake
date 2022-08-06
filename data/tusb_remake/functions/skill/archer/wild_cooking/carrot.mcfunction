@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/wild_cooking/carrot
 # 人参を焼く
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run clear @s minecraft:carrot 1

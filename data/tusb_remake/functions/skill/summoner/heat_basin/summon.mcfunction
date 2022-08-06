@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/heat_basin/summon
 # あつあつタライ発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:fire"},Time:1,DropItem:false,HurtEntities:false,FallHurtMax:25,FallHurtAmount:25f,FallDistance:1f,Tags:[PreAtsuTarai,Tarai]}

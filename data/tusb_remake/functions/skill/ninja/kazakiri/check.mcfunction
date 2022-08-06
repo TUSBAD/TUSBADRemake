@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/kazakiri/check
 # 風切の継続チェック(207X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players remove @s Kazakiri 1

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/choyaku/jump
 #
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 8 0.8 0

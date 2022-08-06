@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suriken/apply
 ### 雪玉を手裏剣にする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 最近なげた手裏剣のリストがなければ初期化

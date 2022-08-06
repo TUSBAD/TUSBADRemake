@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/ice_storm/throw
 # アイスストームを発動(520X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ###

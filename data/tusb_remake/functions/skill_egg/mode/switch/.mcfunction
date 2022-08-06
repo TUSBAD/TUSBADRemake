@@ -1,6 +1,6 @@
 #> tusb_remake:skill_egg/mode/switch/
 # スキルエッグのモードを使った時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## 1 -> 1
@@ -12,4 +12,4 @@ scoreboard players remove @s ModeState 2
 scoreboard players operation @s ShowSkill = @s CurrentMode
 function tusb_remake:player/skill/show/
 
-kill @e[distance=..1,tag=SkillEgg,tag=ModeSwitch,sort=nearest,limit=1]
+data modify entity @e[distance=..1,tag=SkillEgg,tag=ModeSwitch,limit=1] Health set value 0f

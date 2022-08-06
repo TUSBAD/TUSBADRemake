@@ -1,6 +1,6 @@
 #> tusb_remake:skill/white_mage/flower_gift/apply/snowball
 ### 雪玉をフラワーギフトにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify entity @s Tags set value [FlowerGift,FlyingObject,Driftable,TypeChecked]

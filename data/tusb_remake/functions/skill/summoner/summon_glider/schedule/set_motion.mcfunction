@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_glider/schedule/set_motion
 ### バルーン発射までの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage math: in set from entity @s Rotation

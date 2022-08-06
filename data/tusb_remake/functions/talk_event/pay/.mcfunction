@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/pay/
 # エメラルドの支払い
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score @s ItemCount run clear @s minecraft:emerald 0

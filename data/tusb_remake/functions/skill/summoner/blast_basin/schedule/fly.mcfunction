@@ -1,10 +1,10 @@
 #> tusb_remake:skill/summoner/blast_basin/schedule/fly
 ### きらきらタライが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: hit set value false
-execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#tusb_remake:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23b}]},limit=1] at @s run function tusb_remake:skill/summoner/blast_basin/schedule/hit
+execute positioned ~-0.5 ~ ~-0.5 as @e[dy=0,type=#tusb_remake:mob,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]},limit=1] at @s run function tusb_remake:skill/summoner/blast_basin/schedule/hit
 
 ### 当たっていなかった＆地面についたとき
 execute unless data storage tusb_remake: {hit:true} unless predicate tusb_remake:is_riding run function tusb_remake:skill/summoner/blast_basin/schedule/hit

@@ -1,7 +1,10 @@
 #> tusb_remake:load/
 # リロード時リセット
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
+
+### システムマーカーが何で動かされたか分からないので、ロード時に初期位置にずらす
+execute in minecraft:overworld run tp 0-0-1-0-1 -1919.5 6.5 -191.5
 
 ### 濃い紫でスコアボードの有無を判定する
 # scoreboard objectives setdisplay sidebar.team.dark_purple
@@ -53,7 +56,6 @@ scoreboard objectives add FoodMax dummy "最大満腹量"
 scoreboard objectives add HealCount dummy "HP回復量"
 ## なくせるかも？
 scoreboard objectives add EventRank dummy "イベントランク"
-scoreboard objectives add EventRank2 dummy "イベントランク"
 
 scoreboard objectives add TutorialRead dummy "チュートリアル読んだフラグ"
 scoreboard objectives add TutorialReading dummy "チュートリアル読んでるフラグ"
@@ -113,8 +115,6 @@ scoreboard objectives add ModeState dummy "モード状態"
 ### スキル全般
 scoreboard objectives add ActivatedSkill dummy "発動スキル"
 scoreboard objectives add ChangeSkill dummy "変更先スキル"
-# scoreboard objectives add ChangeSkillCost dummy "変更先スキルコスト"
-# scoreboard objectives add ShowSkillSlot dummy "表示スキルスロット"
 scoreboard objectives add ShowSkill dummy "表示スキル"
 scoreboard objectives add MPCost dummy "スキル消費MP"
 
@@ -126,111 +126,6 @@ scoreboard objectives add SpawnZ dummy
 ### スキルテーブルを初期化
 function tusb_remake:skill/init_table/
 
-### 剣士MP (1??=剣士)
-# 即時スキル (?0?/?1?=即時)
-# scoreboard players set #100 MPCost 20
-# scoreboard players set #101 MPCost 20
-# scoreboard players set #102 MPCost 15
-# scoreboard players set #103 MPCost 10
-# scoreboard players set #104 MPCost 10
-# モードスキル (?2?/?3?=モード)
-# scoreboard players set #120 MPCost 5
-# scoreboard players set #121 MPCost 10
-# scoreboard players set #122 MPCost 5
-# scoreboard players set #123 MPCost 10
-# scoreboard players set #124 MPCost 20
-# scoreboard players set #125 MPCost 100
-
-### 忍者MP
-# scoreboard players set #200 MPCost 5
-# scoreboard players set #201 MPCost 10
-# scoreboard players set #202 MPCost 15
-# scoreboard players set #203 MPCost 50
-# scoreboard players set #204 MPCost 25
-# scoreboard players set #205 MPCost 15
-# scoreboard players set #206 MPCost 25
-# scoreboard players set #207 MPCost 20
-# scoreboard players set #208 MPCost 20
-
-# scoreboard players set #220 MPCost 2
-# scoreboard players set #221 MPCost 3
-# scoreboard players set #222 MPCost 3
-# scoreboard players set #223 MPCost 10
-# scoreboard players set #224 MPCost 100
-
-### 狩人MP
-# scoreboard players set #300 MPCost 20
-# scoreboard players set #301 MPCost 25
-# scoreboard players set #302 MPCost 20
-# scoreboard players set #303 MPCost 5
-# scoreboard players set #304 MPCost 5
-# scoreboard players set #305 MPCost 80
-# scoreboard players set #306 MPCost 10
-# scoreboard players set #307 MPCost 40
-
-# scoreboard players set #320 MPCost 7
-# scoreboard players set #321 MPCost 15
-# scoreboard players set #322 MPCost 10
-# scoreboard players set #323 MPCost 5
-# scoreboard players set #324 MPCost 5
-# scoreboard players set #325 MPCost 7
-# scoreboard players set #326 MPCost 100
-
-### 白魔道士MP
-# scoreboard players set #400 MPCost 10
-# scoreboard players set #401 MPCost 40
-# scoreboard players set #402 MPCost 60
-# scoreboard players set #403 MPCost 40
-# scoreboard players set #404 MPCost 50
-# scoreboard players set #405 MPCost 80
-
-# scoreboard players set #420 MPCost 10
-# scoreboard players set #421 MPCost 10
-# scoreboard players set #422 MPCost 20
-# scoreboard players set #423 MPCost 100
-
-### 黒魔道士MP
-# scoreboard players set #500 MPCost 15
-# scoreboard players set #501 MPCost 30
-# scoreboard players set #502 MPCost 60
-# scoreboard players set #503 MPCost 60
-# scoreboard players set #504 MPCost 40
-# scoreboard players set #505 MPCost 5
-# scoreboard players set #506 MPCost 50
-# scoreboard players set #507 MPCost 90
-# scoreboard players set #508 MPCost 40
-# scoreboard players set #509 MPCost 80
-# scoreboard players set #509 MPCost 80
-
-# scoreboard players set #521 MPCost 10
-# scoreboard players set #522 MPCost 20
-# scoreboard players set #523 MPCost 20
-# scoreboard players set #524 MPCost 25
-# scoreboard players set #525 MPCost 100
-
-### 召喚士MP
-# scoreboard players set #600 MPCost 25
-# scoreboard players set #601 MPCost 30
-# scoreboard players set #602 MPCost 10
-# scoreboard players set #603 MPCost 35
-# scoreboard players set #604 MPCost 40
-# scoreboard players set #605 MPCost 45
-# scoreboard players set #606 MPCost 50
-# scoreboard players set #607 MPCost 55
-# scoreboard players set #608 MPCost 60
-
-# scoreboard players set #620 MPCost 30
-# scoreboard players set #621 MPCost 5
-# scoreboard players set #622 MPCost 20
-# scoreboard players set #623 MPCost 10
-# scoreboard players set #624 MPCost 10
-# scoreboard players set #625 MPCost 10
-# scoreboard players set #626 MPCost 20
-# scoreboard players set #627 MPCost 10
-# scoreboard players set #628 MPCost 40
-# scoreboard players set #629 MPCost 15
-# scoreboard players set #630 MPCost 100
-
 ### 村人会話 => advancements
 scoreboard objectives add PastorFlag trigger "牧師会話フラグ"
 scoreboard objectives add AgentFlag trigger "エージェント会話フラグ"
@@ -238,7 +133,6 @@ scoreboard objectives add AugurFlag trigger "占い師会話フラグ"
 scoreboard objectives add AgentWarpCost dummy "エージェント利用価格"
 
 ### 一般
-scoreboard objectives add DenySightSeeing trigger "観光モード拒否フラグ"
 scoreboard objectives add kill trigger "個人killフラグ"
 
 ### 達成率
@@ -252,7 +146,10 @@ scoreboard objectives add MineNetherrack minecraft.mined:minecraft.netherrack
 
 scoreboard objectives add ItemCount dummy "特定アイテム数"
 
-# scoreboard objectives add UseSpawnEgg stat.useItem.minecraft.spawn_egg
+### 花火の消費
+scoreboard objectives add UseFireworkRocket minecraft.used:minecraft.firework_rocket
+
+# scoreboard objectives add UseSpawnEgg minecraft.used:minecraft.spawn_egg
 
 ## 印板(いんばん) = 特殊な効果のある設置物 => advancements
 # scoreboard objectives add UseArmorStand minecraft.used:minecraft.armor_stand
@@ -262,6 +159,7 @@ scoreboard objectives add Freshness dummy "誘導羊鮮度"
 
 ## モンスターがスキルを使うタイミングとか種類のやつ
 scoreboard objectives add MobCastTime dummy "敵キャストタイム"
+scoreboard objectives add AbyssSeduce dummy "アビスセデュース"
 
 ## トカルト
 scoreboard objectives add ISFEncount dummy "トカルトエンカウント"
@@ -373,16 +271,15 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamerule reducedDebugInfo true
 gamerule naturalRegeneration false
-gamerule doDaylightCycle false
 gamerule doEntityDrops true
 gamerule doFireTick true
 gamerule doMobLoot true
 gamerule doMobSpawning true
 gamerule doTileDrops true
-gamerule keepInventory false
+gamerule doInsomnia false
 gamerule randomTickSpeed 3
 gamerule showDeathMessages true
-gamerule spawnRadius 5
+gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true
 difficulty hard
 defaultgamemode adventure
@@ -398,4 +295,4 @@ scoreboard objectives setdisplay belowName HP
 execute in minecraft:overworld run schedule function tusb_remake:load/block_settings 3s
 
 ### １秒タイマーをスケジュール
-execute in minecraft:overworld run schedule function tusb_remake:one_sec 1s
+execute in minecraft:overworld run schedule function tusb_remake:clock/sec 1s

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suiton/
 # 水遁を発動させる(202X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.wolf.pant master @a[distance=..16] ~ ~ ~ 1 0.5 0

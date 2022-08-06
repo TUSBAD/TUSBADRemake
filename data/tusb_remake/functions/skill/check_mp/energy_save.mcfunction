@@ -1,6 +1,6 @@
 #> tusb_remake:skill/check_mp/energy_save
 #
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players set _ TUSB 2

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/ice_storm/schedule/fly
 ### アイスストームが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.anvil.land master @a[distance=..32] ~ ~100 ~ 0.05 2 0.05
@@ -15,6 +15,6 @@ execute if entity @s[tag=IceStorm1] run data modify storage score_damage: Argume
 execute if entity @s[tag=IceStorm2] run data modify storage score_damage: Argument set value {Damage:25.00,DamageType:"Projectile"}
 execute if entity @s[tag=IceStorm3] run data modify storage score_damage: Argument set value {Damage:40.00,DamageType:"Projectile"}
 
-execute as @e[distance=..8,type=#tusb_remake:mob,type=!#tusb_remake:resist_ice,tag=Enemy,nbt=!{ActiveEffects:[{Id:23b}]}] at @s run function tusb_remake:skill/black_mage/ice_storm/schedule/hit
+execute as @e[distance=..8,type=#tusb_remake:mob,type=!#tusb_remake:resist_ice,tag=Enemy,nbt=!{ActiveEffects:[{Id:23}]}] at @s run function tusb_remake:skill/black_mage/ice_storm/schedule/hit
 
 data modify storage tusb_remake: _ set value true

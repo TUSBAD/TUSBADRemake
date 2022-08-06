@@ -1,6 +1,6 @@
 {
     "pack":{
-        "pack_format": 9,
-        "description": "TUSB Remake"
+        "pack_format": 10,
+        "description": "TUSB v12 Remake"
     }
 }

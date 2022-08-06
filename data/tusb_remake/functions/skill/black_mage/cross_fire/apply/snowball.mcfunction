@@ -1,6 +1,6 @@
 #> tusb_remake:skill/black_mage/cross_fire/apply/snowball
 ### 雪玉をクロスファイアーにする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify entity @s Tags set value [CrossFire,FlyingObject,Driftable,TypeChecked]

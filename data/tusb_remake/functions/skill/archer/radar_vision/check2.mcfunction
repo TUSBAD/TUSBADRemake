@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/radar_vision/check2
 # レーダーヴィジョン発動(305X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run time query gametime

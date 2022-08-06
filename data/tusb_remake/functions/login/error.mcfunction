@@ -1,6 +1,6 @@
 #> tusb_remake:login/error
 # ログイン時に初期化エラーがあれば知らせる
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 初期化済みなのに、スコアが消えているなら、プレイヤー名が変わっているので、お知らせする

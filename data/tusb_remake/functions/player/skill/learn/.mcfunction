@@ -1,6 +1,6 @@
 #> tusb_remake:player/skill/learn/
 # スキル習得
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if entity @s[scores={Job=1}] run function tusb_remake:player/skill/learn/knight
@@ -12,4 +12,4 @@ execute if entity @s[scores={Job=6}] run function tusb_remake:player/skill/learn
 
 tellraw @s[scores={ShowSkill=0..}] {"text":"新しいスキルを覚えた！"}
 ### 覚えたスキル名の表示
-function tusb_remake:player/skill/show/
+execute if score @s ShowSkill matches 0.. run function tusb_remake:player/skill/show/

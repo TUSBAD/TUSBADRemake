@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/shinku_giri/schedule/
 ### 真空斬りの弾を飛ばす
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 data modify storage tusb_remake: _ set value false

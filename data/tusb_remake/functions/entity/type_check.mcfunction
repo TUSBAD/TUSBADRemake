@@ -1,6 +1,6 @@
 #> tusb_remake:entity/type_check
 # 新しいエンティティのタイプをチェックして、いろいろ設定する
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## Enemy := team=!FriendlyTeam & type=tusb_remake:mob & Invulnerable:false
@@ -42,10 +42,22 @@ execute if data storage tusb_remake: difficulty_modifier{resistance:3} run effec
 execute if data storage tusb_remake: difficulty_modifier{resistance:4} run effect give @s[team=,type=!player] minecraft:resistance 1000000 3 true
 
 ### ゾンビピッグマンは常に怒らせる
-execute as @s[type=minecraft:zombified_piglin] run data merge entity @s {AngerTime:32767}
+execute as @s[type=minecraft:zombified_piglin] run data merge entity @s {AngerTime:2147483647}
 
 ### クリーパーの爆発を早める
 execute as @s[type=minecraft:creeper,nbt={Fuse:30s}] run data merge entity @s {Fuse:15s}
+### クリーパー産のAECは消す
+kill @s[type=minecraft:area_effect_cloud,nbt={RadiusPerTick:-0.008333334f}]
+
+### 応急処置 TODO
+effect clear @s[type=stray] invisibility
+kill @s[type=item,nbt={Item:{Count:65b}}]
+execute as @s[type=wandering_trader] run function tusb_remake:entity/limit_sapling
+
+### 自然湧きじゃないスライム系のチェック
+tag @s[type=#tusb_remake:slimey,nbt=!{AbsorptionAmount:0f}] add FromSpawner
+
+# summon skeleton ~ ~ ~ {ArmorDropChances:[-1E40F,-1E40F,-1E40F,-1E40F],HandDropChances:[-1E40F,-1E40F]}
 
 ### チェック済みにする
 tag @s add TypeChecked

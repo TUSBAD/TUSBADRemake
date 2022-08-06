@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/pay/success
 # エメラルドの支払いできたとき
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute if score _ TUSB matches 2048.. run clear @s minecraft:emerald 2048
@@ -38,3 +38,5 @@ execute if score _ TUSB matches 2.. run scoreboard players remove _ TUSB 2
 
 execute if score _ TUSB matches 1.. run clear @s minecraft:emerald 1
 execute if score _ TUSB matches 1.. run scoreboard players remove _ TUSB 1
+
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 0.5

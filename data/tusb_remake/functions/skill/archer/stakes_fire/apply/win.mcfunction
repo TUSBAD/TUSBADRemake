@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/stakes_fire/apply/win
 ### ステークスファイアで勝ち申した
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 賭けに勝った矢のデータを作成する(威力10倍)

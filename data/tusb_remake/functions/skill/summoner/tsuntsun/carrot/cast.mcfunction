@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/tsuntsun/carrot/cast
 # つんつんを詠唱(624X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute as @e[distance=..15,type=snow_golem,team=FriendlyTeam] at @s run tag @a[distance=..10] add TsuntsunSnowGolem

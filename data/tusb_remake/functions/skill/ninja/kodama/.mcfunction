@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/kodama/
 # 呼魂を発動させる(203X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.wolf.shake master @a[distance=..32] ~ ~ ~ 2 0.6 0

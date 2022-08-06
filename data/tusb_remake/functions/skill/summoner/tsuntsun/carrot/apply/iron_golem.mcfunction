@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/tsuntsun/carrot/apply/iron_golem
 # アイアンゴーレムによる補助をかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.iron_golem.death master @a[distance=..16] ~ ~ ~ 2 1.8 0

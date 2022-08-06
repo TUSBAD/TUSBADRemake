@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/wild_cooking/poisonous_potato
 # 芽の生えたじゃがいもを焼く
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute store result score _ TUSB run clear @s minecraft:poisonous_potato 1

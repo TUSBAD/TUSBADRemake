@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_glider/schedule/test
 ### バルーン発射までの演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## TODO: 発射できないor奈落？

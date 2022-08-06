@@ -1,9 +1,9 @@
 #> tusb_remake:skill/display/instant/a
 ## スキルテーブルを設定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-### 
+###
 data modify storage tusb_remake: skill_slot_title set from storage tusb_remake: skill_slot_titles.instant.a
 tellraw @s [{"text":"以下のスキルから１つを","color":"green"},{"nbt":"skill_slot_title","storage":"tusb_remake:","interpret":true},"に設定できます。"]
 

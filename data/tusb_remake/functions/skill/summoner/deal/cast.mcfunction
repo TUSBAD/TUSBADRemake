@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/deal/cast
 # ディール発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.wool.break master @a[distance=..32] ~ ~ ~ 2 0.6 0

@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/pompom_firework/summon
 # ぽむぽむ花火発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute unless entity @s[y_rotation=-175.0..175.0] rotated ~ 0 positioned ^ ^ ^ run summon minecraft:firework_rocket ~ ~ ~ {Life:0,LifeTime:0,Silent:true,ShotAtAngle:true,Tags:[PomPom,SystemEntity,TypeChecked],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:4b,Flicker:true,Trail:false,Colors:[I;3487029,14973650,3386173,3228837],FadeColors:[I;16752934]}]}}},Motion:[1.2246467991473532e-16d,0.3d,-1.0d]}

@@ -1,6 +1,6 @@
 #> tusb_remake:player/apply_hunger
 # 空腹度
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：盲目時間を75%に変更

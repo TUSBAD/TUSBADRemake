@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/wild_cooking/result/strange
 # ワイルドクッキング発動(303X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.zombie.destroy_egg master @a[distance=..16] ~ ~ ~ 1 1.6 0

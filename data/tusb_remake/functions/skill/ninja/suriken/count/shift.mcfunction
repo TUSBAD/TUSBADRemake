@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suriken/count/shift
 ### 最近投げた手裏剣の履歴を更新
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 手裏剣の履歴をずらす

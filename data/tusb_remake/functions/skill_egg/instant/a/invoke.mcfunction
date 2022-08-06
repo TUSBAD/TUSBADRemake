@@ -1,6 +1,6 @@
 #> tusb_remake:skill_egg/instant/a/invoke
 # ルビースキル発動
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players operation @s ActivatedSkill = @s InstantSkillA
@@ -16,4 +16,4 @@ function tusb_remake:skill/check_mp/
 ### ここでActivatedSkillに合わせてスキルを実行
 function tusb_remake:skill_egg/instant/fork
 
-kill @e[distance=0,tag=SkillEgg,tag=Instant,tag=Ruby,limit=1]
+data modify entity @e[distance=..1,tag=SkillEgg,tag=Instant,tag=Ruby,limit=1] Health set value 0f

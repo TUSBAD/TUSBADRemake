@@ -1,13 +1,13 @@
 #> tusb_remake:area/move/
 # エリア移動した時の処理
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### ディメンションの番号を設定
 scoreboard players operation @s USBDimension = @s AreaChangeFlag
 
 ### エリア処理持ち込み判定 BringItemError
-function tusb_remake:area/move/check_item/
+execute at @s run function tusb_remake:area/move/check_item/
 
 ### テーブルマウンテンに移動できたとき
 tag @s[scores={AreaChangeFlag=11}] add IgnoreEnderChest
@@ -16,13 +16,18 @@ tag @s[scores={AreaChangeFlag=11}] add IgnoreEnderChest
 title @s[scores={AreaChangeFlag=-100..}] times 30 40 40
 execute if entity @s[scores={AreaChangeFlag=0}] run function tusb_remake:area/move/skyland
 execute if entity @s[scores={AreaChangeFlag=1}] run function tusb_remake:area/move/underworld
+execute if entity @s[scores={AreaChangeFlag=3}] run function tusb_remake:area/move/revskyland
 execute if entity @s[scores={AreaChangeFlag=10}] run function tusb_remake:area/move/cloudia
 execute if entity @s[scores={AreaChangeFlag=11}] run function tusb_remake:area/move/table_mountain
 execute if entity @s[scores={AreaChangeFlag=12}] run function tusb_remake:area/move/gullivers_land
 execute if entity @s[scores={AreaChangeFlag=13}] run function tusb_remake:area/move/tocult_colde
+execute if entity @s[scores={AreaChangeFlag=14}] run function tusb_remake:area/move/library
+execute if entity @s[scores={AreaChangeFlag=15}] run function tusb_remake:area/move/niflheimr
+execute if entity @s[scores={AreaChangeFlag=16}] run function tusb_remake:area/move/ancient_field
+execute if entity @s[scores={AreaChangeFlag=20}] run function tusb_remake:area/move/anotherdimension
 execute if entity @s[scores={AreaChangeFlag=-100}] run function tusb_remake:area/move/nether
 execute if entity @s[scores={AreaChangeFlag=-90}] run function tusb_remake:area/move/nether_trial
-execute if entity @s[scores={AreaChangeFlag=-89}] run function tusb_remake:area/move/nether_trial
+execute if entity @s[scores={AreaChangeFlag=-89}] run function tusb_remake:area/move/nether_dungeon
 execute if entity @s[scores={AreaChangeFlag=110}] run function tusb_remake:area/move/end
 
 ### エリア移動時に初期地点があった場合、そこに移動させる

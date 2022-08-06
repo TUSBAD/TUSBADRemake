@@ -1,12 +1,12 @@
 #> tusb_remake:skill/change/archer
 # 狩人のスキルのレベルチェック
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 狩人なので、狩人のものをコピーしてくる
 data modify storage tusb_remake: change_skill_table set value {}
 data modify storage tusb_remake: change_skill_table set from storage tusb_remake: skill_table.archer
-### 
+###
 data modify storage tusb_remake: change_skill set value {}
 execute if score _ ChangeSkill matches 0 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.0
 execute if score _ ChangeSkill matches 1 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.1
@@ -22,6 +22,7 @@ execute if score _ ChangeSkill matches 22 run data modify storage tusb_remake: c
 execute if score _ ChangeSkill matches 23 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.23
 execute if score _ ChangeSkill matches 24 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.24
 execute if score _ ChangeSkill matches 25 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.25
+execute if score _ ChangeSkill matches 26 run data modify storage tusb_remake: change_skill set from storage tusb_remake: change_skill_table.26
 
 ### _ ChangeSkill に設定したいスキル番号が入るようにしたい
 execute store result storage tusb_remake: _ int 10 run scoreboard players add _ ChangeSkill 300

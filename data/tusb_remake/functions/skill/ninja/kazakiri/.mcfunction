@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/kazakiri/
 # 風切を発動させる(207X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 1 0.5 0

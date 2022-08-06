@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/fatal_shot/hit/damage
 # フェイタルショット効果をかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 演出する表示するカウントが残っているときだけ表示

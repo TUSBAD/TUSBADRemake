@@ -3,6 +3,15 @@
 		"something": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
+				"damage": {
+					"type": {
+						"bypasses_armor": false,
+						"bypasses_magic": false,
+						"bypasses_invulnerability": false,
+						"is_magic": false,
+						"is_fire": false
+					}
+				},
 				"player": [
 					{
 						"condition": "entity_scores",

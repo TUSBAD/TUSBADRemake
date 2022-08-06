@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/wild_cooking/cooked_vegetable
 # ベークドポテトを焼く
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：イカスミ→木炭

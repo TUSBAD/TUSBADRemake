@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/shippu/
 # 疾風を発動させる(201X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.wither.shoot master @a[distance=..16] ~ ~ ~ 1 1.6 0

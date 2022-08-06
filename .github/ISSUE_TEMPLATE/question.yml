@@ -16,7 +16,7 @@ body:
     label: 質問したいTUSBADのVersion
     options:
       - vβ0.2.0 (MCver1.10.2)
-      - v12.5,1 (MCver1.18.2)
+      - v12.5 (MCver1.19.x)
   validations:
     required: true
 - type: checkboxes

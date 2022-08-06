@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suriken/count/
 ### 最近投げた手裏剣をカウントする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 execute as @a[tag=SurikenCount] at @s run function tusb_remake:skill/ninja/suriken/count/shift

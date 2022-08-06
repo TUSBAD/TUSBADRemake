@@ -1,6 +1,6 @@
 #> tusb_remake:skill/hit/
 # 近接攻撃をした時
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 流し斬り
@@ -16,6 +16,9 @@ execute as @s[scores={CurrentMode=2210..2219}] run function tusb_remake:skill/ni
 
 ### エンアスピル
 execute as @s[scores={EnAspir=0..}] run function tusb_remake:skill/black_mage/enaspir/hit
+
+### レガシー
+execute if data entity @s SelectedItem.tag.Legacy run function tusb_remake:skill/hit/legacy/
 
 scoreboard players reset @s DamageDealt
 scoreboard players reset @s DamageDealtAbsorbed

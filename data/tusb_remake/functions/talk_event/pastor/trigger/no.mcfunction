@@ -1,6 +1,6 @@
 #> tusb_remake:talk_event/pastor/trigger/no
 # 牧師との会話処理(御存知でない)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 scoreboard players reset @s PastorFlag

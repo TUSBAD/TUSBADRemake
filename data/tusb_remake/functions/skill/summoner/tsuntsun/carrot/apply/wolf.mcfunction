@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/tsuntsun/carrot/apply/wolf
 # ウルフによる補助をかける
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.wolf.growl master @a[distance=..16] ~ ~ ~ 1 0.8 0

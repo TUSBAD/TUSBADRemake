@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/suriken/schedule/fly
 ### 飛んでいる手裏剣の演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 0.8 1.2 0

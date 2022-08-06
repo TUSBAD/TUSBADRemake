@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/kasap_trap/schedule/check
 ### ルカナントラップの効果判定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.creeper.hurt master @a[distance=..16] ~ ~ ~ 0.15 2 0

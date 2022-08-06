@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/tsuntsun/fungus/cast
 # つんつんを詠唱(624X)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### スノーゴーレム

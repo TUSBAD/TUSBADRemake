@@ -1,9 +1,9 @@
 #> tusb_remake:area/move/check_item/
 # エリア移動した時のアイテム持ち込み判定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-### エリア処理持ち込み判定 BringItemError 
+### エリア処理持ち込み判定 BringItemError
 scoreboard players set @s[tag=IgnoreEnderChest] EnderChestOpened 0
 tag @s[tag=IgnoreEnderChest] remove IgnoreEnderChest
 

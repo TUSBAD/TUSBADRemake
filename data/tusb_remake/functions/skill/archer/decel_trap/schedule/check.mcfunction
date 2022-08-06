@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/decel_trap/schedule/check
 ### ボミオストラップの効果判定
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:entity.chicken.step master @a[distance=..16] ~ ~ ~ 0.15 2 0

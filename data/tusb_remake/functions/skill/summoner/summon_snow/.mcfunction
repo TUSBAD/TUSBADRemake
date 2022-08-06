@@ -1,6 +1,6 @@
 #> tusb_remake:skill/summoner/summon_snow/
 # スノーを召喚(6000)
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### 演出
@@ -22,4 +22,3 @@ summon minecraft:snow_golem ~ ~ ~ {CustomName:'"(ペット)スノー"',CustomNam
 ## エンチャント
 ## -32768s - 32767s
 ##      0s - 255s
-

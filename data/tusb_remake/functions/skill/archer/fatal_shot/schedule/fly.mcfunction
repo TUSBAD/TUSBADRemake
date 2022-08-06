@@ -1,6 +1,6 @@
 #> tusb_remake:skill/archer/fatal_shot/schedule/fly
 ### フェイタルショットが飛んでいる演出
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound minecraft:block.glass.break master @a[distance=..32] ~ ~ ~ 0.6 1.8 0.1

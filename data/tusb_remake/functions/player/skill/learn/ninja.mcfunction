@@ -1,6 +1,6 @@
 #> tusb_remake:player/skill/learn/ninja
 # スキル習得
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 # tag=ShowNewSkill,score_Level_min=(\d+),score_Level=(\d+),score_Job_min=2,score_Job=2

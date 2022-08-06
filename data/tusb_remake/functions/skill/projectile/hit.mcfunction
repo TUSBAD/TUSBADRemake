@@ -1,6 +1,6 @@
 #> tusb_remake:skill/projectile/hit
 # 飛んでるのが当たった敵
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 #真空斬りHIT処理

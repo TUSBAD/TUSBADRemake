@@ -1,6 +1,6 @@
 #> tusb_remake:skill/ninja/tsuremai/clear
 ### 連舞の効果切れ
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 attribute @s minecraft:generic.attack_damage modifier remove 6765f63f-00a6-47e7-81ec-5647ceecf0f1

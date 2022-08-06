@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/tactical_heal/heal
 # タクティカルヒールの回復をする
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ### リメイク：回復量を２倍に

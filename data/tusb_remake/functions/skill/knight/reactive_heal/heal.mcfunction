@@ -1,6 +1,6 @@
 #> tusb_remake:skill/knight/reactive_heal/heal
 ### リアクティブヒールの効果
-### Copyright © 2022 赤石愛
+### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 playsound entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1.88 0
