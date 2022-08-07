@@ -4,6 +4,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FreyCielu/TUSBAD_V12.5?include_prereleases)
+![GitHub](https://img.shields.io/github/license/FreyCielu/TUSBAD_V12.5)
 <br>
 ![GitHub followers](https://img.shields.io/github/followers/FreyCielu?logo=github)
 ![GitHub watchers](https://img.shields.io/github/watchers/FreyCielu/TUSBAD_V12.5?&logo=github)
