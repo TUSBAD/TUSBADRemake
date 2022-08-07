@@ -1,6 +1,6 @@
 ![TUSBAD version](https://img.shields.io/badge/ADversion-12.5,0.0.0-blueviolet.svg?)
 ![Minecraft version](https://img.shields.io/badge/MCversion-1.19.x-green.svg?logo=minecraft)
-[![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)]([https://discord.gg/rTVWQm4ykR](https://discord.gg/rTVWQm4ykR))
+[![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)](https://discord.gg/rTVWQm4ykR)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FreyCielu/TUSBAD_V12.5?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/FreyCielu/TUSBAD_V12.5)
 <br>
