@@ -1,8 +1,12 @@
-![TUSBAD version](https://img.shields.io/badge/MCversion-12.5,0.0.0-blueviolet.svg?)
+![TUSBAD version](https://img.shields.io/badge/ADversion-12.5,0.0.0-blueviolet.svg?)
 ![Minecraft version](https://img.shields.io/badge/MCversion-1.19.x-green.svg?logo=minecraft)
+[![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)]([https://discord.gg/vPqHuQNMEv](https://discord.gg/rTVWQm4ykR))
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
 <br>
+![GitHub followers](https://img.shields.io/github/followers/FreyCielu?logo=github)
+![GitHub watchers](https://img.shields.io/github/watchers/FreyCielu/TUSBAD_V12.5?&logo=github)
+[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github)](https://github.com/ProjectTSB/TheSkyBlessing/commits/master)
 ![GitHub stars](https://img.shields.io/github/stars/FreyCielu/TUSBAD_v12.5.svg?logo=github)
 
 
