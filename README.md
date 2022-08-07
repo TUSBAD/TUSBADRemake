@@ -3,10 +3,14 @@
 [![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)]([https://discord.gg/vPqHuQNMEv](https://discord.gg/rTVWQm4ykR))
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FreyCielu/TUSBAD_V12.5?include_prereleases)
 <br>
 ![GitHub followers](https://img.shields.io/github/followers/FreyCielu?logo=github)
 ![GitHub watchers](https://img.shields.io/github/watchers/FreyCielu/TUSBAD_V12.5?&logo=github)
-[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github)](https://github.com/ProjectTSB/TheSkyBlessing/commits/master)
+[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github&color=brightgreen)](https://github.com/ProjectTSB/TheSkyBlessing/commits/master)
+![GitHub issues](https://img.shields.io/github/issues/FreyCielu/TUSBAD_V12.5?logo=github)
+![GitHub pr](https://img.shields.io/github/issues-pr/FreyCielu/TUSBAD_V12.5?logo=github)
+![GitHub all releases](https://img.shields.io/github/downloads/FreyCielu/TUSBAD_V12.5/total?logo=github)
 ![GitHub stars](https://img.shields.io/github/stars/FreyCielu/TUSBAD_v12.5.svg?logo=github)
 
 
