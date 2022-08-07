@@ -1,3 +1,11 @@
+![TUSBAD version](https://img.shields.io/badge/MCversion-12.5,0.0.0-blueviolet.svg?)
+![Minecraft version](https://img.shields.io/badge/MCversion-1.19.x-green.svg?logo=minecraft)
+![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
+![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
+<br>
+![GitHub stars](https://img.shields.io/github/stars/FreyCielu/TUSBAD_v12.5.svg?logo=github)
+
+
 # TUSBAD_v12.5
 TUSB二次創作「TUSB_AD_v12.5.x」開発用データパック用リポジトリ
 
