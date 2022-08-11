@@ -15,4 +15,4 @@ function tusb_remake:set_difficulty/
 scoreboard players set #SecCount Global 1
 
 ### 嫌な予感のタイマー処理
-function tusb_remake:event/
+#function tusb_remake:event/

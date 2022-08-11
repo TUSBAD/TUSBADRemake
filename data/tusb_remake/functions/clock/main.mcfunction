@@ -39,7 +39,7 @@ execute as @a[scores={SleepInBed=1..}] at @s run function tusb_remake:player/sle
 execute as @a[scores={kill=1..}] at @s run function tusb_remake:player/pray/
 
 ### 交易島落下防止＆製作者村人の追加
-execute positioned -58 23 22 in minecraft:overworld run tp @e[distance=25..,type=villager,tag=NewShopStaff] -54.5 24.5 9.0
+execute positioned -58 26 22 in minecraft:overworld run tp @e[distance=25..,type=villager,tag=NewShopStaff] -54.5 26.5 9.0
 
 ###村人会話
 execute as @a[scores={AgentFlag=1..}] at @s run function tusb_remake:talk_event/agent/trigger/

@@ -35,6 +35,7 @@ scoreboard players set @a[predicate=tusb_remake:area/move/cloudia] AreaChangeFla
 scoreboard players set @a[predicate=tusb_remake:area/move/table_mountain] AreaChangeFlag 11
 scoreboard players set @a[predicate=tusb_remake:area/move/gullivers_land] AreaChangeFlag 12
 scoreboard players set @a[predicate=tusb_remake:area/move/tocult_colde] AreaChangeFlag 13
+scoreboard players set @a[predicate=tusb_remake:area/move/tradeisland] AreaChangeFlag 19
 scoreboard players set @a[predicate=tusb_remake:area/move/nether] AreaChangeFlag -100
 scoreboard players set @a[predicate=tusb_remake:area/move/nether_trial] AreaChangeFlag -90
 scoreboard players set @a[predicate=tusb_remake:area/move/nether_dungeon] AreaChangeFlag -89
@@ -48,7 +49,8 @@ tellraw @a[gamemode=survival,tag=Adv] {"text":"ブロックの設置・破壊が
 gamemode adventure @a[gamemode=survival,tag=Adv]
 
 ### MobGriefingの修正
-execute store result storage tusb_remake: _ byte 1 run gamerule mobGriefing
-execute if data storage tusb_remake: {_:false} run gamerule mobGriefing true
+execute store result storage tusb_remake: _ byte 0 run gamerule mobGriefing
+execute if data storage tusb_remake: {_:false} run gamerule mobGriefing false
 ### ハード固定
 difficulty hard
+gamerule doMobSpawning false

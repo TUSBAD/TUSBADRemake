@@ -14,10 +14,10 @@ execute store result score _ TUSB run data get storage tusb_remake: conquer.coun
 execute store result storage math: in int 1 run scoreboard players operation _ TUSB /= MaxPortalCount Settings
 
 ### 昼を取り戻していたら攻略率に応じて時計呼び出し
-execute store result score _ TUSB run data get storage math: in 0.01
-execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 11..40 unless data storage tusb_remake: {clock_stage:1} run function tusb_remake:gimmic/clock/1
-execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 41..70 unless data storage tusb_remake: {clock_stage:2} run function tusb_remake:gimmic/clock/2
-execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 71.. unless data storage tusb_remake: {clock_stage:3} run function tusb_remake:gimmic/clock/3
+#execute store result score _ TUSB run data get storage math: in 0.01
+#execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 11..40 unless data storage tusb_remake: {clock_stage:1} run function tusb_remake:gimmic/clock/1
+#execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 41..70 unless data storage tusb_remake: {clock_stage:2} run function tusb_remake:gimmic/clock/2
+#execute if data storage tusb_remake: settings{force_night:false} if score _ TUSB matches 71.. unless data storage tusb_remake: {clock_stage:3} run function tusb_remake:gimmic/clock/3
 
 ## 数字に分割
 function #math:split_number

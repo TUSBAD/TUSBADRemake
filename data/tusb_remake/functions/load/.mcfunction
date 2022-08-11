@@ -268,16 +268,16 @@ team modify NoCollision collisionRule never
 ### ゲームルール / ワールド設定
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule reducedDebugInfo true
 gamerule naturalRegeneration false
 gamerule doEntityDrops true
-gamerule doFireTick true
+gamerule doFireTick false
 gamerule doMobLoot true
-gamerule doMobSpawning true
+gamerule doMobSpawning false
 gamerule doTileDrops true
 gamerule doInsomnia false
-gamerule randomTickSpeed 3
+gamerule randomTickSpeed 0
 gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true

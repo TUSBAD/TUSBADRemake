@@ -24,6 +24,7 @@ execute if entity @s[scores={AreaChangeFlag=13}] run function tusb_remake:area/m
 execute if entity @s[scores={AreaChangeFlag=14}] run function tusb_remake:area/move/library
 execute if entity @s[scores={AreaChangeFlag=15}] run function tusb_remake:area/move/niflheimr
 execute if entity @s[scores={AreaChangeFlag=16}] run function tusb_remake:area/move/ancient_field
+execute if entity @s[scores={AreaChangeFlag=19}] run function tusb_remake:area/move/tradeisland
 execute if entity @s[scores={AreaChangeFlag=20}] run function tusb_remake:area/move/anotherdimension
 execute if entity @s[scores={AreaChangeFlag=-100}] run function tusb_remake:area/move/nether
 execute if entity @s[scores={AreaChangeFlag=-90}] run function tusb_remake:area/move/nether_trial

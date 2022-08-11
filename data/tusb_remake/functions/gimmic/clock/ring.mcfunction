@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # 時計鳴らす
-execute as @a at @s run playsound minecraft:block.note_block.bell master @s ~ ~100 ~ 1 1.414 1
+execute as @a at @s run playsound minecraft:block.anvil.land master @p ~ ~100 ~ 0.5 1.414 1
 # 朝にする
 time set 23400
 

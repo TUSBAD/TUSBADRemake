@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:test",
+  "type": "tusb_remake:tradeisland",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:the_void",
+      "biome": "tusb_remake:tradeisland",
       "layers": []
     }
   }
