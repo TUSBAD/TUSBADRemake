@@ -5,12 +5,12 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 1769318,
-    "fog_color": 11206568,
-    "water_color": 6487652,
+    "sky_color": 16291071,
+    "fog_color": 9500670,
+    "water_color": 13211134,
     "water_fog_color": 1376185,
     "grass_color": 1890301,
-    "foliage_color": 65535,
+    "foliage_color": 16734171,
     "music": {
       "sound": "minecraft:music.credits",
       "min_delay": 0,
