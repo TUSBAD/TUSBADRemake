@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_portal_frame",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": [
+      {
+        "translate": " ワープゲート ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "各地へ飛ぶことができるワープゲートが設置されている\n一部ワープゲートは一方通行なので気を付けたほうがいいだろう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement:tradeisland/root",
+  "criteria": {
+    "church": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

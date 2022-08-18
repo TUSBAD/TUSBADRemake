@@ -25,28 +25,27 @@ execute as @e[type=area_effect_cloud,tag=!TypeChecked] at @s run function tusb_r
 function tusb_remake:delete/
 
 ### エリア変更判定
-scoreboard players set @a[scores={USBDimension=0..},nbt={Dimension:"minecraft:the_nether"}] AreaChangeFlag -100
-scoreboard players set @a[predicate=tusb_remake:area/move/end] AreaChangeFlag 110
-scoreboard players set @a[scores={USBDimension=..-1},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
-scoreboard players set @a[scores={USBDimension=100..},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
-scoreboard players set @a[predicate=tusb_remake:area/move/skyland] AreaChangeFlag 0
-scoreboard players set @a[predicate=tusb_remake:area/move/underworld] AreaChangeFlag 1
-scoreboard players set @a[predicate=tusb_remake:area/move/cloudia] AreaChangeFlag 10
-scoreboard players set @a[predicate=tusb_remake:area/move/table_mountain] AreaChangeFlag 11
-scoreboard players set @a[predicate=tusb_remake:area/move/gullivers_land] AreaChangeFlag 12
-scoreboard players set @a[predicate=tusb_remake:area/move/tocult_colde] AreaChangeFlag 13
-scoreboard players set @a[predicate=tusb_remake:area/move/tradeisland] AreaChangeFlag 19
-scoreboard players set @a[predicate=tusb_remake:area/move/nether] AreaChangeFlag -100
-scoreboard players set @a[predicate=tusb_remake:area/move/nether_trial] AreaChangeFlag -90
-scoreboard players set @a[predicate=tusb_remake:area/move/nether_dungeon] AreaChangeFlag -89
+#scoreboard players set @a[scores={USBDimension=0..},nbt={Dimension:"minecraft:the_nether"}] AreaChangeFlag -100
+#scoreboard players set @a[predicate=tusb_remake:area/move/end] AreaChangeFlag 110
+#scoreboard players set @a[scores={USBDimension=..-1},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
+#scoreboard players set @a[scores={USBDimension=100..},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
+#scoreboard players set @a[predicate=tusb_remake:area/move/skyland] AreaChangeFlag 0
+#scoreboard players set @a[predicate=tusb_remake:area/move/underworld] AreaChangeFlag 1
+#scoreboard players set @a[predicate=tusb_remake:area/move/cloudia] AreaChangeFlag 10
+#scoreboard players set @a[predicate=tusb_remake:area/move/table_mountain] AreaChangeFlag 11
+#scoreboard players set @a[predicate=tusb_remake:area/move/gullivers_land] AreaChangeFlag 12
+#scoreboard players set @a[predicate=tusb_remake:area/move/tocult_colde] AreaChangeFlag 13
+#scoreboard players set @a[advancements={tusb_remake:area/tradeisland}] AreaChangeFlag 19
+#advancement revoke @a[advancements={tusb_remake:area/tradeisland}] only tusb_remake:area/change_area
+#scoreboard players set @a[predicate=tusb_remake:area/move/nether] AreaChangeFlag -100
+#scoreboard players set @a[predicate=tusb_remake:area/move/nether_trial] AreaChangeFlag -90
+#scoreboard players set @a[predicate=tusb_remake:area/move/nether_dungeon] AreaChangeFlag -89
 ### エリア変更処理
-execute as @a[scores={AreaChangeFlag=-100..}] run function tusb_remake:area/move/
+#execute as @a[scores={AreaChangeFlag=-100..}] run function tusb_remake:area/move/
 
 ### ゲームモード変更
-tellraw @a[gamemode=adventure,tag=!Adv,team=!] {"text":"ブロックの設置・破壊制限が解除された。","color":"dark_aqua"}
-gamemode survival @a[gamemode=adventure,tag=!Adv,team=!]
-tellraw @a[gamemode=survival,tag=Adv] {"text":"ブロックの設置・破壊が制限された。","color":"red"}
-gamemode adventure @a[gamemode=survival,tag=Adv]
+#tellraw @a[gamemode=adventure,tag=!Adv,team=!] {"text":"ブロックの設置・破壊制限が解除された。","color":"dark_aqua"}
+#tellraw @a[gamemode=survival,tag=Adv] {"text":"ブロックの設置・破壊が制限された。","color":"red"}
 
 ### MobGriefingの修正
 execute store result storage tusb_remake: _ byte 0 run gamerule mobGriefing
