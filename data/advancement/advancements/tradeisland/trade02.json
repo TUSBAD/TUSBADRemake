@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:ender_pearl",
-      "nbt": "{}"
+      "nbt": "{Enchantments:[{}]}"
     },
     "title": [
       {
@@ -12,7 +12,7 @@
       }
     ],
     "description": {
-      "translate": "職業島へ連れて行ってくれる\n%1$sが所有している船。",
+      "translate": "職業島へ連れて行ってくれる。\n%1$sが所有している船。",
       "color": "white",
       "with": [
         {

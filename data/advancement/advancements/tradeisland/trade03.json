@@ -7,12 +7,12 @@
     "title": [
       {
         "translate": " TUSBマンション ",
-        "color": "white",
+        "color": "gold",
         "bold": true
       }
     ],
     "description": {
-      "translate": "製作者村人達が住んでいるマンション\n攻略が進むにつれ入居者が増えるようだ。",
+      "translate": "製作者村人達が住んでいるマンション。\n攻略が進むにつれ入居者が増えるようだ。",
       "color": "white"
     },
     "frame": "task",

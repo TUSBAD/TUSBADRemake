@@ -2,17 +2,17 @@
   "display": {
     "icon": {
       "item": "minecraft:end_portal_frame",
-      "nbt": "{Enchantments:[]}"
+      "nbt": "{Enchantments:[{}]}"
     },
     "title": [
       {
         "translate": " ワープゲート ",
-        "color": "white",
+        "color": "light_purple",
         "bold": true
       }
     ],
     "description": {
-      "translate": "各地へ飛ぶことができるワープゲートが設置されている\n一部ワープゲートは一方通行なので気を付けたほうがいいだろう。",
+      "translate": "各地へ飛ぶことができるワープゲートが設置されている。\n一部ワープゲートは一方通行なので気を付けたほうがいいだろう。",
       "color": "white"
     },
     "frame": "task",

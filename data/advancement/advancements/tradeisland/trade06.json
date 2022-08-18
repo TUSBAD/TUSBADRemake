@@ -1,26 +1,26 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:emerald",
+      "item": "minecraft:netherite_hoe",
       "nbt": "{Enchantments:[{}]}"
     },
     "title": [
       {
-        "translate": " 商人街 ",
+        "translate": " 農場 ",
         "color": "white",
         "bold": true
       }
     ],
     "description": {
-      "translate": "%1$sや%2$s達が店を出している商人街。",
+      "translate": "%1$sが管理している農場。\nこのエリア内では一時的に%2$sになる。",
       "color": "white",
       "with":[
         {
-          "translate": "マツキヨ",
-          "color": "aqua"
+          "translate": "農業家",
+          "color": "green"
         },
         {
-          "translate": "ドラッグパパス",
+          "translate": "サバイバルエリア",
           "color": "aqua"
         }
       ]
@@ -30,7 +30,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement:tradeisland/trade01",
+  "parent": "advancement:tradeisland/trade02",
   "criteria": {
     "church": {
       "trigger": "minecraft:impossible"
