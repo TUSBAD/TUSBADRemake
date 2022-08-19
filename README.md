@@ -4,7 +4,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FreyCielu/TUSBAD_V12.5?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/FreyCielu/TUSBAD_V12.5)
 <br>
-[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github&color=brightgreen)](https://github.com/ProjectTSB/TheSkyBlessing/commits/master)
+[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github&color=brightgreen)](https://github.com/FreyCielu/TUSBAD_V12.5/commits/master)
 ![GitHub issues](https://img.shields.io/github/issues/FreyCielu/TUSBAD_V12.5?logo=github)
 ![GitHub pr](https://img.shields.io/github/issues-pr/FreyCielu/TUSBAD_V12.5?logo=github)
 ![GitHub all releases](https://img.shields.io/github/downloads/FreyCielu/TUSBAD_V12.5/total?logo=github)
