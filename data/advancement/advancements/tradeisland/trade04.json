@@ -20,7 +20,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement:tradeisland/root",
+  "parent": "advancement:tradeisland/trade03",
   "criteria": {
     "church": {
       "trigger": "minecraft:impossible"
