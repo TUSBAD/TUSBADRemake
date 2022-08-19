@@ -5,23 +5,23 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 8060912,
-    "fog_color": 12122879,
-    "water_color": 65535,
-    "water_fog_color": 1376185,
-    "grass_color": 15662848,
-    "foliage_color": 16776960,
+    "sky_color": 12255487,
+    "fog_color": 14242559,
+    "water_color": 16723565,
+    "water_fog_color": 16737925,
+    "grass_color": 14563583,
+    "foliage_color": 16711854,
     "music": {
-      "sound": "minecraft:music.credits",
+      "sound": "minecraft:music.nether.crimson_forest",
       "min_delay": 0,
       "max_delay": 0,
       "replace_current_music": false
     },
     "particle": {
       "options": {
-        "type": "minecraft:happy_villager"
+        "type": "minecraft:portal"
       },
-      "probability": 0.001
+      "probability": 0.05
     }
   },
   "spawners": {},

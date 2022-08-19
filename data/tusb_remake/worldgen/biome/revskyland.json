@@ -1,25 +1,24 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.5,
+  "temperature": 0.6,
+  "downfall": 0.9,
   "precipitation": "none",
-  "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 8060912,
-    "fog_color": 12122879,
-    "water_color": 65535,
-    "water_fog_color": 1376185,
-    "grass_color": 15662848,
-    "foliage_color": 16776960,
+    "sky_color": 9175295,
+    "fog_color": 14317055,
+    "water_color": 65280,
+    "water_fog_color": 16711680,
+    "grass_color": 11141324,
+    "foliage_color": 16722352,
     "music": {
-      "sound": "minecraft:music.credits",
+      "sound": "minecraft:music.overworld.deep_dark",
       "min_delay": 0,
       "max_delay": 0,
       "replace_current_music": false
     },
     "particle": {
       "options": {
-        "type": "minecraft:happy_villager"
+        "type": "minecraft:redstone_wire_dust_particle"
       },
       "probability": 0.001
     }

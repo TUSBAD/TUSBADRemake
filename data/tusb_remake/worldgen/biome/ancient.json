@@ -1,0 +1,25 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "temperature_modifier": "frozen",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 12566463,
+    "fog_color": 14079702,
+    "water_color": 13092807,
+    "water_fog_color": 13421772,
+    "grass_color": 12763842,
+    "foliage_color": 13421772,
+    "particle": {
+      "options": {
+        "type": "minecraft:dripping_obsidian_tear"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

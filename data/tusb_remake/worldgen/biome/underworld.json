@@ -1,25 +1,24 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.5,
+  "temperature": 0.6,
+  "downfall": 1,
   "precipitation": "none",
-  "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 8060912,
-    "fog_color": 12122879,
-    "water_color": 65535,
-    "water_fog_color": 1376185,
-    "grass_color": 15662848,
-    "foliage_color": 16776960,
+    "sky_color": 2303,
+    "fog_color": 7567,
+    "water_color": 29960,
+    "water_fog_color": 1001216,
+    "grass_color": 21012,
+    "foliage_color": 11791,
     "music": {
-      "sound": "minecraft:music.credits",
+      "sound": "minecraft:music.nether.nether_wastes",
       "min_delay": 0,
       "max_delay": 0,
       "replace_current_music": false
     },
     "particle": {
       "options": {
-        "type": "minecraft:happy_villager"
+        "type": "minecraft:witch"
       },
       "probability": 0.001
     }
