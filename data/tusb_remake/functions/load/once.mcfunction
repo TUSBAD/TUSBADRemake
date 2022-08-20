@@ -15,7 +15,7 @@ scoreboard players set MobGriefing Settings 0
 ### 難易度
 scoreboard players set Difficulty Settings 0
 ### 攻略対象最大数
-scoreboard players set MaxPortalCount Settings 50
+scoreboard players set MaxPortalCount Settings 150
 
 ### ワールド初期設定
 time set 14000
