@@ -108,8 +108,6 @@ scoreboard objectives add RndMWC dummy "lag1MWC乱数X"
 scoreboard objectives add RndMWCCarry dummy "lag1MWC乱数キャリー"
 
 ### ディメンション
-scoreboard objectives add USBDimension dummy
-scoreboard objectives add AreaChangeFlag dummy
 scoreboard objectives add EnderChestOpened minecraft.custom:minecraft.open_enderchest
 
 ### ジョブ
