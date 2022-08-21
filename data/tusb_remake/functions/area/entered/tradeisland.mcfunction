@@ -8,3 +8,5 @@ function tusb_remake:area/settings/tradeisland
 function tusb_remake:area/entered/
 # 演出表示
 function tusb_remake:area/makeup/tradeisland
+# エンパ所持時追い出し
+function tusb_remake:area/move/check_item/
