@@ -2,7 +2,7 @@
 	{
 		"condition": "minecraft:location_check",
 		"predicate": {
-			"dimension": "minecraft:the_nether",
+			"dimension": "tusb_remake:nethertrial",
 			"position": {
 				"x": {
 					"min": -327,
