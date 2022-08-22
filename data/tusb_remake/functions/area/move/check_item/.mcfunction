@@ -14,9 +14,9 @@ tag @s[tag=IgnoreEnderChest] remove IgnoreEnderChest
 #tp @s[scores={AreaChangeFlag=11},tag=BringItemError] -95.0 13.5 54.5 -180 0
 
 ### 交易島に移動した時
-tag @s[nbt={Inventory:[{id:"minecraft:ender_pearl"}],Dimension:"tusb_remake:trade"},gamemode=!creative] add BringItemError
-tag @s[scores={EnderChestOpened=1..},nbt={EnderItems:[{id:"minecraft:ender_pearl"}],Dimension:"tusb_remake:trade"},gamemode=!creative] add BringItemError
-tellraw @s[nbt={Dimension:"tusb_remake:trade"},tag=BringItemError] [{"text":"エンダーチェスト内を含む","color":"#ec024f","bold":true},"\n",{"translate":"%1$s持ち込み禁止エリアです！","with":[{"text":"エンダーパール","color":"#0bce1e","bold": true}],"color":"#ec024f","bold":true}]
+#tag @s[nbt={Inventory:[{id:"minecraft:ender_pearl"}],Dimension:"tusb_remake:trade"},gamemode=!creative] add BringItemError
+#tag @s[scores={EnderChestOpened=1..},nbt={EnderItems:[{id:"minecraft:ender_pearl"}],Dimension:"tusb_remake:trade"},gamemode=!creative] add BringItemError
+#tellraw @s[nbt={Dimension:"tusb_remake:trade"},tag=BringItemError] [{"text":"エンダーチェスト内を含む","color":"#ec024f","bold":true},"\n",{"translate":"%1$s持ち込み禁止エリアです！","with":[{"text":"エンダーパール","color":"#0bce1e","bold": true}],"color":"#ec024f","bold":true}]
 #execute in overworld run tp @s[nbt={Dimension:"tusb_remake:trade"},tag=BringItemError] -54.5 5.5 5.5 -90 0
 
 ### ネザーアスレチックに移動した時
