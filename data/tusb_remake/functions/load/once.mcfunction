@@ -280,6 +280,9 @@ scoreboard objectives add RadarVision dummy "レーダーヴィジョン効果�
 scoreboard objectives add ProjectileSkill dummy "投擲物に付与したスキルとレベル"
 scoreboard objectives add PotentialSkill dummy "Mobに発動する可能性のあるスキル"
 
+### 使用判定
+scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl "エンパ使用回数"
+
 ### チーム
 team add FriendlyTeam
 team modify FriendlyTeam friendlyFire false

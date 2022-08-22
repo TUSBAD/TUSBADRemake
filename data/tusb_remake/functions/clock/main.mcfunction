@@ -69,3 +69,6 @@ execute as @a[scores={UseFireworkRocket=1..}] run function tusb_remake:player/us
 
 # NoAIの停止 Freeze おのれもやん => NoAIでも動くやつがいるみたいなのだったかも
 execute as @e[tag=Freeze] run data merge entity @s {Motion:[0d,0d,0d]}
+
+### 交易島エンパ防止
+execute in tusb_remake:trade if entity @a[scores={UseEnderPearl=1..}] run function tusb_remake:area/itemcheck/trade_pearl
