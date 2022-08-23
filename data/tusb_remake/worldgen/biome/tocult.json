@@ -19,7 +19,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:item_snowball"
+        "type": "minecraft:snowflake"
       },
       "probability": 0.0001
     }

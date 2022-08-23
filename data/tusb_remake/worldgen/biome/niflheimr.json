@@ -19,7 +19,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:end_rod"
+        "type": "minecraft:dolphin"
       },
       "probability": 0.0001
     }
