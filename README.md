@@ -41,6 +41,12 @@ v12を難なくクリアできる人や、他二次創作をクリアしてい�
 フレイシェル・neo様・るーみあ様・たま様・かずや様・よひや様<br>
 ぽか様・ocho様・ヌユツミネ様・鈴木様・Althisia様 (いずれもDiscordのユーザー名)
 
+# 謝辞
+このリポジトリでは以下のリポジトリの一部、ライブラリを使用させていただいてます。
+
+#### [TUSB](https://skyblock.jp/)
+* [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
+
 # SpecialThanks
 Ponpon様(コマンドアドバイス)・mkm75様(パッチツール)・HikaruTsu様(Faweコマンドアドバイス)・赤石愛様(v12Rデータパック)
 
