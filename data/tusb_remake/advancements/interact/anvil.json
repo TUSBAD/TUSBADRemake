@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "anvil": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tusb_remake:in_adv_anvil"
+          }
+        ],
+        "location": {
+          "block": {
+            "tag": "tusb_remake:anvil"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tusb_remake:item/anvil/interact"
+  }
+}
