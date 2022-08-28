@@ -1,0 +1,56 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "- 異空間 -",
+                "color": "dark_purple",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "%1$sの%2$s\n= %3$s %4$s =",
+            "color": "white",
+            "with": [
+                {
+                  "translate": "時空狭間",
+                  "color": "light_purple",
+                  "bold": true
+                },
+                {
+                  "translate": "混沌次元",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                    "translate": "Unusual",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "translate": "Dimension",
+                    "color": "red",
+                    "bold": true
+                  }
+              ]
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/crying_obsidian.png"
+    },
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "tusb_remake:unusual"
+            }
+        }
+    }
+}
