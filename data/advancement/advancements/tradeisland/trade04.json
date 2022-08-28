@@ -12,8 +12,26 @@
       }
     ],
     "description": {
-      "translate": "各地へ飛ぶことができるワープゲートが設置されている。\n一部ワープゲートは一方通行なので気を付けたほうがいいだろう。",
-      "color": "white"
+      "translate": "各地へ飛ぶことができるワープゲートが設置されている。\n%1$s・%2$s・%3$s・%4$sへのワープゲートが存在する。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "エクストラドメイン",
+          "color": "aqua"
+        },
+        {
+          "translate": "異空間",
+          "color": "dark_purple"
+        },
+        {
+          "translate": "チュートリアル",
+          "color": "white"
+        },
+        {
+          "translate": "通常世界",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "task",
     "show_toast": true,
