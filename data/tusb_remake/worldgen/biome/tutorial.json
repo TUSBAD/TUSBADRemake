@@ -1,0 +1,31 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 4653153,
+    "fog_color": 8388608,
+    "water_color": 7536895,
+    "water_fog_color": 4325478,
+    "grass_color": 12058624,
+    "foliage_color": 5374064,
+    "music": {
+      "sound": "music.overworld.snowy_slopes",
+      "min_delay": 0,
+      "max_delay": 0,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.0001
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
