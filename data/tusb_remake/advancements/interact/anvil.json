@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "anvil": {
+    "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": [
@@ -11,7 +11,11 @@
         ],
         "location": {
           "block": {
-            "tag": "tusb_remake:anvil"
+            "blocks": [
+              "minecraft:anvil",
+              "minecraft:chipped_anvil",
+              "minecraft:damaged_anvil"
+            ]
           }
         }
       }
