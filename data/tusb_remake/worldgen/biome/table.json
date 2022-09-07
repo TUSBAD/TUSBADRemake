@@ -5,12 +5,12 @@
   "temperature_modifier": "frozen",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 12451826,
-    "fog_color": 10485439,
-    "water_color": 12124138,
+    "sky_color": 14415615,
+    "fog_color": 15466481,
+    "water_color": 12124154,
     "water_fog_color": 8060900,
-    "grass_color": 65280,
-    "foliage_color": 65280,
+    "grass_color": 13172442,
+    "foliage_color": 12451773,
     "music": {
       "sound": "minecraft:music.overworld.swamp",
       "min_delay": 0,

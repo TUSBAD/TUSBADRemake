@@ -5,12 +5,12 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 15258111,
-    "fog_color": 13937915,
-    "water_color": 16723565,
-    "water_fog_color": 16737925,
-    "grass_color": 14563583,
-    "foliage_color": 16711854,
+    "sky_color": 3014748,
+    "fog_color": 4653199,
+    "water_color": 8455209,
+    "water_fog_color": 7083045,
+    "grass_color": 8725912,
+    "foliage_color": 7340109,
     "music": {
       "sound": "minecraft:music.nether.crimson_forest",
       "min_delay": 0,

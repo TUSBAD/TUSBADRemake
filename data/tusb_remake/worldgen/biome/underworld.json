@@ -4,12 +4,12 @@
   "precipitation": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 2303,
+    "sky_color": 1709,
     "fog_color": 7567,
-    "water_color": 29960,
+    "water_color": 29972,
     "water_fog_color": 1001216,
-    "grass_color": 21012,
-    "foliage_color": 11791,
+    "grass_color": 7667712,
+    "foliage_color": 6052956,
     "music": {
       "sound": "minecraft:music.nether.nether_wastes",
       "min_delay": 0,

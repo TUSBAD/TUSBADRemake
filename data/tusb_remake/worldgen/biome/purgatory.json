@@ -5,12 +5,12 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 16684437,
-    "fog_color": 16694974,
-    "water_color": 16656959,
-    "water_fog_color": 16728642,
-    "grass_color": 16743168,
-    "foliage_color": 16738872,
+    "sky_color": 11010048,
+    "fog_color": 11041402,
+    "water_color": 13369364,
+    "water_fog_color": 10627626,
+    "grass_color": 10066329,
+    "foliage_color": 4539717,
     "music": {
       "sound": "minecraft:music.nether.soul_sand_valley",
       "min_delay": 0,

@@ -4,12 +4,12 @@
   "precipitation": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 9175295,
-    "fog_color": 15182589,
-    "water_color": 65280,
+    "sky_color": 6095016,
+    "fog_color": 9586041,
+    "water_color": 28672,
     "water_fog_color": 16711680,
-    "grass_color": 11141324,
-    "foliage_color": 16722352,
+    "grass_color": 8323225,
+    "foliage_color": 11409783,
     "music": {
       "sound": "minecraft:music.overworld.deep_dark",
       "min_delay": 0,
