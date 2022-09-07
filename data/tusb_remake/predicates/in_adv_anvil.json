@@ -39,6 +39,10 @@
 		},
 		{
 			"condition": "reference",
+			"name": "tusb_remake:area/tradeisland"
+    },
+    {
+    "condition": "reference",
 			"name": "tusb_remake:area/unusual"
 		},
 		{
