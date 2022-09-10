@@ -46,7 +46,8 @@ v12を難なくクリアできる人や、他二次創作をクリアしてい�
 
 #### [TUSB](https://skyblock.jp/)
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
-
+#### [TSB](https://tsb.scriptarts.jp/)
+* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)
 # SpecialThanks
 Ponpon様(コマンドアドバイス)・mkm75様(パッチツール)・HikaruTsu様(Faweコマンドアドバイス)・赤石愛様(v12Rデータパック)
 
