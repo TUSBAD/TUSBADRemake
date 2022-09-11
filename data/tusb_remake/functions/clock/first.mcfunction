@@ -3,6 +3,9 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
+### ハード固定化
+function tusb_remake:system/force_difficulty
+
 ### ワープポータル処理待ちの時はチェックする
 execute as @a[tag=PortalCheck] at @s run function tusb_remake:portal/warp/
 
@@ -16,7 +19,7 @@ execute as @a[predicate=tusb_remake:bird_in_cage] run function tusb_remake:athle
 ### 魔法のブロックの共通処理
 execute as @e[type=item_frame,tag=MagicBlock] at @s run function tusb_remake:skill/summoner/magic_block/check
 
-# タイプ設定 新しくでてきた敵に色々設定するやつ
+### タイプ設定 新しくでてきた敵に色々設定するやつ
 execute as @e[type=!#tusb_remake:ignore_type_check,type=!area_effect_cloud,tag=!TypeChecked] at @s run function tusb_remake:entity/type_check
 ## TODO
 execute as @e[type=area_effect_cloud,tag=!TypeChecked] at @s run function tusb_remake:entity/type_check
@@ -24,32 +27,8 @@ execute as @e[type=area_effect_cloud,tag=!TypeChecked] at @s run function tusb_r
 ### 削除対象のエンティティを削除する
 function tusb_remake:delete/
 
-### エリア変更判定
-#scoreboard players set @a[scores={USBDimension=0..},nbt={Dimension:"minecraft:the_nether"}] AreaChangeFlag -100
-#scoreboard players set @a[predicate=tusb_remake:area/move/end] AreaChangeFlag 110
-#scoreboard players set @a[scores={USBDimension=..-1},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
-#scoreboard players set @a[scores={USBDimension=100..},nbt={Dimension:"minecraft:overworld"}] AreaChangeFlag 0
-#scoreboard players set @a[predicate=tusb_remake:area/move/skyland] AreaChangeFlag 0
-#scoreboard players set @a[predicate=tusb_remake:area/move/underworld] AreaChangeFlag 1
-#scoreboard players set @a[predicate=tusb_remake:area/move/cloudia] AreaChangeFlag 10
-#scoreboard players set @a[predicate=tusb_remake:area/move/table_mountain] AreaChangeFlag 11
-#scoreboard players set @a[predicate=tusb_remake:area/move/gullivers_land] AreaChangeFlag 12
-#scoreboard players set @a[predicate=tusb_remake:area/move/tocult_colde] AreaChangeFlag 13
-#scoreboard players set @a[advancements={tusb_remake:area/tradeisland}] AreaChangeFlag 19
-#advancement revoke @a[advancements={tusb_remake:area/tradeisland}] only tusb_remake:area/change_area
-#scoreboard players set @a[predicate=tusb_remake:area/move/nether] AreaChangeFlag -100
-#scoreboard players set @a[predicate=tusb_remake:area/move/nether_trial] AreaChangeFlag -90
-#scoreboard players set @a[predicate=tusb_remake:area/move/nether_dungeon] AreaChangeFlag -89
-### エリア変更処理
-#execute as @a[scores={AreaChangeFlag=-100..}] run function tusb_remake:area/move/
-
-### ゲームモード変更
-#tellraw @a[gamemode=adventure,tag=!Adv,team=!] {"text":"ブロックの設置・破壊制限が解除された。","color":"dark_aqua"}
-#tellraw @a[gamemode=survival,tag=Adv] {"text":"ブロックの設置・破壊が制限された。","color":"red"}
-
 ### MobGriefingの修正
 execute store result storage tusb_remake: _ byte 0 run gamerule mobGriefing
 execute if data storage tusb_remake: {_:false} run gamerule mobGriefing false
 ### ハード固定
-difficulty hard
 gamerule doMobSpawning false
