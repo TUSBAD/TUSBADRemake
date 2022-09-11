@@ -9,6 +9,7 @@
 ![GitHub pr](https://img.shields.io/github/issues-pr/FreyCielu/TUSBAD_V12.5?logo=github)
 ![GitHub all releases](https://img.shields.io/github/downloads/FreyCielu/TUSBAD_V12.5/total?logo=github)
 ![GitHub contributors](https://img.shields.io/github/contributors/FreyCielu/TUSBAD_V12.5?color=aqua&logo=github)
+[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 <br>
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
