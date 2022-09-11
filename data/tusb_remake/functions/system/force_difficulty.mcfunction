@@ -12,7 +12,7 @@
     execute store result score $Difficulty TUSB run difficulty
 # ピースフルの場合の変更処理
     execute if score $Difficulty TUSB matches 0 run tellraw @a [{"storage":"global","nbt":"Prefix.FAILED"},{"text":"難易度をピースフルにすることは出来ません。"}]
-    execute if score $Difficulty TUSB matches 0 run tellraw @a [{"storage":"global","nbt":"Prefix.FAILED"},{"text":"難易度はイージーに変更されました。"}]
-    execute if score $Difficulty TUSB matches 0 run difficulty easy
+    execute if score $Difficulty TUSB matches 0 run tellraw @a [{"storage":"global","nbt":"Prefix.FAILED"},{"text":"難易度はハードに変更されました。"}]
+    execute if score $Difficulty TUSB matches 0 run difficulty hard
 # リセット
     scoreboard players reset $Difficulty TUSB
