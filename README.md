@@ -39,7 +39,7 @@ v12を難なくクリアできる人や、他二次創作をクリアしてい�
 ***TUSBのパッチ群は全て競合します。絶対に入れないでください。(1.10.2版に限り)***
 
 # 製作者
-フレイシェル・neo様・るーみあ様・たま様・かずや様・よひや様<br>
+フレイシェル・るーみあ様・たま様・かずや様・よひや様<br>
 ぽか様・ocho様・ヌユツミネ様・鈴木様・Althisia様 (いずれもDiscordのユーザー名)
 
 # 謝辞
@@ -49,8 +49,16 @@ v12を難なくクリアできる人や、他二次創作をクリアしてい�
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
 #### [TSB](https://tsb.scriptarts.jp/)
 * [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)
+
+# ライセンス
+このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。
+
+* [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock) (Copyright by サークルTUSB)
+* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing) ([CC0 License](https://github.com/ProjectTSB/TheSkyBlessing/blob/master/LICENSE) / Copyright by ProjectTSB)
+
 # SpecialThanks
 Ponpon様(コマンドアドバイス)・mkm75様(パッチツール)・HikaruTsu様(Faweコマンドアドバイス)・赤石愛様(v12Rデータパック)
+
 
 ## コラボレーター以外によるプルリクエストについて
 コラボレーター以外によるプルリクエストは、最適化, バグ修正に限り歓迎しています。
