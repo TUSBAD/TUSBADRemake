@@ -304,15 +304,25 @@ gamerule sendCommandFeedback true
 gamerule reducedDebugInfo true
 gamerule naturalRegeneration false
 gamerule doEntityDrops true
-gamerule doFireTick false
+gamerule doFireTick true
 gamerule doMobLoot true
 gamerule doMobSpawning false
 gamerule doTileDrops true
-gamerule doInsomnia false
+gamerule doInsomnia true
 gamerule randomTickSpeed 0
 gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true
+gamerule doWardenSpawning true
+gamerule tntExplosionDropDecay true
+gamerule lavaSourceConversion true
+gamerule disableRaids true
+gamerule doTraderSpawning true
+gamerule forgiveDeadPlayers false
+gamerule playersSleepingPercentage 1
+gamerule snowAccumulationHeight 8
+gamerule universalAnger true
+gamerule globalSoundEvents false
 difficulty hard
 defaultgamemode adventure
 worldborder center 0 0
