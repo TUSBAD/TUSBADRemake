@@ -3,6 +3,9 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
+#ScoreDamage
+function score_damage:core/init
+
 scoreboard objectives add Settings dummy "設定"
 ### 観光モード
 scoreboard players set SightseeingDeath Settings 0
