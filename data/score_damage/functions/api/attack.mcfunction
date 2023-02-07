@@ -29,7 +29,7 @@
 # 引数チェック
     execute unless data storage score_damage: Argument.Damage run tellraw @a [{"text":"ERROR >>","color":"red"},{"text":"引数が足りません","color":"white"},{"text":"\nMissing Damage at score_damage:api/attack","color":"white"}]
     execute unless data storage score_damage: Argument.EPF run data modify storage score_damage: Argument.EPF set value -1
-    execute unless data storage score_damage: Argument.DamageType run data modify storage score_damage: Argument.DamageType set value [Global]
+    execute unless data storage score_damage: Argument.DamageType run data modify storage score_damage: Argument.DamageType set value Global
     execute unless data storage score_damage: Argument.DisableParticle run data modify storage score_damage: Argument.DisableParticle set value 0b
     execute unless data storage score_damage: Argument.BypassArmor run data modify storage score_damage: Argument.BypassArmor set value 0b
     execute unless data storage score_damage: Argument.BypassResistance run data modify storage score_damage: Argument.BypassResistance set value 0b
