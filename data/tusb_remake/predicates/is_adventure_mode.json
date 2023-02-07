@@ -40,6 +40,10 @@
 		{
 			"condition": "reference",
 			"name": "tusb_remake:area/airport"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/library"
 		}
 	]
 }
