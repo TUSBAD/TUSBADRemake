@@ -22,3 +22,4 @@ execute in minecraft:overworld run schedule function tusb_remake:load/block_sett
 
 ### １秒タイマーをスケジュール
 execute in minecraft:overworld run schedule function tusb_remake:clock/sec 1s
+execute in minecraft:overworld run schedule function tusb_remake:clock/half_sec 10t
