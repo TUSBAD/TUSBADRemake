@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/black_rider/magic
 # ブラックライダーのスキル
-### Copyright © 2022 フレイシェル
+### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
 me はソウルバランスを唱えた！

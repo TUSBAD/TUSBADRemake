@@ -1,6 +1,6 @@
 #> tusb_remake:enemy/skill/invoke
 # 敵のスキルやつ
-### Copyright © 2022 フレイシェル
+### Copyright © 2022 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
 ### もしも大きいすぎてもいいように0-19にする
@@ -21,6 +21,7 @@ execute if entity @s[tag=RedRider] run function tusb_remake:enemy/skill/red_ride
 execute if entity @s[tag=BlackRider] run function tusb_remake:enemy/skill/black_rider/
 ### ペイルライダー
 execute if entity @s[tag=PaleRider] run function tusb_remake:enemy/skill/pale_rider/
+#####
 
 ### 次のスキルとタイミングを設定
 ### 0-99を取得
