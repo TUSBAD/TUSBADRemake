@@ -31,10 +31,6 @@
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/another_dimension"
-		},
-		{
-			"condition": "reference",
 			"name": "tusb_remake:area/extra_domain"
 		},
 		{
@@ -44,6 +40,10 @@
 		{
 			"condition": "reference",
 			"name": "tusb_remake:area/library"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/tradeisland"
 		}
 	]
 }
