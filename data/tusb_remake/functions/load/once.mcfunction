@@ -51,12 +51,14 @@ data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"tex
 ### ADのverを設定
 data modify storage tusb_remake: mapversion set value 1.0.0
 
-### ErrorPrefixを設定
+### 各種Prefixを設定
 data modify storage tusb_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
+data modify storage tusb_remake: Prefix.TIPS set value "§bTIPS >> §r"
 data modify storage tusb_remake: Prefix.SUCCESS set value "§aSUCCESS >> §r"
 data modify storage tusb_remake: Prefix.FAILED set value "§cFAILED >> §r"
 data modify storage tusb_remake: Prefix.ERROR set value "§cERROR >> §r"
 data modify storage tusb_remake: Prefix.CRIT set value "§4CRITICAL >> §r"
+function tusb_remake:load/bad_effect_message
 ### Global
 scoreboard objectives add Global dummy
 scoreboard objectives add TUSB dummy
