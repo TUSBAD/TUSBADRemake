@@ -8,3 +8,4 @@ scoreboard players operation @s HealCount += @s HPMax
 scoreboard players operation @s HealCount += @s HPMax
 ### MP回復
 scoreboard players operation @s MP = @s MPMax
+playsound item.bottle.fill master @s ~ ~ ~ 1.5 1.5

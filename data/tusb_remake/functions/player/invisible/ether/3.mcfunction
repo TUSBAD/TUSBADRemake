@@ -5,3 +5,4 @@
 
 scoreboard players add @s MP 200
 scoreboard players operation @s MP < @s MPMax
+playsound entity.arrow.hit_player master @s ~ ~ ~ 1.5 2

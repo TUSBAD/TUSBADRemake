@@ -10,3 +10,4 @@ scoreboard players operation @s MP += @s MP
 execute store result storage tusb_remake: _ int 0.5 run scoreboard players operation @s MP += @s MPMax
 execute store result score @s MP run data get storage tusb_remake: _
 scoreboard players operation @s MP < @s MPMax
+playsound item.bottle.fill_dragonbreath master @s ~ ~ ~ 1.5 2.0
