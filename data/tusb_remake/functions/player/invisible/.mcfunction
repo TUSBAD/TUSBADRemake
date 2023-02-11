@@ -16,5 +16,6 @@ execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:0b}]},tag=!Doom] run f
 execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:100b}]},tag=!DoomEX] run function tusb_remake:player/invisible/doom/ex
 ### 聖水
 execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:6b}]},tag=Doom] run function tusb_remake:player/invisible/doom/clear
+execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:50b}]},tag=DoomEX] run function tusb_remake:player/invisible/doom/clearex
 
 effect clear @s minecraft:invisibility

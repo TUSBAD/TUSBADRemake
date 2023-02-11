@@ -17,6 +17,7 @@ execute as @s[predicate=tusb_remake:area/nether_trial] at @s run function tusb_r
 
 ### 死の宣告がかかっていたら消す
 tag @s[tag=Doom] remove Doom
+tag @s[tag=DoomEX] remove DoomEX
 ### リレイズの効果がかかっていたらレイズをかける
 tag @s[tag=ReRaise] add CastRaise
 tag @s[tag=ReRaise] remove ReRaise
