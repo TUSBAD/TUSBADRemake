@@ -12,7 +12,7 @@ playsound block.comparator.click master @s[scores={DoomSecond=..0,Doom=4..11}] ~
 playsound block.bell.use master @s[scores={DoomSecond=..0,Doom=0..3}] ~ ~10 ~ 10 0.5 1
 scoreboard players set @s[scores={DoomSecond=..0}] DoomSecond 3
 gamerule showDeathMessages false
-execute if score @s Doom matches 0 run me は§4§l命§cを刈り取られた。§r
+execute if score @s Doom matches 0 run tellraw @a [{"translate":"%1$sは死の運命から逃れられなかった……","color": "red","with":[{"selector":"@s"}]}]
 kill @s[scores={Doom=..0}]
 gamerule showDeathMessages true
 tag @s[scores={Doom=..0}] remove Doom

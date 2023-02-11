@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 playsound item.trident.thunder master @s ~ ~ ~ 5 1 1
-me は死の宣告の効果を受けた！
+tellraw @s [{"translate":"%1$sは%2$sを受けた！","color":"red","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}]}]
 scoreboard players set @s Doom 11
 scoreboard players set @s DoomSecond 1
 tag @s add Doom

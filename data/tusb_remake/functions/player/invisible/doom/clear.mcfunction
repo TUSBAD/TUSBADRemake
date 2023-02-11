@@ -4,5 +4,5 @@
 ### This software is released under the MIT License, see LICENSE.
 
 playsound block.beacon.power_select master @s ~ ~ ~ 5 1.1 1
-me は死の宣告から逃れた！
+tellraw @s [{"translate":"%1$sは%2$sから逃れた！","color":"green","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}]}]
 tag @s remove Doom

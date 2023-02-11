@@ -13,6 +13,7 @@ execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:5b}]}] run function tu
 
 ### 死の宣告
 execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:0b}]},tag=!Doom] run function tusb_remake:player/invisible/doom/
+execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:100b}]},tag=!DoomEX] run function tusb_remake:player/invisible/doom/ex
 ### 聖水
 execute if entity @s[nbt={ActiveEffects:[{Id:14,Amplifier:6b}]},tag=Doom] run function tusb_remake:player/invisible/doom/clear
 
