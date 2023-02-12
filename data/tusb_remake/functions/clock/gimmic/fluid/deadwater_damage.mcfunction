@@ -9,6 +9,7 @@
     playsound entity.warden.heartbeat master @s ~ ~ ~ 0.85 1
     particle minecraft:damage_indicator ~ ~1 ~ 0.5 0.5 0.5 0.05 25 force @s
     effect give @s blindness 5 2 true
+    effect give @s[scores={HP=..20}] fire_resistance 0 127 true
   # 対象を実行者にしてfunctionを実行
     execute as @s run function score_damage:api/attack
   # 引数を明示的にリセット

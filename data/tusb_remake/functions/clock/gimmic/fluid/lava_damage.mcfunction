@@ -13,6 +13,7 @@
     playsound enchant.thorns.hit master @s ~ ~ ~ 0.25 1
     particle minecraft:soul ~ ~1 ~ 0.5 0.5 0.5 0.05 25 force @s
     effect give @s slowness 5 2 true
+    effect give @s[scores={HP=..20}] fire_resistance 0 127 true
   # 対象を実行者にしてfunctionを実行
     execute as @s run function score_damage:api/attack
   # 引数を明示的にリセット
