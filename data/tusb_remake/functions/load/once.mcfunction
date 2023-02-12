@@ -329,15 +329,15 @@ gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule disableElytraMovementCheck true
 gamerule doWardenSpawning true
-gamerule tntExplosionDropDecay true
-gamerule lavaSourceConversion true
+#gamerule tntExplosionDropDecay true
+#gamerule lavaSourceConversion true
 gamerule disableRaids true
 gamerule doTraderSpawning true
 gamerule forgiveDeadPlayers false
 gamerule playersSleepingPercentage 1
-gamerule snowAccumulationHeight 8
+#gamerule snowAccumulationHeight 8
 gamerule universalAnger true
-gamerule globalSoundEvents false
+#gamerule globalSoundEvents false
 difficulty hard
 defaultgamemode adventure
 worldborder center 0 0
