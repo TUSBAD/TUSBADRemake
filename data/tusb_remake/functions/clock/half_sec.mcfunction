@@ -12,3 +12,6 @@ execute as @a[predicate=tusb_remake:fluid_gimmic_area,predicate=tusb_remake:is_i
 
 ### 0.5秒クロック
 execute in minecraft:overworld run schedule function tusb_remake:clock/half_sec 10t
+
+### 致死の宣告
+execute as @a[tag=DoomEX] run function tusb_remake:doom/ex
