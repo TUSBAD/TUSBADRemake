@@ -56,6 +56,7 @@ execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft
 
 ## 死の宣告
 execute as @a[tag=Doom] run function tusb_remake:doom/
+execute as @a[tag=DoomEX] run function tusb_remake:doom/excount
 
 ## サバイバルスポナー処理
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air align xyz run kill @e[dx=0,tag=Spawner]
