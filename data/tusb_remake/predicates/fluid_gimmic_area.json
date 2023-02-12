@@ -3,23 +3,23 @@
 	"terms": [
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/unusual"
+			"name": "tusb_remake:biome/unusual"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/underworld"
+			"name": "tusb_remake:biome/underworld"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/nether_dungeon"
+			"name": "tusb_remake:biome/nether_dungeon"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/revskyland"
+			"name": "tusb_remake:biome/revskyland"
 		},
         {
 			"condition": "reference",
-			"name": "tusb_remake:area/another_dimension"
+			"name": "tusb_remake:biome/another"
 		}
 	]
 }
