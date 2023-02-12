@@ -38,7 +38,7 @@
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "advancement:tips/root",
+    "parent": "advancement:tips/tips01",
     "criteria": {
       "doom": {
         "trigger": "minecraft:effects_changed",

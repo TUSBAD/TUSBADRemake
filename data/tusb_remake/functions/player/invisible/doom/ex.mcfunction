@@ -6,3 +6,4 @@
 playsound entity.warden.death master @s ~ ~ ~ 5 0.5 1
 tellraw @s [{"translate":"%1$sは%2$sを受けた！","color":"red","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.DoomEX"}]}]
 tag @s add DoomEX
+function tusb_remake:doom/ex
