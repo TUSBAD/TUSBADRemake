@@ -21,7 +21,7 @@
         "conditions": {
           "effects": {
             "minecraft:invisibility":{
-              "amplifier": 100,
+              "amplifier": 150,
               "duration": {
                 "min":1
               }
