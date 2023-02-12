@@ -5,4 +5,6 @@
 
 playsound entity.illusioner.cast_spell master @s ~ ~ ~ 5 0.5 1
 tellraw @s [{"translate":"%1$sは%2$sから逃れた！","color":"green","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.DoomEX"}]}]
+function #oh_my_dat:please
+data remove storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX
 tag @s remove DoomEX

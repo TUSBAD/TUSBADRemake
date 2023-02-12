@@ -17,6 +17,8 @@ execute as @s[predicate=tusb_remake:area/nether_trial] at @s run function tusb_r
 
 ### 死の宣告がかかっていたら消す
 tag @s[tag=Doom] remove Doom
+execute if entity @s[tag=DoomEX] run function #oh_my_dat:please
+execute if entity @s[tag=DoomEX] run data remove storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX
 tag @s[tag=DoomEX] remove DoomEX
 ### リレイズの効果がかかっていたらレイズをかける
 tag @s[tag=ReRaise] add CastRaise
