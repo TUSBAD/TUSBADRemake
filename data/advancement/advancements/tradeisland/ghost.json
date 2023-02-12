@@ -12,16 +12,12 @@
       }
     ],
     "description": {
-      "translate": "%1$sは有用なアイテムを交易してくれる。\nその中でも%2$sはかなり有用なアイテムである。",
+      "translate": "%1$sは有用なアイテムを交易してくれる。",
       "color": "white",
       "with": [
         {
           "translate": "交易島の霊",
           "color": "dark_gray"
-        },
-        {
-          "translate": "イエローデビル",
-          "color": "yellow"
         }
       ]
     },
