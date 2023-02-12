@@ -9,7 +9,8 @@
     data modify storage score_damage: Argument set value {EPF:0,BypassArmor:true,BypassResistance:false,DeathCause:'[{"translate":"%1$sは%2$sと踊ってしまった。","with":[{"selector":"@s"},{"translate":"死の運命","color":"#aa16f1","bold":true}]}]'}
     function #oh_my_dat:please
     data modify storage score_damage: Argument.Damage set from storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX
-    execute store result storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX float 1.05 run data get storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX 1
+    execute store result score _ TUSB run data get storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX 1050
+    execute store result storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].TUSB.DoomEX float 0.001 run scoreboard players get _ TUSB
     execute as @s[scores={DoomEX=..0}] run data modify storage score_damage: Argument.Damage set value 1024
   # 対象を実行者にしてfunctionを実行
     execute as @s run function score_damage:api/attack
