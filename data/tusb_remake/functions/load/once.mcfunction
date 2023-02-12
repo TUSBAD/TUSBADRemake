@@ -88,7 +88,7 @@ scoreboard objectives add TUSB dummy
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
-scoreboard objectives add HP dummy
+scoreboard objectives add HP dummy {"text": "体力","color": "#ff0053","bold": true}
 scoreboard objectives add HPChanging health "HP変化フラグ"
 scoreboard objectives add Food dummy
 scoreboard objectives add FoodChanging food "満腹度変化フラグ"
@@ -107,7 +107,7 @@ scoreboard objectives add TutorialReading dummy "チュートリアル読んで�
 scoreboard objectives add Drop minecraft.custom:minecraft.drop
 
 ### MP
-scoreboard objectives add MP dummy "MP"
+scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
 scoreboard objectives add MPMax dummy "最大MP"
 scoreboard objectives add MPMaxFlag dummy "MP回復済フラグ"
 ### MP回復タイミング
