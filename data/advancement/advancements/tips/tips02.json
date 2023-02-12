@@ -40,7 +40,7 @@
     },
     "parent": "advancement:tips/tips01",
     "criteria": {
-      "doom": {
+      "doomex": {
         "trigger": "minecraft:effects_changed",
         "conditions": {
           "effects": {
