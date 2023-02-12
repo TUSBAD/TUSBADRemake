@@ -275,6 +275,7 @@ scoreboard objectives add WindWall dummy "ウィンドウォール効果時間"
 # scoreboard objectives add OrderType dummy "つんつん命令タイプ"
 
 scoreboard objectives add Doom dummy "死の宣告カウント"
+scoreboard objectives add DoomEX dummy "致死の宣告カウント"
 scoreboard objectives add DoomSecond dummy "死の宣告進行秒管理"
 
 scoreboard objectives add RemainTimer dummy "持続時間"
