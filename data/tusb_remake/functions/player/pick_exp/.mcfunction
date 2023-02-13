@@ -4,8 +4,8 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### ネザースターの所持数を取得
-execute store result score @s ItemCount run clear @s minecraft:nether_star
+#execute store result score @s ItemCount run clear @s minecraft:nether_star
 
-function tusb_remake:player/pick_exp/default/get
+#function tusb_remake:player/pick_exp/default/get
 
 #製作中につきコメントアウト
