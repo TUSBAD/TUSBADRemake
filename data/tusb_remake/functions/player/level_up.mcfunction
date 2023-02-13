@@ -6,7 +6,7 @@
 ### レベルが49以下の場合だけレベルアップ
 scoreboard players add @s[scores={Level=..49}] Level 1
 ### 最大MPはレベルに関わらずあがる
-scoreboard players add @s MPMax 1
+scoreboard players add @s[scores={MPMax=..999}] MPMax 1
 
 ### MPを回復
 scoreboard players operation @s MP = @s MPMax
@@ -14,7 +14,7 @@ scoreboard players operation @s MP = @s MPMax
 ### 最大体力計算 = min(MPMax / 8, 50)
 execute store result storage tusb_remake: _ int 0.125 run scoreboard players get @s MPMax
 execute store result score @s HPMax run data get storage tusb_remake: _
-scoreboard players set @s[scores={HPMax_min=51..}] HPMax 50
+scoreboard players set @s[scores={HPMax_min=101..}] HPMax 100
 ### MP回復間隔 = 100 - Level
 scoreboard players set @s CoolTickSpan -100
 scoreboard players operation @s CoolTickSpan += @s Level
