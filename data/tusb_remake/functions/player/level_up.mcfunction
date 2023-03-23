@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### レベルが49以下の場合だけレベルアップ
-scoreboard players add @s[scores={Level=..49}] Level 1
+scoreboard players add @s[scores={Level=..99}] Level 1
 ### 最大MPはレベルに関わらずあがる
 scoreboard players add @s[scores={MPMax=..999}] MPMax 1
 

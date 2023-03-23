@@ -7,6 +7,7 @@
 function score_damage:core/init
 
 scoreboard objectives add Settings dummy "設定"
+scoreboard objectives add Option dummy "カスタム難易度"
 ### 観光モード
 scoreboard players set SightseeingDeath Settings 0
 ### デバッグモード
@@ -17,6 +18,7 @@ scoreboard players set Prayable Settings 0
 scoreboard players set MobGriefing Settings 0
 ### 難易度
 scoreboard players set Difficulty Settings 0
+scoreboard players set Difficluty Option 0
 ### 攻略対象最大数
 scoreboard players set MaxPortalCount Settings 150
 
