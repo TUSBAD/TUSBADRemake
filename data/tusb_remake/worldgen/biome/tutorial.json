@@ -4,6 +4,7 @@
   "precipitation": "none",
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
+  "has_precipitation": false,
   "effects": {
     "sky_color": 15071743,
     "fog_color": 12124119,

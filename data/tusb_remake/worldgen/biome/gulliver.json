@@ -4,6 +4,7 @@
   "precipitation": "snow",
   "temperature_modifier": "frozen",
   "creature_spawn_probability": 0,
+  "has_precipitation": false,
   "effects": {
     "sky_color": 16776371,
     "fog_color": 16318356,

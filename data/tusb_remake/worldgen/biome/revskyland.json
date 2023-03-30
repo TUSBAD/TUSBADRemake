@@ -3,6 +3,7 @@
   "downfall": 0.9,
   "precipitation": "none",
   "creature_spawn_probability": 0,
+  "has_precipitation": true,
   "effects": {
     "sky_color": 6095016,
     "fog_color": 9586041,
