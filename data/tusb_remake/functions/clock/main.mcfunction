@@ -25,7 +25,7 @@ execute as @a[scores={ExpToLevel=..0,Job=1..}] at @s run function tusb_remake:pl
 
 ### MP自然回復
 execute as @a[scores={CoolTickCounter=1..}] unless score @s MP >= @s MPMax run function tusb_remake:player/mp/natural
-execute as @a[scores={CoolTickCounter=..0}] run function tusb_remake:player/mp/xpbar
+execute as @a[scores={CoolTickCounter=..20}] run function tusb_remake:player/mp/xpbar
 
 ###島攻略
 execute as @a[scores={UseEnderEye=1..}] at @s run function tusb_remake:area/conquer/
