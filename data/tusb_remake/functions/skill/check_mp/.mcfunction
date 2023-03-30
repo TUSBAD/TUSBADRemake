@@ -2,6 +2,8 @@
 ## チュートリアルの残りの看板の設定
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
+### MPが減ったらFlagを折る
+execute if score @s MPMaxFlag matches 1 if score @s MP < @s MPMax run function tusb_remake:player/mp/xpbar
 
 ### スニーク
 execute if predicate tusb_remake:is_sneaking run function tusb_remake:skill/check_mp/sneak

@@ -2,7 +2,8 @@
 # MPの経験値代入処理
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
-
+### MPが減ったらFlagを折る
+execute if score @s MPMaxFlag matches 1 if score @s MP < @s MPMax run scoreboard players set @s MPMaxFlag 0
 ### 129lvにする(pointが0~1003のため)
 xp set @s 129 levels
 execute store result score #Points XPbar run xp query @s points
@@ -62,3 +63,5 @@ execute if score #Levels XPbar matches 1.. run scoreboard players remove #Levels
 scoreboard players reset #Points XPbar
 scoreboard players reset #Diff XPbar
 scoreboard players reset #Levels XPbar
+### MPがMPMaxと同値以上になったらFlagを建てる
+execute if score @s MP <= @s MPMax run scoreboard players set @s[scores={CoolTickCounter=1..,MPMaxFlag=..0}] MPMaxFlag 1

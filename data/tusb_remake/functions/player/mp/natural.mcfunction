@@ -1,5 +1,5 @@
 #> tusb_remake:player/mp/natural
-# MPの自然回復処理及び表示処理
+# MPの自然回復処理
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
