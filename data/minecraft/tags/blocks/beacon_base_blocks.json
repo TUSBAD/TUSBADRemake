@@ -5,6 +5,7 @@
     "minecraft:tnt",
     "minecraft:cave_air",
     "minecraft:bedrock",
-    "minecraft:diamond_block"
+    "minecraft:diamond_block",
+    "minecraft:netherite_block"
   ]
 }
