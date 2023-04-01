@@ -1,8 +1,11 @@
-#> tusb_remake:event/default
+#> tusb_remake:event/extreme_timer/0
+
+# 攻略率10%以下
+
+# イベント処理
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
-# extreme以外
-# イベント処理
+
 ###
 scoreboard players operation #EventTimer Global = @s Random
 function tusb_remake:random/update

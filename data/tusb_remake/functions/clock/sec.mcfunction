@@ -40,7 +40,7 @@ execute as @e[tag=Freeze,nbt={PortalCooldown:0}] run function tusb_remake:clock/
 execute as @e[tag=SkillMob] at @s run function tusb_remake:enemy/skill/
 
 ## 嫌な予感を実行する
-execute as @a[predicate=tusb_remake:area/skyland,tag=CauseEvent] at @s if score #SecCount Global matches 0.. run function tusb_remake:event/rank/
+execute as @a[tag=CauseEvent] at @s if score #SecCount Global matches 0.. run function tusb_remake:event/rank/
 
 ## トカルトの処理
 execute as @a[predicate=tusb_remake:area/tocult_colde,gamemode=!spectator] at @s run function tusb_remake:tocult_process/
