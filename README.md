@@ -1,5 +1,5 @@
-![TUSBAD version](https://img.shields.io/badge/ADversion-12.5,0.0.0-blueviolet.svg?)
-![Minecraft version](https://img.shields.io/badge/MCversion-1.19.x-green.svg?logo=minecraft)
+![TUSBAD version](https://img.shields.io/badge/ADversion-12R 1.0α-blueviolet.svg?)
+![Minecraft version](https://img.shields.io/badge/MCversion-1.19.4-green.svg?logo=minecraft)
 [![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)](https://discord.gg/rTVWQm4ykR)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FreyCielu/TUSBAD_V12.5?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/FreyCielu/TUSBAD_V12.5)
@@ -14,19 +14,17 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
 
-# TUSBAD_v12.5
-TUSB二次創作「TUSB_AD_v12.5.x」開発用データパック用リポジトリ
+# TUSBAD_v12R
+TUSB二次創作「TUSB_AD_v12R」開発用データパック用リポジトリ
 
 Discord:https://discord.gg/rTVWQm4ykR
 
 **非公式二次創作です。**
 
 # 内容
-TUSBv12とは一味、若しくは二味違う高難易度二次創作です。<br>
-v12を難なくクリアできる人や、他二次創作をクリアしている人向けの難易度になっています。<br>
 最終的なMCverは1.19.4or1.20になる予定です。<br>
 また、最初からすべて実装というわけではなく、アプデ毎に追加されていく形式をとります。<br>
-**※1.10.2版v12を1.19.xへアプデしたTUSBv12.5を元に作成しています。**
+**※1.10.2版v12を1.19.xへアプデしたTUSBv12Rを元に作成しています。**
 
 # 追加要素
 
