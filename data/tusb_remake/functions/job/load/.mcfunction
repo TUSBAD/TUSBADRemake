@@ -23,6 +23,8 @@ execute if score @s Job matches 6 run function tusb_remake:job/load/summoner
 
 ### MP回復速度 100 - Level tick
 #scoreboard players set @s CoolTickSpan -50
+### スキル取得メッセージを表示
+function tusb_remake:player/skill/learn/
 
 scoreboard players add @s MPMaxFlag 0
 scoreboard players set @s ModeSkillA 0
