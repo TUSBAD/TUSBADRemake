@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### 現在の職業のレベルと必要経験値をセーブデータとする
-data modify storage tusb_remake: SaveData set value {Level:0,ExpToLevel:0}
+#data modify storage tusb_remake: SaveData set value {Level:0,ExpToLevel:0}
 execute store result storage tusb_remake: SaveData.Level int 1 run scoreboard players get @s Level
 execute store result storage tusb_remake: SaveData.ExpToLevel int 1 run scoreboard players get @s ExpToLevel
 

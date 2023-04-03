@@ -16,8 +16,7 @@ execute store result storage tusb_remake: _ int 0.125 run scoreboard players get
 execute store result score @s HPMax run data get storage tusb_remake: _
 scoreboard players set @s[scores={HPMax_min=101..}] HPMax 100
 ### MP回復間隔 = 100 - Level
-scoreboard players set @s CoolTickSpan -100
-scoreboard players operation @s CoolTickSpan += @s Level
+scoreboard players set @s CoolTickSpan -50
 ### MP回復量 = MPMax / 50 + 3
 execute store result storage tusb_remake: _ int 0.02 run scoreboard players get @s MPMax
 execute store result score @s MPIncrement run data get storage tusb_remake: _
