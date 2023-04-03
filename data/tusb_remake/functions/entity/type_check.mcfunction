@@ -32,14 +32,14 @@ execute as @s[type=villager,nbt={VillagerData:{level:1}}] run data merge entity 
 execute as @s[type=minecraft:tnt] run data merge entity @s {Fuse:0s,Motion:[0d,0d,0d]}
 
 ### 強さ補正
-execute if data storage tusb_remake: difficulty_modifier{speed:1} run effect give @s[team=,type=!player] minecraft:speed 1000000 0 true
-execute if data storage tusb_remake: difficulty_modifier{speed:2} run effect give @s[team=,type=!player] minecraft:speed 1000000 1 true
-execute if data storage tusb_remake: difficulty_modifier{speed:3} run effect give @s[team=,type=!player] minecraft:speed 1000000 2 true
-execute if data storage tusb_remake: difficulty_modifier{speed:4} run effect give @s[team=,type=!player] minecraft:speed 1000000 3 true
-execute if data storage tusb_remake: difficulty_modifier{resistance:1} run effect give @s[team=,type=!player] minecraft:resistance 1000000 0 true
-execute if data storage tusb_remake: difficulty_modifier{resistance:2} run effect give @s[team=,type=!player] minecraft:resistance 1000000 1 true
-execute if data storage tusb_remake: difficulty_modifier{resistance:3} run effect give @s[team=,type=!player] minecraft:resistance 1000000 2 true
-execute if data storage tusb_remake: difficulty_modifier{resistance:4} run effect give @s[team=,type=!player] minecraft:resistance 1000000 3 true
+execute if data storage tusb_remake: difficulty_modifier{speed:1} run effect give @s[team=,type=!player] minecraft:speed infinite 0 true
+execute if data storage tusb_remake: difficulty_modifier{speed:2} run effect give @s[team=,type=!player] minecraft:speed infinite 1 true
+execute if data storage tusb_remake: difficulty_modifier{speed:3} run effect give @s[team=,type=!player] minecraft:speed infinite 2 true
+execute if data storage tusb_remake: difficulty_modifier{speed:4} run effect give @s[team=,type=!player] minecraft:speed infinite 3 true
+execute if data storage tusb_remake: difficulty_modifier{resistance:1} run effect give @s[team=,type=!player] minecraft:resistance infinite 0 true
+execute if data storage tusb_remake: difficulty_modifier{resistance:2} run effect give @s[team=,type=!player] minecraft:resistance infinite 1 true
+execute if data storage tusb_remake: difficulty_modifier{resistance:3} run effect give @s[team=,type=!player] minecraft:resistance infinite 2 true
+execute if data storage tusb_remake: difficulty_modifier{resistance:4} run effect give @s[team=,type=!player] minecraft:resistance infinite 3 true
 
 ### ゾンビピッグマンは常に怒らせる
 execute as @s[type=minecraft:zombified_piglin] run data merge entity @s {AngerTime:2147483647}
