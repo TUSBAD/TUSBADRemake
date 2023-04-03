@@ -14,9 +14,7 @@ body:
   attributes:
     label: 発生したTUSBADのVersion
     options:
-      - vβ0.1.0 (MCver1.10.2)
-      - vβ0.2.0 (MCver1.10.2)
-      - v12.5 (MCver1.19.x)
+      - v12R_1.0α (MCver1.19.4)
   validations:
     required: true
 - type: checkboxes
