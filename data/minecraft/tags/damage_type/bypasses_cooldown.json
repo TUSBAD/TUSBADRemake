@@ -1,7 +1,6 @@
 {
   "replace": true,
   "values": [
-    "minecraft:magic",
     "minecraft:arrow",
     "minecraft:player_attack"
   ]
