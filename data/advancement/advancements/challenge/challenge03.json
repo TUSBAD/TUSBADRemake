@@ -329,7 +329,7 @@
       "color": "white",
       "with": [
         {
-          "translate": "ディメンジョン",
+          "translate": "ディメンション",
           "bold": true,
           "color": "gold"
         }
@@ -344,7 +344,7 @@
     "show_toast": true,
     "title": {
       "translate": "冒険の時間",
-      "color": "white",
+      "color": "dark_purple",
       "bold": true
     }
   },
