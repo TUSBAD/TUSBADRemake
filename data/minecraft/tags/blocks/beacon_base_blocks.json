@@ -5,7 +5,7 @@
     "minecraft:tnt",
     "minecraft:cave_air",
     "minecraft:bedrock",
-    "minecraft:copper_block",
+    "#tusb_remake:coppers",
     "minecraft:netherite_block"
   ]
 }
