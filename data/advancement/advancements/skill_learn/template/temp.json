@@ -1,0 +1,24 @@
+{
+    "//": "備考等あればここにどうぞ。 This is template. If you make skill_learn_advancement message, you can use this template.",
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": "これはテンプレート用です",
+        "description": "スキルの説明",
+        "background": "各職業最初のところには背景画像を指定",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "template:settings_if_have_parent_advancement_like_lv_skills",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_future_if_job_data_determined"
+    }
+}
