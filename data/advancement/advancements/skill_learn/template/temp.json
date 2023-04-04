@@ -1,12 +1,11 @@
 {
-    "//": "備考等あればここにどうぞ。 This is template. If you make skill_learn_advancement message, you can use this template.",
+    "//": "備考等あればここにどうぞ。ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
     "display": {
         "icon": {
             "item": "minecraft:barrier"
         },
         "title": "これはテンプレート用です",
         "description": "スキルの説明",
-        "background": "各職業最初のところには背景画像を指定",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
