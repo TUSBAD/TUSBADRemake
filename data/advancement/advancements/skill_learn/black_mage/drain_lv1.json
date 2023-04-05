@@ -1,0 +1,23 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": "ドレイン",
+        "description": "付近のアンデッドでない敵単体から体力を吸収する。ニンジン棒を右クリック,効果範囲10m,消費MP25",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advancement:skill_learn/black_mage/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_future_if_job_data_determined"
+    }
+}

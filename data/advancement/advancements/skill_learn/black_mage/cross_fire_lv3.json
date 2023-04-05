@@ -1,0 +1,23 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": "クロスファイアーⅢ",
+        "description": "燃え盛る十字状の火炎を放つ。雪玉を投げる,効果範囲7m,消費MP10",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advancement:skill_learn/black_mage/cross_fire_lv2",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_future_if_job_data_determined"
+    }
+}
