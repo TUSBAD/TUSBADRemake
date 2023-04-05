@@ -1,0 +1,23 @@
+{
+    "//": "全てのスキル表示のもととなる部分",
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": "狩人",
+        "description": "弓を用いた遠距離攻撃を得意や敵の能力を下げる罠など、アウトレンジ戦法を得意とするハンター。",
+        "background": "minecraft:textures/block/green_wool.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}
