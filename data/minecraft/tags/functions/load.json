@@ -1,7 +1,6 @@
 {
 	"values": [
 		"tusb_remake:load/",
-		"tusb_remake:reload",
-		"score_damage:core/init"
+		"tusb_remake:reload"
 	]
 }

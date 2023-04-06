@@ -25,8 +25,8 @@ scoreboard players set MaxPortalCount Settings 150
 ### ワールド初期設定
 time set 14000
 weather rain 15
-data modify storage tusb_remake: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???"}
-data modify storage tusb_remake: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0}
+data modify storage tusb_remake: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???"}
+data modify storage tusb_remake: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0}
 data modify storage tusb_remake: nether_boss_count set value 1
 data modify storage tusb_remake: nether_boss_clear set value false
 
@@ -90,7 +90,7 @@ scoreboard objectives add TUSB dummy
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
-scoreboard objectives add HP dummy {"text": "体力","color": "#ff0053","bold": true}
+scoreboard objectives add HP dummy {"text": "💚","color": "#ff0053","bold": true}
 scoreboard objectives add HPChanging health "HP変化フラグ"
 scoreboard objectives add Food dummy
 scoreboard objectives add FoodChanging food "満腹度変化フラグ"
@@ -320,7 +320,7 @@ team modify NoCollision collisionRule never
 ### ゲームルール / ワールド設定
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
-gamerule sendCommandFeedback true
+gamerule sendCommandFeedback false
 gamerule reducedDebugInfo true
 gamerule naturalRegeneration false
 gamerule doEntityDrops true
