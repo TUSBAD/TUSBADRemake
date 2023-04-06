@@ -66,18 +66,18 @@ Discord:https://discord.gg/rTVWQm4ykR
 </details>
 
 # 謝辞
-このリポジトリでは以下のリポジトリの一部、ライブラリを使用させていただいてます。
+このリポジトリでは以下のリポジトリの一部を使用/参考にさせていただいています。
 
 #### [TUSB](https://skyblock.jp/)
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
-#### [TSB](https://tsb.scriptarts.jp/)
-* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)
+<!--#### [TSB](https://tsb.scriptarts.jp/)
+* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)-->
 
 # ライセンス
 このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。
 
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock) (Copyright by サークルTUSB)
-* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing) ([CC0 License](https://github.com/ProjectTSB/TheSkyBlessing/blob/master/LICENSE) / Copyright by ProjectTSB)
+<!--* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing) ([CC0 License](https://github.com/ProjectTSB/TheSkyBlessing/blob/master/LICENSE) / Copyright by ProjectTSB)-->
 
 # SpecialThanks
 Ponpon様(コマンドアドバイス)・mkm75様(パッチツール)・HikaruTsu様(Faweコマンドアドバイス)・赤石愛様(v12Rデータパック)
