@@ -5,7 +5,7 @@
             "item": "minecraft:glass_bottle"
         },
         "title": "真空斬りⅡ",
-        "description": "風の刀を発生させる。ダッシュジャンプ後に剣を振る,消費MP5",
+        "description": "風の刀を発生させる。剣を持ち敵を見てスニークをする。消費MP5",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
