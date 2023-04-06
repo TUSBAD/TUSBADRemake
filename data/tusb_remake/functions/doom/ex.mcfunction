@@ -4,7 +4,6 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ## 致死の宣告
-playsound entity.warden.heartbeat master @s[scores={DoomEX=11..40}] ~ ~ ~ 0.5 1 0.25
 # 軽減不可ダメージ
   # 引数を設定
     data modify storage score_damage: Argument set value {EPF:0,BypassArmor:true,BypassResistance:false,DeathCause:'[{"translate":"%1$sは%2$sと踊ってしまった。","with":[{"selector":"@s"},{"translate":"死の運命","color":"#aa16f1","bold":true}]}]'}
