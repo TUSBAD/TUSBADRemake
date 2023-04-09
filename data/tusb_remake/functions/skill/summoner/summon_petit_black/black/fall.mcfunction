@@ -9,7 +9,7 @@ particle minecraft:portal ~ ~-0.5 ~ 0 0 0 3 20 force
 
 ### 吸い込み効果 なんかめっちゃ目が回る感じになる！
 execute as @e[distance=..10,type=#tusb_remake:mob,nbt=!{Invulnerable:true}] rotated as @s run tp @s ~ ~1 ~ ~6 ~
-execute as @a[distance=..10,gamemode=!spectator] rotated as @s run tp @s ~ ~1 ~ ~6 ~
+#execute as @a[distance=..10,gamemode=!spectator] rotated as @s run tp @s ~ ~1 ~ ~6 ~
 
 ### ダメージ処理
 data modify storage score_damage: Argument set value {Damage:20.00}
