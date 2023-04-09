@@ -6,11 +6,8 @@
 ### スニーク
 execute if predicate tusb_remake:is_sneaking run function tusb_remake:skill/check_mp/sneak
 
-### 空腹ペナルティ (仮)
-scoreboard players set _ TUSB 0
-execute unless entity @s[nbt={ActiveEffects:[{Id:17}]}] run scoreboard players operation _ Global = @s MPIncrement
-execute if entity @s[nbt={ActiveEffects:[{Id:17}]}] run scoreboard players operation @s MPIncrement = _ TUSB
-execute unless entity @s[nbt={ActiveEffects:[{Id:17}]}] run scoreboard players operation @s MPIncrement = _ Global
+
+#execute if entity @s[nbt={ActiveEffects:[{Id:17}]}] run scoreboard players operation @s MPIncrement = _ TUSB
 
 ### エナジーセーブ
 execute if entity @s[tag=EnergySave] run function tusb_remake:skill/check_mp/energy_save
