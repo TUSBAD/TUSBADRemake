@@ -55,7 +55,7 @@ execute as @e[tag=MobCloud] at @s as @e[dx=0,tag=Enemy,sort=nearest,limit=1] at 
 execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft:slime_block if entity @p[distance=..65,gamemode=!spectator] run function tusb_remake:nether_boss/attack_check
 
 ## 死の宣告
-execute as @a[tag=Doom] run function tusb_remake:doom/
+execute as @a[tag=Doom] run function tusb_remake:doom/count
 execute as @a[tag=DoomEX] run function tusb_remake:doom/excount
 
 ## サバイバルスポナー処理

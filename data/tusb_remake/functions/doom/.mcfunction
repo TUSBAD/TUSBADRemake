@@ -1,18 +1,13 @@
 #> tusb_remake:doom/
-# 死の宣告の処理
+# 死の宣告の処理(ダメージ)
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
 ## 死の宣告
-scoreboard players remove @s DoomSecond 1
-scoreboard players remove @s[scores={DoomSecond=..0}] Doom 1
-title @s[scores={DoomSecond=..0,Doom=10..11}] actionbar [{"text":"☠ ","color":"#c60000","italic":false},{"text":"< ","color":"green","bold":true},{"text":"00","color":"#fe144f","bold":false,"italic":false},{"text":":","color":"green","bold":true,"italic":false},{"score":{"name":"*","objective":"Doom"},"color":"#fe144f","bold":false,"italic":false},{"text":" >","color":"green","bold":true,"italic":false},{"text":" ☠","color":"#c60000","italic":false}]
-title @s[scores={DoomSecond=..0,Doom=0..9}] actionbar [{"text":"☠ ","color":"#c60000","italic":false},{"text":"< ","color":"green","bold":true},{"text":"00","color":"#fe144f","bold":false,"italic":false},{"text":":","color":"green","bold":true,"italic":false},{"text":"0","color":"#fe144f","bold":false,"italic":false},{"score":{"name":"*","objective":"Doom"},"color":"#fe144f","bold":false,"italic":false},{"text":" >","color":"green","bold":true,"italic":false},{"text":" ☠","color":"#c60000","italic":false}]
-playsound block.comparator.click master @s[scores={DoomSecond=..0,Doom=4..11}] ~ ~10 ~ 10 1 1
-playsound block.bell.use master @s[scores={DoomSecond=..0,Doom=0..3}] ~ ~10 ~ 10 0.5 1
-scoreboard players set @s[scores={DoomSecond=..0}] DoomSecond 3
-gamerule showDeathMessages false
-execute if score @s Doom matches 0 run tellraw @a [{"translate":"%1$sは死の運命から逃れられなかった……","color": "red","with":[{"selector":"@s"}]}]
-kill @s[scores={Doom=..0}]
-gamerule showDeathMessages true
+# 引数を設定
+    data modify storage score_damage: Argument set value {Damage:1024,EPF:0,BypassArmor:true,BypassResistance:false,DeathCause:'[{"translate":"%2$sし、%1$sは生命活動を停止... 死んだのだ","with":[{"selector":"@s"},{"translate":"身体が爆発四散","color":"#ff3737"}]}]'}
+# 対象を実行者にしてfunctionを実行
+    execute as @s run function score_damage:api/attack
+# 引数を明示的にリセット
+    data remove storage score_damage: Argument
 tag @s[scores={Doom=..0}] remove Doom
