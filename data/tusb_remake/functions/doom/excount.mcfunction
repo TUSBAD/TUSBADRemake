@@ -12,6 +12,9 @@ title @s[scores={DoomEX=0..10}] title [{"text":"☠ ","color":"#d900ce","italic"
 #playsound entity.zombie_villager.converted master @s[scores={DoomEX=21..61}] ~ ~ ~ 0.5 0.8 0.25
 #playsound block.conduit.deactivate master @s[scores={DoomEX=21..61}] ~ ~ ~ 0.25 0.75 0.25
 #playsound block.beacon.deactivate master @s[scores={DoomEX=21..61}] ~ ~ ~ 0.5 0.85 0.5
-playsound block.comparator.click master @s[scores={DoomEX=31..61}] ~ ~ ~ 0.5 1 0.25
-playsound block.anvil.land master @s[scores={DoomEX=11..30}] ~ ~ ~ 0.5 1.414 0.25
-playsound block.bell.use master @a[scores={DoomEX=0..10}] ~ ~ ~ 0.25 0.5 0.05
+playsound block.comparator.click master @s[scores={DoomEX=41..61}] ~ ~ ~ 0.5 1 0.25
+playsound block.anvil.land master @s[scores={DoomEX=21..40}] ~ ~ ~ 0.5 1.414 0.25
+playsound block.bell.use master @a[scores={DoomEX=11..20}] ~ ~ ~ 0.25 0.5 0.05
+playsound minecraft:block.conduit.deactivate hostile @a[distance=..64,scores={DoomEX=0..10}] ~ ~ ~ 0.5 0.15
+playsound minecraft:entity.elder_guardian.curse hostile @a[distance=..64,scores={DoomEX=0..10}] ~ ~ ~ 0.25 1.5
+playsound minecraft:item.shield.break hostile @a[distance=..64,scores={DoomEX=0..10}] ~ ~ ~ 0.25 0
