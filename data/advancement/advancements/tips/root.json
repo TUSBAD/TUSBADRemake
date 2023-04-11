@@ -19,7 +19,7 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/lime_stained_glass.png"
+    "background": "minecraft:textures/block/green_concrete.png"
   },
   "criteria": {
     "tick": {
