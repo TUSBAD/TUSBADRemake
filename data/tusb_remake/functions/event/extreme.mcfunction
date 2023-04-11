@@ -3,9 +3,6 @@
 ### This software is released under the MIT License, see LICENSE.
 # extreme
 
-### 攻略%を取得
-execute store result score _ TUSB run data get storage tusb_remake: conquer.rate.int
-scoreboard players operation #ConqCheck Global = _ TUSB
 ### 攻略%に応じて次の予感タイマーをセットする
 execute if score _ TUSB matches ..10 run function tusb_remake:event/extreme_timer/0
 execute if score _ TUSB matches 11..39 run function tusb_remake:event/extreme_timer/1

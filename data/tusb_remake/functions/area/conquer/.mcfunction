@@ -43,3 +43,6 @@ scoreboard players reset @s UseEnderEye
 execute in minecraft:overworld if block 3 77 87 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/luna
 ### 交易島だった場合、祈りを解禁
 execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/traders_island
+
+### 攻略%を取得
+execute store result score #ConqCheck Global run data get storage tusb_remake: conquer.rate.int
