@@ -1,0 +1,23 @@
+{
+    "//": "ダメージや消費MP諸々の数値はTUSBv12(1.10.2)wikiからの数値を参照。v12Rと異なる可能性あり。",
+    "display": {
+        "icon": {
+            "item": "minecraft:white_wool"
+        },
+        "title": "フィールα",
+        "description": "自分の足元に5x5の羊毛の足場を召喚する。アドベンチャーダンジョンでは使用できない。人参棒を右クリック,消費MP30 +スニーク 周囲のプレイヤーの足元に5x5の羊毛の足場を召喚する。人参棒を右クリック,範囲15m,消費MP90",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advancement:skill_learn/summoner/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_future_if_job_data_determined"
+    }
+}

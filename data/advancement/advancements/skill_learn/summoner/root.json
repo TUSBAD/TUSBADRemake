@@ -1,0 +1,23 @@
+{
+    "//": "全てのスキル表示のもととなる部分",
+    "display": {
+        "icon": {
+            "item": "minecraft:villager_spawn_egg"
+        },
+        "title": "召喚士",
+        "description": "生物から物質まで様々なものを呼び出して攻撃や支援を行う、召喚魔法のエキスパート。",
+        "background": "minecraft:textures/block/grass_block.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "template:set_if_job_data_determined"
+    }
+}
