@@ -15,7 +15,7 @@
                 "with": [
                     {
                         "translate": "知識",
-                        "color": "gold",
+                        "color": "yellow",
                         "bold": true
                     },
                     {
@@ -34,7 +34,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/block/crafting_table.png"
+        "background": "minecraft:textures/block/bookshelf.png"
     },
     "criteria": {
         "enter": {
