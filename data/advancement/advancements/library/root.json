@@ -34,7 +34,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/block/loom.png"
+        "background": "minecraft:textures/block/crafting_table.png"
     },
     "criteria": {
         "enter": {
