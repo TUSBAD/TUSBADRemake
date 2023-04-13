@@ -44,6 +44,18 @@
 		{
 			"condition": "reference",
 			"name": "tusb_remake:area/tradeisland"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/imaginary"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/another_dimension"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/unusual"
 		}
 	]
 }

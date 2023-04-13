@@ -16,10 +16,6 @@
 		{
 			"condition": "reference",
 			"name": "tusb_remake:area/revskyland"
-		},
-		{
-			"condition": "reference",
-			"name": "tusb_remake:area/another_dimension"
 		}
 	]
 }
