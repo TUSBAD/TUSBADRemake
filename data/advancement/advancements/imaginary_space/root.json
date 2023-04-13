@@ -33,7 +33,7 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/block/dead_bublue_coral_block.png"
+        "background": "minecraft:textures/block/dead_bubble_coral_block.png"
     },
     "criteria": {
         "enter": {
