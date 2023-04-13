@@ -8,35 +8,30 @@
                 "text": ""
             },
             {
-                "translate": "浄化%1$s %2$s",
-                "color": "aqua",
+                "translate": "解放%1$s %2$s",
+                "color": "green",
                 "bold": true,
                 "with": [
                     {
-                        "translate": "「炎天の守護者",
-                        "color": "gold",
+                        "translate": "「原初の守護者",
+                        "color": "white",
                         "bold": true
                     },
                     {
-                        "translate": "ソル」",
-                        "color": "gold",
+                        "translate": "スピカ」",
+                        "color": "white",
                         "bold": true
                     }
                 ]
             }
         ],
         "description": {
-            "translate": "通常世界の守護者%1$sと対峙し、\n%2$sから解放する。",
+            "translate": "全ての守護者を解放し、\n%1$sを破壊する。",
             "color": "white",
             "with": [
                 {
-                    "translate": "「ソル」",
-                    "color": "gold",
-                    "bold": true
-                },
-                {
-                    "translate": "異空間",
-                    "color": "dark_purple",
+                    "translate": "中央のクリスタル",
+                    "color": "light_purple",
                     "bold": true
                 }
             ]

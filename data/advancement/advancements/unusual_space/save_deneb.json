@@ -13,25 +13,25 @@
                 "bold": true,
                 "with": [
                     {
-                        "translate": "「炎天の守護者",
-                        "color": "gold",
+                        "translate": "「神山の守護者",
+                        "color": "green",
                         "bold": true
                     },
                     {
-                        "translate": "ソル」",
-                        "color": "gold",
+                        "translate": "デネブ」",
+                        "color": "green",
                         "bold": true
                     }
                 ]
             }
         ],
         "description": {
-            "translate": "通常世界の守護者%1$sと対峙し、\n%2$sから解放する。",
+            "translate": "テーブルマウンテンの守護者%1$sと対峙し、\n%2$sから解放する。",
             "color": "white",
             "with": [
                 {
-                    "translate": "「ソル」",
-                    "color": "gold",
+                    "translate": "「デネブ」",
+                    "color": "green",
                     "bold": true
                 },
                 {
