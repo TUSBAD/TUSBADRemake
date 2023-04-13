@@ -15,3 +15,9 @@ execute if data storage anywhere: at{Dimension:"tusb_remake:trade"} in tusb_rema
 execute if data storage anywhere: at{Dimension:"tusb_remake:table"} in tusb_remake:table run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:tocult"} in tusb_remake:tocult run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:underworld"} in tusb_remake:underworld run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:unusual"} in tusb_remake:unusual run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:niflheimr"} in tusb_remake:niflheimr run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:ancient"} in tusb_remake:ancient run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:airport"} in tusb_remake:airport run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:another"} in tusb_remake:another run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"tusb_remake:imaginary"} in tusb_remake:imaginary run function #anywhere:function

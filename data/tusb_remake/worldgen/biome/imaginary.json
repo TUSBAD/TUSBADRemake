@@ -14,9 +14,9 @@
     "foliage_color": 7701650,
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 600,
+      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 0
+      "offset": 2.0
     },
     "additions_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
@@ -30,9 +30,9 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:soul"
+        "type": "minecraft:nautilus"
       },
-      "probability": 0.005
+      "probability": 0.002
     }
   },
   "spawners": {},
