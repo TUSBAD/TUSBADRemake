@@ -6,16 +6,16 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 9494521,
-    "fog_color": 12775679,
-    "water_color": 8189438,
-    "water_fog_color": 7727359,
-    "grass_color": 3531576,
-    "foliage_color": 2419525,
+    "sky_color": 11820609,
+    "fog_color": 11829599,
+    "water_color": 9395357,
+    "water_fog_color": 5646204,
+    "grass_color": 3670128,
+    "foliage_color": 7152528,
     "music": {
       "sound": "minecraft:music.overworld.old_growth_taiga",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 4000,
       "replace_current_music": false
     },
     "particle": {
