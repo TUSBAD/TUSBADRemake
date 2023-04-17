@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:skyland",
+  "type": "tusb_remake:oldskyland",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:skyland",
+      "biome": "tusb_remake:oldskyland",
       "layers": []
     }
   }

@@ -1,0 +1,11 @@
+{
+    "type": "tusb_remake:newskyland",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "tusb_remake:newskyland",
+        "layers": [],
+        "structure_overrides": []
+      }
+    }
+  }
