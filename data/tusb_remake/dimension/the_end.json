@@ -1,0 +1,11 @@
+{
+    "type": "tusb_remake:the_end",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "tusb_remake:the_end",
+        "layers": [],
+        "structure_overrides": []
+      }
+    }
+  }
