@@ -44,8 +44,8 @@ execute if data storage tusb_remake: difficulty_modifier{resistance:4} run effec
 ### ゾンビピッグマンは常に怒らせる
 execute as @s[type=minecraft:zombified_piglin] run data merge entity @s {AngerTime:2147483647}
 
-### クリーパーの爆発を早める
-execute as @s[type=minecraft:creeper,nbt={Fuse:30s}] run data merge entity @s {Fuse:15s}
+### クリーパーの爆発を広くする。
+execute as @s[type=minecraft:creeper,nbt={ExplosionRadius:3b}] run data merge entity @s {ExplosionRadius:6b}
 ### クリーパー産のAECは消す
 kill @s[type=minecraft:area_effect_cloud,nbt={RadiusPerTick:-0.008333334f}]
 
