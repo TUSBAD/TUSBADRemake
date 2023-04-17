@@ -6,10 +6,10 @@
 ### リメイク：盲目時間を75%に変更
 ### リメイクリメイク：暗闇に変更
 tellraw @s[scores={Hunger=0..3}] [{"text":"どこからか声が聞こえる…。\n「腹が減っては探索できぬぞ。」\n"},{"text":"お腹が少し満たされた。\n","color":"aqua"},{"text":"目の前が真っ暗になった。","color":"light_purple"}]
-effect give @s[scores={Hunger=0}] minecraft:darkness 30 0 true
-effect give @s[scores={Hunger=1}] minecraft:darkness 25 0 true
-effect give @s[scores={Hunger=2}] minecraft:darkness 20 0 true
-effect give @s[scores={Hunger=3}] minecraft:darkness 15 0 true
+effect give @s[scores={Hunger=0}] minecraft:darkness 20 0 true
+effect give @s[scores={Hunger=1}] minecraft:darkness 15 0 true
+effect give @s[scores={Hunger=2}] minecraft:darkness 10 0 true
+effect give @s[scores={Hunger=3}] minecraft:darkness 5 0 true
 
 scoreboard players operation @s FoodMax = @s Hunger
 scoreboard players set @s[scores={FoodMax=0..3}] FoodMax 4
