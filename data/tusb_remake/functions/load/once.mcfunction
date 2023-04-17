@@ -48,7 +48,7 @@ data remove storage tusb_remake: portal
 execute store result storage tusb_remake: start_time int 1 run time query gametime
 
 ### スキルスロットのタイトルを設定
-data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"text":"サポートアクション","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"サポートアクション","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'},mode:{a:'[{"text":"モードスキル","color":"yellow"},{"text":"-ルビー-","color":"red"}]',b:'[{"text":"モードスキル","color":"yellow"},{"text":"-サファイア-","color":"dark_aqua"}]'}}
+data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"text":"サポートアクション","color":"yellow"},{"text":"-ルビー-","color":"#d12e59"}]',b:'[{"text":"サポートアクション","color":"yellow"},{"text":"-サファイア-","color":"#379bff"}]'},mode:{a:'[{"text":"モードスキル","color":"yellow"},{"text":"-ルビー-","color":"#d12e59"}]',b:'[{"text":"モードスキル","color":"yellow"},{"text":"-サファイア-","color":"#379bff"}]'}}
 
 ### ADのverを設定
 data modify storage tusb_remake: mapversion set value 1.0.0
