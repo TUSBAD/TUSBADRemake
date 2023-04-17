@@ -10,12 +10,12 @@
   "natural": true,
   "coordinate_scale": 1.0,
   "piglin_safe": true,
-  "fixed_time": 6000,
+  "fixed_time": 114000,
   "has_skylight": true,
   "has_ceiling": false,
-  "height": 512,
+  "height": 320,
   "min_y": 0,
-  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_block_light_limit": 10,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
     "value": {
