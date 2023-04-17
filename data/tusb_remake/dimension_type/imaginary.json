@@ -10,7 +10,7 @@
   "natural": true,
   "coordinate_scale": 1.0,
   "piglin_safe": true,
-  "fixed_time": 114000,
+  "fixed_time": 6000,
   "has_skylight": true,
   "has_ceiling": false,
   "height": 320,
