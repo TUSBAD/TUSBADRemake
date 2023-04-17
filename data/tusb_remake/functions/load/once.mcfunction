@@ -90,7 +90,7 @@ scoreboard objectives add TUSB dummy
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
-scoreboard objectives add HP dummy {"text": "💚","color": "#ff0053","bold": true}
+scoreboard objectives add HP dummy {"text": "体力","color": "#ff0053","bold": true}
 scoreboard objectives add HPChanging health "HP変化フラグ"
 scoreboard objectives add Food dummy
 scoreboard objectives add FoodChanging food "満腹度変化フラグ"
