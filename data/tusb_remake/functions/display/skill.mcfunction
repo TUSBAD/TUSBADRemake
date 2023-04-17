@@ -4,19 +4,20 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### モードスキル表示
-tellraw @s ["= ",{"text":"モードスキル","bold":true}," ="]
+tellraw @s[scores={ModeState=-1}] ["= ",{"translate":"現在のモードスキル設定(%1$s中)","bold":true,"with": [{"translate":"ルビーモード","bold": true,"color": "#d12e59"}]}," ="]
+tellraw @s[scores={ModeState=1}] ["= ",{"translate":"現在のモードスキル設定(%1$s中)","bold":true,"with": [{"translate":"サファイアモード","bold": true,"color": "#0054A6"}]}," ="]
 scoreboard players operation @s ShowSkill = @s ModeSkillA
-data modify storage tusb_remake: prefix set value '{"text":"・","color":"light_purple"}'
+data modify storage tusb_remake: prefix set value '{"text":"・","color":"#d12e59"}'
 function tusb_remake:player/skill/show/display
 scoreboard players operation @s ShowSkill = @s ModeSkillB
-data modify storage tusb_remake: prefix set value '{"text":"・","color":"dark_aqua"}'
+data modify storage tusb_remake: prefix set value '{"text":"・","color":"#0054A6"}'
 function tusb_remake:player/skill/show/display
 
 ### 即時スキル表示
-tellraw @s ["= ",{"text":"サポートアクション","bold":true}," ="]
+tellraw @s ["= ",{"translate":"現在のサポートスキル設定","bold":true}," ="]
 scoreboard players operation @s ShowSkill = @s InstantSkillA
-data modify storage tusb_remake: prefix set value '{"text":"・","color":"light_purple"}'
+data modify storage tusb_remake: prefix set value '{"text":"・","color":"#d12e59"}'
 function tusb_remake:player/skill/show/display
 scoreboard players operation @s ShowSkill = @s InstantSkillB
-data modify storage tusb_remake: prefix set value '{"text":"・","color":"dark_aqua"}'
+data modify storage tusb_remake: prefix set value '{"text":"・","color":"#0054A6"}'
 function tusb_remake:player/skill/show/display

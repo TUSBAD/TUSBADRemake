@@ -3,7 +3,7 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-tellraw @s {"text":"ルビーモードにチェンジ！","color":"red","bold":true}
+tellraw @s {"text":"ルビーモードにチェンジ！","color":"#d12e59","bold":true}
 playsound minecraft:block.note_block.harp master @s ~ ~ ~ 1 1.42 0
 scoreboard players operation @s CurrentMode = @s ModeSkillA
 scoreboard players operation @s CurrentModeCost = @s ModeCostA
