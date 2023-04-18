@@ -13,7 +13,7 @@
   "effects": "minecraft:overworld",
   "infiniburn": "#minecraft:infiniburn_nether",
   "min_y": -336,
-  "height": 16,
+  "height": 336,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
     "value": {
