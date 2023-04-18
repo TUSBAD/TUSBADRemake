@@ -56,6 +56,10 @@
 		{
 			"condition": "reference",
 			"name": "tusb_remake:area/unusual"
+		},
+		{
+			"condition": "reference",
+			"name": "tusb_remake:area/niflheimr"
 		}
 	]
 }

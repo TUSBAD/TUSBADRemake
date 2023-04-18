@@ -11,3 +11,4 @@ execute as @a[scores={HPChanging=0..},nbt=!{AbsorptionAmount:0f}] run function t
 
 #### 奈落介錯 y=-130以下
 kill @a[predicate=tusb_remake:in_void,scores={HP=1..}]
+kill @a[predicate=tusb_remake:in_deep_void,scores={HP=1..}]
