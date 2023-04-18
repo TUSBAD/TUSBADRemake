@@ -26,12 +26,6 @@
       "min_delay": 0,
       "max_delay": 2000,
       "replace_current_music": false
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:electric_spark"
-      },
-      "probability": 0.001
     }
   },
   "spawners": {},
