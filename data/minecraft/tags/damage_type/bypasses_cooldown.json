@@ -17,6 +17,8 @@
         "minecraft:freeze",
         "minecraft:generic",
         "minecraft:in_wall",
+        "minecraft:on_fire",
+        "minecraft:in_fire",
         "minecraft:lightning_bolt",
         "minecraft:mob_attack",
         "minecraft:mob_attack_no_aggro",
