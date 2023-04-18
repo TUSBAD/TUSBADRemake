@@ -5,7 +5,8 @@
 
 # 軽減不可ダメージ
   # 引数を設定
-    data modify storage score_damage: Argument set value {Damage:15,EPF:0,BypassArmor:true,BypassResistance:true,DeathCause:'[{"translate":"%1$sは%2$s。","with":[{"selector":"@s"},{"translate":"命を消された","color":"#aa00ea","bold":true}]}]'}
+    data modify storage score_damage: Argument set value {EPF:0,BypassArmor:true,BypassResistance:true,DeathCause:'[{"translate":"%1$sは%2$s。","with":[{"selector":"@s"},{"translate":"命を消された","color":"#aa00ea","bold":true}]}]'}
+    execute store result storage score_damage: Argument.Damage float 0.25 run attribute @s generic.max_health get
     playsound entity.warden.heartbeat master @s ~ ~ ~ 0.85 1
     particle minecraft:damage_indicator ~ ~1 ~ 0.5 0.5 0.5 0.05 25 force @s
     effect give @s blindness 5 2 true
