@@ -11,6 +11,16 @@
     "water_fog_color": 13055,
     "grass_color": 9698924,
     "foliage_color": 16689639,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.amethyst_block.chime",
+      "tick_chance": 0.005
+    },
     "music": {
       "sound": "minecraft:music.stand_tall",
       "min_delay": 0,
@@ -19,7 +29,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:reverse_portal"
+        "type": "minecraft:electric_spark"
       },
       "probability": 0.001
     }
