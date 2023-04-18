@@ -22,7 +22,7 @@
       "options": {
         "type": "minecraft:sculk_soul"
       },
-      "probability": 0.005
+      "probability": 0.001
     }
   },
   "spawners": {},

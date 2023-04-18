@@ -19,9 +19,11 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:redstone_wire_dust_particle"
+        "type": "minecraft:dust",
+        "color": "1.0 0.0 0.0",
+        "scale": 0.5
       },
-      "probability": 0.005
+      "probability": 0.001
     }
   },
   "spawners": {},
