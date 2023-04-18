@@ -19,10 +19,11 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:dust",
-        "color": "1.0 0.0 0.0",
-        "scale": 0.5
-      },
+        "type": "minecraft:falling_dust",
+        "value": {
+          "Name": "minecraft:red_concrete_powder",
+          "Properties": {}
+        }},
       "probability": 0.001
     }
   },

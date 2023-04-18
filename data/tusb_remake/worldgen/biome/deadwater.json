@@ -19,8 +19,11 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:redstone_wire_dust_particle"
-      },
+        "type": "minecraft:falling_dust",
+        "value": {
+          "Name": "minecraft:red_concrete_powder",
+          "Properties": {}
+        }},
       "probability": 0.001
     }
   },

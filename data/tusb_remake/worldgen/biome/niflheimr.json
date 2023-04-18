@@ -20,7 +20,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:dolphin"
+        "type": "minecraft:underwater"
       },
       "probability": 0.001
     }
