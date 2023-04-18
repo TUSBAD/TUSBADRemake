@@ -20,7 +20,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:underwater"
+        "type": "minecraft:bubble"
       },
       "probability": 0.001
     }
