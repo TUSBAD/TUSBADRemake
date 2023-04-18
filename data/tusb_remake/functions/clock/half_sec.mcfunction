@@ -5,11 +5,11 @@
 
 ### 特殊エリアでの水ダメージ
 execute as @a[predicate=tusb_remake:fluid_gimmic_area,predicate=tusb_remake:is_in_water/include_flowing,predicate=!tusb_remake:area/deadwater] at @s run function tusb_remake:clock/gimmic/fluid/water_damage
-execute as @a[predicate=tusb_remake:area/deadwater,predicate=tusb_remake:is_in_water/include_flowing] at @s run function tusb_remake:clock/gimmic/fluid/deadwater_damage
+execute as @a[predicate=tusb_remake:area/deadwater,predicate=tusb_remake:is_in_water/include_flowing,scores={HP=1..}] at @s run function tusb_remake:clock/gimmic/fluid/deadwater_damage
 
 ### 特殊エリアでの溶岩ダメージ
 execute as @a[predicate=tusb_remake:fluid_gimmic_area,predicate=tusb_remake:is_in_lava/include_flowing,predicate=!tusb_remake:area/deadwater] at @s run function tusb_remake:clock/gimmic/fluid/lava_damage
-execute as @a[predicate=tusb_remake:area/deadwater,predicate=tusb_remake:is_in_lava/include_flowing] at @s run function tusb_remake:clock/gimmic/fluid/deadwater_damage
+execute as @a[predicate=tusb_remake:area/deadwater,predicate=tusb_remake:is_in_lava/include_flowing,scores={HP=1..}] at @s run function tusb_remake:clock/gimmic/fluid/deadwater_damage
 
 ### 致死の宣告
 execute as @a[tag=DoomEX] run function tusb_remake:doom/ex
