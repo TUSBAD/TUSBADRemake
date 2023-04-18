@@ -7,10 +7,10 @@
   "effects": {
     "sky_color": 8840958,
     "fog_color": 4752894,
-    "water_color": 16694109,
-    "water_fog_color": 16754217,
+    "water_color": 28415,
+    "water_fog_color": 13055,
     "grass_color": 14155372,
-    "foliage_color": 16756201,
+    "foliage_color": 16762864,
     "music": {
       "sound": "minecraft:music.stand_tall",
       "min_delay": 0,
