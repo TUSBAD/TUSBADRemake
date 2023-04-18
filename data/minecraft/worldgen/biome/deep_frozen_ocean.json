@@ -15,14 +15,14 @@
     "music": {
       "sound": "minecraft:music.overworld.snowy_slopes",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {
       "options": {
         "type": "minecraft:instant_effect"
       },
-      "probability": 0.001
+      "probability": 0.0005
     }
   },
   "spawners": {},

@@ -16,14 +16,14 @@
     "music": {
       "sound": "minecraft:music.credits",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
       },
-      "probability": 0.001
+      "probability": 0.0005
     }
   },
   "spawners": {},
