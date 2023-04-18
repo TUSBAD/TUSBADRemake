@@ -13,9 +13,9 @@
     "grass_color": 12517058,
     "foliage_color": 13106175,
     "music": {
-      "sound": "music.overworld.snowy_slopes",
+      "sound": "music.one_more_day",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {

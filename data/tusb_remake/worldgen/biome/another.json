@@ -15,7 +15,7 @@
     "music": {
       "sound": "minecraft:music.nether.crimson_forest",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {

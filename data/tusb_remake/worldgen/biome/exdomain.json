@@ -13,9 +13,9 @@
     "grass_color": 15073276,
     "foliage_color": 15073279,
     "music": {
-      "sound": "minecraft:music.overworld.old_growth_taiga",
+      "sound": "minecraft:music.left_to_bloom",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {

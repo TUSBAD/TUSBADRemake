@@ -13,9 +13,9 @@
     "grass_color": 10066329,
     "foliage_color": 4539717,
     "music": {
-      "sound": "minecraft:music.nether.soul_sand_valley",
+      "sound": "minecraft:music.nether.nether_wastes_rare",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {

@@ -12,9 +12,9 @@
     "grass_color": 7667712,
     "foliage_color": 6052956,
     "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
+      "sound": "minecraft:music.wending",
       "min_delay": 0,
-      "max_delay": 0,
+      "max_delay": 2000,
       "replace_current_music": false
     },
     "particle": {
