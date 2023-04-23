@@ -10,7 +10,7 @@
     execute as @s[predicate=tusb_remake:biome/underworld] run execute store result storage score_damage: Argument.Damage float 0.05 run data get entity @s Health
     execute as @s[predicate=!tusb_remake:biome/underworld] run execute store result storage score_damage: Argument.Damage float 0.2 run data get entity @s Health
     execute as @s[scores={HP=..1}] run data modify storage score_damage: Argument.Damage set value 100
-    playsound enchant.thorns.hit master @s ~ ~ ~ 0.25 1
+    playsound block.fire.extinguish master @s ~ ~ ~ 0.25 1
     particle minecraft:soul ~ ~1 ~ 0.5 0.5 0.5 0.05 25 force @s
     effect give @s slowness 5 2 true
     effect give @s[scores={HP=..20}] fire_resistance 1 127 true

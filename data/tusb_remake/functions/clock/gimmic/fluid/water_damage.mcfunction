@@ -9,7 +9,7 @@
     execute as @s[predicate=tusb_remake:biome/underworld] run execute store result storage score_damage: Argument.Damage float 0.05 run data get entity @s Health
     execute as @s[predicate=!tusb_remake:biome/underworld] run execute store result storage score_damage: Argument.Damage float 0.2 run data get entity @s Health
     execute as @s[scores={HP=..1}] run data modify storage score_damage: Argument.Damage set value 100
-    playsound block.fire.extinguish master @s ~ ~ ~ 0.25 0.65
+    playsound classic.uo master @s ~ ~ ~ 0.25 0.65
     particle minecraft:sculk_soul ~ ~1 ~ 0.5 0.5 0.5 0.05 25 force @s
     effect give @s mining_fatigue 5 2 true
   # 対象を実行者にしてfunctionを実行
