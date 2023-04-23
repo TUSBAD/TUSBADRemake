@@ -6,12 +6,12 @@
   "creature_spawn_probability": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 12463405,
-    "fog_color": 10904676,
-    "water_color": 16734464,
-    "water_fog_color": 14352384,
-    "grass_color": 16743168,
-    "foliage_color": 14357524
+    "sky_color": 4718592,
+    "fog_color": 2490368,
+    "water_color": 16639,
+    "water_fog_color": 3801282,
+    "foliage_color": 16738816,
+    "grass_color": 16750848
   },
   "spawners": {},
   "spawn_costs": {},
