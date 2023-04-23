@@ -16,7 +16,7 @@
       "sound": "minecraft:music.overworld.grove",
       "min_delay": 0,
       "max_delay": 2000,
-      "replace_current_music": false
+      "replace_current_music": true
     },
     "particle": {
       "options": {
