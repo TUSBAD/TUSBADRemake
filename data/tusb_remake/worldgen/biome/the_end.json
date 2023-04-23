@@ -30,7 +30,7 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:dripping_obsidian"
+        "type": "minecraft:dripping_obsidian_tear"
       },
       "probability": 0.001
     }
