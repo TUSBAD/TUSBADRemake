@@ -6,12 +6,12 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 4325376,
-    "fog_color": 9371648,
+    "sky_color": 4718592,
+    "fog_color": 2490368,
     "water_color": 5046384,
     "water_fog_color": 0,
-    "grass_color": 16724736,
-    "foliage_color": 16738842,
+    "foliage_color": 16738816,
+    "grass_color": 16750848,
     "music": {
       "sound": "minecraft:music.warmth",
       "min_delay": 0,
