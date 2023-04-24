@@ -3,7 +3,7 @@
     "requirement": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "minecraft:overworld"
+        "to": "tusb_remake:newskyland"
       }
     }
   },

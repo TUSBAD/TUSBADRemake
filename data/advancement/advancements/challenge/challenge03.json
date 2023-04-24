@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "dimension": "minecraft:overworld"
+                "dimension": "tusb_remake:newskyland"
               }
             }
           }
@@ -105,7 +105,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "dimension": "minecraft:the_nether"
+                "dimension": "tusb_remake:the_nether"
               }
             }
           }
@@ -121,7 +121,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "dimension": "minecraft:the_end"
+                "dimension": "tusb_remake:the_end"
               }
             }
           }
