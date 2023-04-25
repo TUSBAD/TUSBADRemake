@@ -354,3 +354,6 @@ scoreboard objectives setdisplay sidebar MP
 scoreboard objectives setdisplay belowName HP
 
 # execute in minecraft:overworld positioned -1896.000000 118.000000 -136.000000 run summon minecraft:marker ~ ~ ~ {CustomName:'"システムマーカー"',UUID:[I;0,1,0,1]}
+
+### ADで追加した一回処理群の実行
+function tusb_remake:load/once_add
