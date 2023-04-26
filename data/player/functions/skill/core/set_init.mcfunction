@@ -5,8 +5,8 @@
 #
 
 # 初期化
-    data remove storage tusb_remake:skill Data
-    data remove storage tusb_remake:skill Temp
+    data remove storage tusb_remake_skill: Data
+    data remove storage tusb_remake_skill: Temp
 
 # デバッグ用
     function #player:skill_init/template
