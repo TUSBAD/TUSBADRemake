@@ -79,13 +79,12 @@ scoreboard objectives add TUSB dummy
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
-scoreboard objectives add HP dummy {"text": "体力","color": "#ff0053","bold": true}
+# scoreboard objectives add HP dummy {"text": "体力","color": "#ff0053","bold": true}
 scoreboard objectives add HPChanging health "HP変化フラグ"
 scoreboard objectives add Food dummy
 scoreboard objectives add FoodChanging food "満腹度変化フラグ"
 scoreboard objectives add Hunger dummy "空腹減少量"
 scoreboard objectives add Armor armor "アーマーポイント"
-scoreboard objectives add HPMax dummy "最大HP"
 scoreboard objectives add FoodMax dummy "最大満腹量"
 
 # scoreboard objectives add RefreshHPMax minecraft.used:minecraft.milk_bucket "最大HP更新フラグ"
@@ -98,8 +97,8 @@ scoreboard objectives add TutorialReading dummy "チュートリアル読んで�
 scoreboard objectives add Drop minecraft.custom:minecraft.drop
 
 ### MP
-scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
-scoreboard objectives add MPMax dummy "最大MP"
+# scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
+# scoreboard objectives add MPMax dummy "最大MP"
 scoreboard objectives add MPMaxFlag dummy "MP回復済フラグ"
 scoreboard objectives add XPbar dummy "経験値バー"
 scoreboard players set #1000 XPbar 1000
@@ -128,7 +127,7 @@ scoreboard objectives add NextExp dummy "必要経験値"
 scoreboard objectives add ExpToLevel dummy "次のレベルアップまでの経験値"
 
 ### 各ジョブのレベルと残り経験値
-scoreboard objectives add Level dummy "レベル"
+# scoreboard objectives add Level dummy "レベル"
 
 ### 即時スキル(すぐ効果がでるスキル)
 scoreboard objectives add InstantSkillA dummy "即時スキルA"
