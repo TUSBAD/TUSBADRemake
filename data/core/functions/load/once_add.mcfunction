@@ -15,6 +15,7 @@
     execute in tusb_remake:test positioned 10005 5 10005 run function calc:system_marker/tp_00002
 
 #> トリガー
+### tusb_remake側と重複があるので完成後remake側を削除したほうがよさそう。
     scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒クリック"}
     scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 
