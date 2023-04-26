@@ -2,5 +2,11 @@
     "pack":{
         "pack_format": 12,
         "description": "TUSBAD for v12R"
-    }
+    },
+    "features": {
+        "enabled": [
+          "bundle",
+          "update_1_20"
+        ]
+      }
 }
