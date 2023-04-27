@@ -11,14 +11,14 @@
     scoreboard players set @s AllExp 0
     scoreboard players set @s HPMax 20
     scoreboard players set @s MPMax 100
-    scoreboard players set @s ElementFire 1000
-    scoreboard players set @s ElementWater 1000
-    scoreboard players set @s ElementIce 1000
-    scoreboard players set @s ElementThunder 1000
-    scoreboard players set @s ElementWind 1000
+    scoreboard players set @s ElementPyro 1000
+    scoreboard players set @s ElementHydro 1000
+    scoreboard players set @s ElementCryo 1000
+    scoreboard players set @s ElementElectro 1000
+    scoreboard players set @s ElementAnemo 1000
     scoreboard players set @s ElementDendro 1000
-    scoreboard players set @s ElementLight 1000
-    scoreboard players set @s ElementDark 1000
+    scoreboard players set @s ElementLumo 1000
+    scoreboard players set @s ElementUmbro 1000
     scoreboard players set @s SP 3
     scoreboard players set @s ATK 1
     scoreboard players set @s MATK 1
@@ -34,4 +34,3 @@
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ModeSkills set value [[{},{}],[{},{}]]
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SupportSkills set value [[{},{}],[{},{}]]
     function player:tick/trigger/first_join/set_skill_storage
-    

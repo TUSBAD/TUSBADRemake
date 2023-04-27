@@ -31,21 +31,21 @@
     scoreboard objectives add Job dummy {"text":"職業"}
     scoreboard objectives add Exp dummy {"text":"経験値"}
     scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
-    scoreboard objectives add HP dummy {"text":"HP"}
+    scoreboard objectives add HP dummy {"text": "HP","color": "#ff0053","bold": true}
     scoreboard objectives add HPMax dummy {"text":"HP最大値"}
     scoreboard objectives add HPHealing dummy {"text":"HP回復量"}
     scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
     scoreboard objectives add MPMax dummy {"text":"MP最大値"}
     scoreboard objectives add MPRegen dummy {"text":"MP回復量"}
     scoreboard objectives add MPCount dummy {"text":"MP回復カウント"}
-    scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
-    scoreboard objectives add ElementWater dummy {"text":"水属性値"}
-    scoreboard objectives add ElementIce dummy {"text":"氷属性値"}
-    scoreboard objectives add ElementThunder dummy {"text":"雷属性値"}
-    scoreboard objectives add ElementWind dummy {"text":"風属性値"}
+    scoreboard objectives add ElementPyro dummy {"text":"炎属性値"}
+    scoreboard objectives add ElementHydro dummy {"text":"水属性値"}
+    scoreboard objectives add ElementCryo dummy {"text":"氷属性値"}
+    scoreboard objectives add ElementElectro dummy {"text":"雷属性値"}
+    scoreboard objectives add ElementAnemo dummy {"text":"風属性値"}
     scoreboard objectives add ElementDendro dummy {"text":"草属性値"}
-    scoreboard objectives add ElementLight dummy {"text":"光属性値"}
-    scoreboard objectives add ElementDark dummy {"text":"闇属性値"}
+    scoreboard objectives add ElementLumo dummy {"text":"光属性値"}
+    scoreboard objectives add ElementUmbro dummy {"text":"闇属性値"}
     scoreboard objectives add SP dummy {"text":"スキルポイント"}
     scoreboard objectives add ATK dummy {"text":"物理攻撃力"}
     scoreboard objectives add MATK dummy {"text":"魔法攻撃力"}
