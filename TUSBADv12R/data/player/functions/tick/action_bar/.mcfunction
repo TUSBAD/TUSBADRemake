@@ -13,6 +13,6 @@
 function player:tick/action_bar/hp
 
 # アクションバーの描画
-title @a actionbar [{"nbt":"HP_Bar[]","storage":"tusb_remake:","separator":"","interpret":true}]
+title @s actionbar [{"nbt":"HP_Bar[]","storage":"tusb_remake:","separator":"","interpret":true}]
 
 data remove storage tusb_remake: HP_Bar
