@@ -4,10 +4,10 @@
 
 execute if data storage anywhere: at{Dimension:"tusb_remake:cloudia"} in tusb_remake:cloudia run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:test"} in tusb_remake:test run function #anywhere:function
-execute if data storage anywhere: at{Dimension:"minecraft:the_end"} in minecraft:the_end run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"minecraft:the_end"} in tusb_remake:the_end run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:extra_domain"} in tusb_remake:extra_domain run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:gulliver"} in tusb_remake:gulliver run function #anywhere:function
-execute if data storage anywhere: at{Dimension:"minecraft:the_nether"} in minecraft:the_nether run function #anywhere:function
+execute if data storage anywhere: at{Dimension:"minecraft:the_nether"} in tusb_remake:the_nether run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:purgatory"} in tusb_remake:purgatory run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:nethertrial"} in tusb_remake:nethertrial run function #anywhere:function
 execute if data storage anywhere: at{Dimension:"tusb_remake:newskyland"} in tusb_remake:newskyland run function #anywhere:function
