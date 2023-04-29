@@ -16,7 +16,8 @@
 
 # TUSBAD_v12R
 TUSB二次創作「TUSBAD_v12R」開発用データパックリポジトリ<br>
-[Modver「TUSBAD_v12RModded」開発用リポジトリはこちら](https://github.com/FreyCIelu/ADv12RModded)
+[Modver「TUSBAD_v12RModded」開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADModded)
+[TUSBADResourcePack開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADResource)
 
 Discord:https://discord.gg/rTVWQm4ykR
 
@@ -30,14 +31,14 @@ Discord:https://discord.gg/rTVWQm4ykR
 # 追加要素
 
 # バグ報告・要望等
-[こちら](https://github.com/FreyCIelu/TUSBAD_v12.5/issues/new/choose) か [Discord](https://discord.gg/rTVWQm4ykR) までお願いします。
+[こちら](https://github.com/TUSBAD/TUSBADv12R/issues/new/choose) か [Discord](https://discord.gg/rTVWQm4ykR) までお願いします。
 
 # Wiki
 [こちら](https://github.com/FreyCIelu/TUSBFanMade-Another_Dimension/wiki)
 
 # 注意点
 このマップは非公式です。連絡は[ツイッター](https://twitter.com/FreyCielu)か [discord](https://discord.gg/rTVWQm4ykR) までお願いします。<br>
-***TUSBのパッチ群は全て競合します。絶対に入れないでください。(1.10.2版に限り)***
+クレジットはゲーム内で確認できるクレジット部分に表記しています。(要リソースパック)
 
 # 製作者(敬称略)
 <details>
@@ -67,22 +68,34 @@ Discord:https://discord.gg/rTVWQm4ykR
 </details>
 
 # 謝辞
-このリポジトリでは以下のリポジトリの一部を使用/参考にさせていただいています。
+このリポジトリでは以下のリポジトリ/ライブラリを使用させていただいています。<br>
+(v12Rに組み込まれている物も含みます)
 
-#### [TUSB](https://skyblock.jp/)
+#### [TUSB](https://github.com/TUSB/TheUnusualSkyBlock)
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
-<!--#### [TSB](https://tsb.scriptarts.jp/)
-* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)-->
+#### [赤石愛](https://github.com/Ai-Akaishi)
+* [Oh! My Dat!](https://github.com/Ai-Akaishi/OhMyDat)
+* [ScoreToHealth](https://github.com/Ai-Akaishi/ScoreToHealth)
+* [AiMath](https://github.com/Ai-Akaishi/AiMath)
+* [AnywhereFuncticon](https://github.com/Ai-Akaishi/AnywhereFunction)
+* [AnywhereTeleport](https://github.com/Ai-Akaishi/AnywhereTeleport)
+* [CloseDetector](https://github.com/Ai-Akaishi/CloseDetector)
+* [NoSleep](https://github.com/Ai-Akaishi/NoSleep)
+* [PlayerItemTuner](https://github.com/Ai-Akaishi/PlayerItemTuner)
+#### [ちぇん](https://github.com/ChenCMD)
+* [ScoreDamage](https://github.com/ChenCMD/MCCMD-ScoreDamage)
+
+以下のリポジトリを参考にさせていただいています。<br>
+#### [TSB](https://tsb.scriptarts.jp/)
+* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing)
 
 # ライセンス
-このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。
+このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。<br>
+(v12Rに組み込まれている物も含みます)
 
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock) (Copyright by サークルTUSB)
+* [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
 <!--* [TheSkyBlessing](https://github.com/ProjectTSB/TheSkyBlessing) ([CC0 License](https://github.com/ProjectTSB/TheSkyBlessing/blob/master/LICENSE) / Copyright by ProjectTSB)-->
-
-# SpecialThanks
-Ponpon様(コマンドアドバイス)・mkm75様(パッチツール)・HikaruTsu様(Faweコマンドアドバイス)・赤石愛様(v12Rデータパック)
-
 
 ## コラボレーター以外によるプルリクエストについて
 コラボレーター以外によるプルリクエストは、最適化, バグ修正に限り歓迎しています。
