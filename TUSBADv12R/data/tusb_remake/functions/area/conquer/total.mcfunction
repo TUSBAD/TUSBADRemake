@@ -11,7 +11,7 @@ execute store result storage tusb_remake: conquer.count.total int 1 run scoreboa
 ### C..PctInt = 攻略数 / 最大ポータル数 * 100.00
 ### C..PctDec = 攻略数 / 最大ポータル数 % 100.00
 execute store result score _ TUSB run data get storage tusb_remake: conquer.count.total 10000
-execute store result storage math: in int 1 run scoreboard players operation _ TUSB /= MaxPortalCount Settings
+execute store result storage math: in int 1 run scoreboard players operation _ TUSB /= #MaxPortalCount Settings
 
 ### 昼を取り戻していたら攻略率に応じて時計呼び出し
 #execute store result score _ TUSB run data get storage math: in 0.01

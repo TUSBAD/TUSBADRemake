@@ -10,7 +10,7 @@ function tusb_remake:event/rank/roll
 scoreboard players remove @s EventRank 100
 ## +攻略率 => -100 - 99
 execute store result score _ EventRank run data get storage tusb_remake: conquer.count.total 10000
-execute store result storage math: in int 1 run scoreboard players operation _ EventRank /= MaxPortalCount Settings
+execute store result storage math: in int 1 run scoreboard players operation _ EventRank /= #MaxPortalCount Settings
 scoreboard players set _ TUSB 100
 scoreboard players operation _ EventRank /= _ TUSB
 
