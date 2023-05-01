@@ -38,14 +38,14 @@ execute positioned 58 66 702 align xyz if entity @s[dx=0] unless entity @e[dx=0,
 execute positioned 131 63 774 align xyz if entity @s[dx=0] unless entity @e[dx=0,type=item,tag=SealBreakerItem] positioned ~0.5 ~ ~0.5 run function tusb_remake:portal/warp/overworld/gullivers_land/blue
 
 ### スキル設定場の現在の設定表示
-execute positioned -2733 88 -383 align xyz if entity @s[dz=1] if entity @s[advancements={tusb_remake:press={skill_settings_show_current=false}}] run function tusb_remake:display/skill
+execute positioned -2733 88 -383 align xyz if entity @s[dz=1] if entity @s[advancements={tusb_remake:press={skill_settings_show_current=false}}] run function player:display/skill
 execute positioned -2733 88 -383 align xyz if entity @s[dz=1] run advancement grant @s only tusb_remake:press skill_settings_show_current
 
 ### 交易島の現在のステータス表示
-execute positioned -65 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={tusb_remake:press={trading_show_status=false}}] run function tusb_remake:display/job
+execute positioned -65 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={tusb_remake:press={trading_show_status=false}}] run function player:display/job
 execute positioned -65 15 28 align xyz if entity @s[dx=0] run advancement grant @s only tusb_remake:press trading_show_status
 ### 交易島の現在の攻略率表示
-execute positioned -63 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={tusb_remake:press={trading_show_conquer=false}}] run function tusb_remake:display/conquer
+execute positioned -63 15 28 align xyz if entity @s[dx=0] if entity @s[advancements={tusb_remake:press={trading_show_conquer=false}}] run function player:display/conquer
 execute positioned -63 15 28 align xyz if entity @s[dx=0] run advancement grant @s only tusb_remake:press trading_show_conquer
 
 ### コオリトカス
