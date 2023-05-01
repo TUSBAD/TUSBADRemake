@@ -9,12 +9,18 @@ function score_damage:core/init
 scoreboard objectives add Settings dummy "設定"
 scoreboard objectives add Option dummy "カスタム難易度"
 ### 観光モード
-scoreboard players set #SightseeingDeath Settings 0
+scoreboard players set SightseeingDeath Settings 0
+### デバッグモード
+scoreboard players set Debug Settings 0
+### 祈り有効モード
+scoreboard players set Prayable Settings 0
+### 地形破壊
+scoreboard players set MobGriefing Settings 0
 ### 難易度
-scoreboard players set #Difficulty Settings 0
-scoreboard players set #Difficulty Option 0
+scoreboard players set Difficulty Settings 0
+scoreboard players set Difficulty Option 0
 ### 攻略対象最大数
-scoreboard players set #MaxPortalCount Settings 150
+scoreboard players set MaxPortalCount Settings 150
 
 ### ワールド初期設定
 time set 14000
@@ -47,6 +53,29 @@ data modify storage tusb_remake: skill_slot_titles set value {instant:{a:'[{"tex
 ### Global
 scoreboard objectives add Global dummy
 scoreboard objectives add TUSB dummy
+
+
+
+
+# scoreboard players set #ConqCntSkylands Global 0
+# scoreboard players set #ConqCntNether Global 0
+# scoreboard players set #ConqCntEnd Global 0
+# scoreboard players set #ConqCntUnderworld Global 0
+# scoreboard players set #ConqCntCloudia Global 0
+# scoreboard players set #ConqCntMtTable Global 0
+# scoreboard players set #ConqCntGLand Global 0
+# scoreboard players set #ConqCntIce Global 0
+
+# scoreboard players set #GameTime Global 0
+# scoreboard players set #Random Global 0
+# scoreboard players set #ProjectileUpdate Global 0
+# scoreboard players set #PastorMax Global 8
+# execute store result score #StartTime Global run time query gametime
+# scoreboard players set #ConqTimeSec Global 0
+# scoreboard players set #EntityCount Global 0
+# scoreboard players set #BlockCount Global 0
+# scoreboard players set #SkillTargetCount Global 0
+# scoreboard players set #NetherBossWaitCount Global 36
 
 ### プレイヤー基礎
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game
