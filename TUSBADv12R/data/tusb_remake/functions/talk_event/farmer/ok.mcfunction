@@ -4,7 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 ### アイテムは直接渡す
-loot give @p[gamemode=!spectator] kill @s
+loot give @p[predicate=player:player] kill @s
 ### 本来のドロップはなしにして🐏バイバイ
 data modify entity @s DeathLootTable set value "minecraft:empty"
 kill @s

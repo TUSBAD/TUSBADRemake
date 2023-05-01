@@ -43,16 +43,16 @@ execute as @e[tag=SkillMob] at @s run function tusb_remake:enemy/skill/
 execute as @a[tag=CauseEvent] at @s if score #SecCount Global matches 0.. run function tusb_remake:event/rank/
 
 ## トカルトの処理
-execute as @a[predicate=tusb_remake:area/tocult_colde,gamemode=!spectator] at @s run function tusb_remake:tocult_process/
+execute as @a[predicate=tusb_remake:area/tocult_colde,predicate=player:player] at @s run function tusb_remake:tocult_process/
 
 ## ゾンビピッグマンのおこる対象を設定する
-execute as @a[gamemode=!spectator] at @s run function tusb_remake:clock/gimmic/nether/angry
+execute as @a[predicate=player:player] at @s run function tusb_remake:clock/gimmic/nether/angry
 
 ## オーラ(AEC)纏ってる敵のオーラを維持する？
 execute as @e[tag=MobCloud] at @s as @e[dx=0,tag=Enemy,sort=nearest,limit=1] at @s as @e[dy=10,tag=MobCloud] run data modify entity @s Age set value 5
 
 ## 煉獄ボスと戦闘中の処理
-execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft:slime_block if entity @p[distance=..65,gamemode=!spectator] run function tusb_remake:nether_boss/attack_check
+execute as 0-0-1-0-4 at @s positioned ~ ~-19 ~74 if block -1860 20 -51 minecraft:slime_block if entity @p[distance=..65,predicate=player:player] run function tusb_remake:nether_boss/attack_check
 
 ## 死の宣告
 execute as @a[tag=Doom] run function tusb_remake:doom/count
@@ -71,7 +71,7 @@ tag @e[type=spawner_minecart,tag=CooldownRequired,nbt={PortalCooldown:300}] add 
 ## エンダーチェスト島のワープ
 execute positioned 58 94 -103 as @e[dx=17,dy=2,dz=17,team=!NotExit,nbt=!{Passengers:[]}] at @s if block ~ ~-1 ~ #tusb_remake:stained_glass_and_pane run spreadplayers ~ ~ 1 300 under 319 false @s
 ## ホッパー島のワープ
-execute positioned 177 39 -75 if entity @a[distance=..60,gamemode=!spectator] run function tusb_remake:clock/gimmic/hopper/
+execute positioned 177 39 -75 if entity @a[distance=..60,predicate=player:player] run function tusb_remake:clock/gimmic/hopper/
 
 ## 祈り(最後の手段/最初に教会に行くまで使えない)を表示
 execute if data storage tusb_remake: settings{prayable:true} as @a[tag=Pray,scores={Job=1..}] run function tusb_remake:player/pray/show
