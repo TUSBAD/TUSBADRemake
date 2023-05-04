@@ -4,6 +4,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 execute if predicate tusb_remake:area/nether run function tusb_remake:area/conquer/nether
+execute if predicate tusb_remake:area/nether_dungeon run function tusb_remake:area/conquer/nether_dungeon
 execute if predicate tusb_remake:area/end run function tusb_remake:area/conquer/end
 execute if predicate tusb_remake:area/skyland run function tusb_remake:area/conquer/skyland
 execute if predicate tusb_remake:area/underworld run function tusb_remake:area/conquer/underworld
@@ -11,6 +12,15 @@ execute if predicate tusb_remake:area/cloudia run function tusb_remake:area/conq
 execute if predicate tusb_remake:area/table_mountain run function tusb_remake:area/conquer/table_mountain
 execute if predicate tusb_remake:area/gullivers_land run function tusb_remake:area/conquer/gullivers_land
 execute if predicate tusb_remake:area/tocult_colde run function tusb_remake:area/conquer/tocult_colde
+execute if predicate tusb_remake:area/tradeisland run function tusb_remake:area/conquer/traders_island
+execute if predicate tusb_remake:area/revskyland run function tusb_remake:area/conquer/revskyland
+execute if predicate tusb_remake:area/library run function tusb_remake:area/conquer/library
+execute if predicate tusb_remake:area/imaginary run function tusb_remake:area/conquer/imaginary
+execute if predicate tusb_remake:area/niflheimr run function tusb_remake:area/conquer/niflheimr
+execute if predicate tusb_remake:area/unusual run function tusb_remake:area/conquer/unusual_space
+execute if predicate tusb_remake:area/airport run function tusb_remake:area/conquer/airport
+execute if predicate tusb_remake:area/another_dimension run function tusb_remake:area/conquer/another_dimension
+execute if predicate tusb_remake:area/ancient_field run function tusb_remake:area/conquer/ancient_field
 
 ## 00.0%
 function tusb_remake:area/conquer/total
@@ -40,9 +50,9 @@ tellraw @a [{"translate":"攻略タイム : %1$s","italic":true,"bold":true,"col
 scoreboard players reset @s UseEnderEye
 
 ### 夜をつかさどる島だった場合、夜固定を解除
-execute in minecraft:overworld if block 3 77 87 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/luna
+#execute in minecraft:overworld if block 3 77 87 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/luna
 ### 交易島だった場合、祈りを解禁
-execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/traders_island
+#execute in minecraft:overworld if block -70 15 32 minecraft:end_portal_frame[eye=true] run function tusb_remake:area/conquer/traders_island
 
 ### 攻略%を取得
 execute store result score #ConqCheck Global run data get storage tusb_remake: conquer.rate.int
