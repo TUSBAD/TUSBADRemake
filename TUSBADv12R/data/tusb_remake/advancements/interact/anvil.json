@@ -6,7 +6,7 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "tusb_remake:in_adv_anvil"
+            "name": "tusb_remake:is_adventure_mode"
           }
         ],
         "location": {
