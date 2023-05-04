@@ -1,0 +1,1 @@
+execute in tusb_remake:trade run tp @s 0 5 0
