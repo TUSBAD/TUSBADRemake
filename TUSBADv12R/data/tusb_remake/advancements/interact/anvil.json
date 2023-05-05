@@ -3,12 +3,6 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tusb_remake:is_adventure_mode"
-          }
-        ],
         "location": {
           "block": {
             "blocks": [
