@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "tusb_remake:test"
+    "function": "tusb_remake:item/enchanting_table/interact"
   }
 }
