@@ -1,6 +1,14 @@
 {
-    "pack":{
+    "pack": {
         "pack_format": 12,
         "description": "TUSBAD for v12R"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
     }
 }
