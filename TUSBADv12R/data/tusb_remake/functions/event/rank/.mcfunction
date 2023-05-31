@@ -5,9 +5,6 @@
 # 攻略率によって対象エリアや中身を分岐させる
 tag @s remove CauseEvent
 execute if score #ConqCheck Global matches ..10 if predicate tusb_remake:area/skyland run function tusb_remake:event/rank/first/
-execute if score #ConqCheck Global matches 11..39 if predicate tusb_remake:area/survival run function tusb_remake:event/rank/second/survival/
-execute if score #ConqCheck Global matches 11..39 if predicate tusb_remake:area/adventure run function tusb_remake:event/rank/second/adventure/
-execute if score #ConqCheck Global matches 40..69 if predicate tusb_remake:area/survival run function tusb_remake:event/rank/third/survival/
-execute if score #ConqCheck Global matches 40..69 if predicate tusb_remake:area/adventure run function tusb_remake:event/rank/third/adventure/
-execute if score #ConqCheck Global matches 70.. if predicate tusb_remake:area/survival run function tusb_remake:event/rank/final/survival/
-execute if score #ConqCheck Global matches 70.. if predicate tusb_remake:area/adventure run function tusb_remake:event/rank/final/adventure/
+execute if score #ConqCheck Global matches 11..39 run function tusb_remake:event/rank/second/
+execute if score #ConqCheck Global matches 40..69 run function tusb_remake:event/rank/third/
+execute if score #ConqCheck Global matches 70.. run function tusb_remake:event/rank/final/
