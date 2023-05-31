@@ -1,4 +1,4 @@
-#> tusb_remake:event/rank/third/survival/
+#> tusb_remake:event/rank/final/
 # イベントモブ召喚分岐
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
