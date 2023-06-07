@@ -1,5 +1,5 @@
-#> tusb_remake:area/entered/tradeisland
-### 交易島諸設定
+#> tusb_remake:area/entered/test
+### デバッグエリア諸設定
 
 # トリガー解除
 advancement revoke @s only tusb_remake:area/test
