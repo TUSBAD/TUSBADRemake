@@ -1,3 +1,7 @@
+#> tusb_remake:area/makeup/skyland_high
+# 通常世界上層に移動したときの演出
+### Copyright © 2022 フレイシェル
+### This software is released under the MIT License, see LICENSE.
 
 function tusb_remake:area/makeup/
 execute at @s run playsound minecraft:entity.allay.death master @s ~ ~ ~ 4 0.75 0
