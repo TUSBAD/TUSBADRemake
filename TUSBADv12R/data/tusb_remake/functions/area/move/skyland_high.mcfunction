@@ -1,4 +1,4 @@
-#> tusb_remake:area/move/skyland_low
+#> tusb_remake:area/move/skyland_high
 ### 通常世界諸設定
 
 # トリガー解除
