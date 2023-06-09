@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+"minecraft:chiseled_bookshelf",
+"#tusb_remake:unbreakable",
+"minecraft:netherite_block"
+  ]
+}
