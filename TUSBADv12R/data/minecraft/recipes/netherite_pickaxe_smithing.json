@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "minecraft:diamond_pickaxe"
   },
-  "addition": {
+  "template": {
     "item": "minecraft:bedrock"
+  },
+  "addition": {
+    "item": "minecraft:suspicious_sand"
   },
   "result": {
     "item": "minecraft:netherite_pickaxe"
