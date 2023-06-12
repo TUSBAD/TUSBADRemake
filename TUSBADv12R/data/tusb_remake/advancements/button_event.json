@@ -14,24 +14,22 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "location": {
+                            "position": {
+                                "block": {
+                                    "tag": "minecraft:buttons"
+                                },
                                 "position": {
-                                    "block": {
-                                        "tag": "minecraft:buttons"
+                                    "x": {
+                                        "min": -2739,
+                                        "max": -2738
                                     },
-                                    "position": {
-                                        "x": {
-                                            "min": -2739,
-                                            "max": -2738
-                                        },
-                                        "y": {
-                                            "min": 90,
-                                            "max": 91
-                                        },
-                                        "z": {
-                                            "min": -363,
-                                            "max": -362
-                                        }
+                                    "y": {
+                                        "min": 90,
+                                        "max": 91
+                                    },
+                                    "z": {
+                                        "min": -363,
+                                        "max": -362
                                     }
                                 }
                             }
@@ -54,24 +52,22 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "location": {
+                            "position": {
+                                "block": {
+                                    "tag": "minecraft:buttons"
+                                },
                                 "position": {
-                                    "block": {
-                                        "tag": "minecraft:buttons"
+                                    "x": {
+                                        "min": -2738,
+                                        "max": -2737
                                     },
-                                    "position": {
-                                        "x": {
-                                            "min": -2738,
-                                            "max": -2737
-                                        },
-                                        "y": {
-                                            "min": 90,
-                                            "max": 91
-                                        },
-                                        "z": {
-                                            "min": -362,
-                                            "max": -361
-                                        }
+                                    "y": {
+                                        "min": 90,
+                                        "max": 91
+                                    },
+                                    "z": {
+                                        "min": -362,
+                                        "max": -361
                                     }
                                 }
                             }
@@ -94,10 +90,8 @@
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "location": {
-                                "block": {
-                                    "tag": "minecraft:buttons"
-                                }
+                            "block": {
+                                "tag": "minecraft:buttons"
                             }
                         }
                     }
