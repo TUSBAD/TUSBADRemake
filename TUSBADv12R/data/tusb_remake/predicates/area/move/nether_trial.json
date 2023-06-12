@@ -4,7 +4,7 @@
 		"name": "tusb_remake:area/nether_trial"
 	},
 	{
-		"condition": "minecraft:alternative",
+		"condition": "minecraft:any_of",
 		"terms": [
 			{
 				"condition": "minecraft:entity_scores",
