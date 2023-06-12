@@ -4,7 +4,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/TUSBAD/TUSBADv12R?include_prereleases)
 ![GitHub](https://img.shields.io/github/license/TUSBAD/TUSBADv12R)
 <br>
-[![activity](https://img.shields.io/github/commit-activity/m/FreyCielu/TUSBAD_v12.5?label=commit&logo=github&color=brightgreen)](https://github.com/TUSBAD/TUSBADv12R/commits/1.19.x)
+[![activity](https://img.shields.io/github/commit-activity/m/TUSBAD/TUSBv12R?label=commit&logo=github&color=brightgreen)](https://github.com/TUSBAD/TUSBADv12R/commits/1.20.x)
 ![GitHub issues](https://img.shields.io/github/issues/TUSBAD/TUSBADv12R?logo=github)
 ![GitHub pr](https://img.shields.io/github/issues-pr/TUSBAD/TUSBADv12R?logo=github)
 ![GitHub all releases](https://img.shields.io/github/downloads/TUSBAD/TUSBADv12R/total?logo=github)
