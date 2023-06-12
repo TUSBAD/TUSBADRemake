@@ -1,5 +1,5 @@
 #> tusb_remake:area/makeup/unusual
-# 異次元に移動したときの演出
+# 異空間に移動したときの演出
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
