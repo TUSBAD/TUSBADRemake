@@ -3,12 +3,19 @@
 		"something": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:magma_cube_spawn_egg"
-					],
-					"nbt": "{EntityTag:{Tags:[\"ModeSwitch\"]}}"
-				}
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"item": {
+								"items": [
+									"minecraft:magma_cube_spawn_egg"
+								],
+								"nbt": "{EntityTag:{Tags:[\"ModeSwitch\"]}}"
+							}
+						}
+					}
+				]
 			}
 		}
 	},

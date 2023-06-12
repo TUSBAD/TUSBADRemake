@@ -3,21 +3,26 @@
 		"something": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:stone_button",
-							"minecraft:oak_button",
-							"minecraft:birch_button",
-							"minecraft:spruce_button",
-							"minecraft:jungle_button",
-							"minecraft:acacia_button",
-							"minecraft:dark_oak_button",
-							"minecraft:crimson_button",
-							"minecraft:warped_button"
-						]
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:stone_button",
+									"minecraft:oak_button",
+									"minecraft:birch_button",
+									"minecraft:spruce_button",
+									"minecraft:jungle_button",
+									"minecraft:acacia_button",
+									"minecraft:dark_oak_button",
+									"minecraft:crimson_button",
+									"minecraft:warped_button"
+								]
+							}
+						}
 					}
-				}
+				]
 			}
 		}
 	},

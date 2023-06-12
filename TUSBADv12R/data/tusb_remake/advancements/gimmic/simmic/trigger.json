@@ -3,19 +3,24 @@
 		"open": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
-                "player": [
-                    {
-                        "condition": "reference",
-                        "name": "tusb_remake:is_interactable"
-                    }
-                ],
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:trapped_chest"
-						]
+				"player": [
+					{
+						"condition": "reference",
+						"name": "tusb_remake:is_interactable"
 					}
-				}
+				],
+				"location": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:trapped_chest"
+								]
+							}
+						}
+					}
+				]
 			}
 		}
 	},
