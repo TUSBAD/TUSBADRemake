@@ -1,0 +1,2 @@
+#> core:declare
+# @private
