@@ -3,15 +3,23 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:anvil",
-              "minecraft:chipped_anvil",
-              "minecraft:damaged_anvil"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "anvil",
+                    "chipped_anvil",
+                    "damaged_anvil"
+                  ]
+                }
+              }
+            }
           }
-        }
+        ]
       }
     }
   },
