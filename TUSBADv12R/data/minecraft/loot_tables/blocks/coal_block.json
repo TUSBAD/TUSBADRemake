@@ -16,6 +16,14 @@
             "predicate": {
               "items": [
                 "minecraft:netherite_pickaxe"
+              ],
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
               ]
             }
           },
