@@ -35,6 +35,8 @@
         "minecraft:thrown",
         "minecraft:trident",
         "minecraft:unattributed_fireball",
-        "minecraft:wither_skull"
+        "minecraft:wither_skull",
+        "minecraft:generic_kill",
+        "minecraft:out_of_world"
     ]
 }
