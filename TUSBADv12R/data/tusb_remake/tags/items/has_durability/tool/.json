@@ -1,9 +1,9 @@
 {
     "values": [
-        "#lib:has_durability/tool/axes",
-        "#lib:has_durability/tool/hoes",
-        "#lib:has_durability/tool/pickaxes",
-        "#lib:has_durability/tool/shovels",
-        "#lib:has_durability/tool/swords"
+        "#tusb_remake:has_durability/tool/axes",
+        "#tusb_remake:has_durability/tool/hoes",
+        "#tusb_remake:has_durability/tool/pickaxes",
+        "#tusb_remake:has_durability/tool/shovels",
+        "#tusb_remake:has_durability/tool/swords"
     ]
 }
