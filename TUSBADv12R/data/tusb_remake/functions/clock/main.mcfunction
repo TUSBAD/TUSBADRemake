@@ -28,7 +28,7 @@ execute as @a[scores={ExpToLevel=..0,Job=1..}] at @s run function tusb_remake:pl
 # execute as @a[scores={CoolTickCounter=..20}] run function tusb_remake:player/mp/xpbar
 
 ###島攻略
-execute as @a[scores={UseEnderEye=1..}] at @s run function tusb_remake:area/conquer/
+execute as @a[scores={UseEnderEye=1..}] at @s run function area:conquer/
 
 ### 緩衝体力付きで死んでいる場合、エフェクトクリアすることで、体力を正常にする
 effect clear @a[scores={Deaths=1..,HP=1..}]
