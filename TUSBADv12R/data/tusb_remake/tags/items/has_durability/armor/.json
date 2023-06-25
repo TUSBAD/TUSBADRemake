@@ -1,8 +1,8 @@
 {
     "values": [
-        "#lib:has_durability/armor/helmets",
-        "#lib:has_durability/armor/chestplates",
-        "#lib:has_durability/armor/leggings",
-        "#lib:has_durability/armor/boots"
+        "#tusb_remake:has_durability/armor/helmets",
+        "#tusb_remake:has_durability/armor/chestplates",
+        "#tusb_remake:has_durability/armor/leggings",
+        "#tusb_remake:has_durability/armor/boots"
     ]
 }

@@ -1,6 +1,6 @@
 {
     "values": [
-        "#lib:consumable",
+        "#tusb_remake:consumable",
         "bow",
         "crossbow",
         "ender_eye",

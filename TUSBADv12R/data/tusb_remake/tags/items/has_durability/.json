@@ -1,7 +1,7 @@
 {
     "values": [
-        "#lib:has_durability/tool/",
-        "#lib:has_durability/armor/",
+        "#tusb_remake:has_durability/tool/",
+        "#tusb_remake:has_durability/armor/",
         "carrot_on_a_stick",
         "warped_fungus_on_a_stick",
         "shears",
