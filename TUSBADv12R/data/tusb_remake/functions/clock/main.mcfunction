@@ -72,4 +72,4 @@ execute as @a[scores={UseFireworkRocket=1..}] run function tusb_remake:player/us
 execute as @e[tag=Freeze] run data merge entity @s {Motion:[0d,0d,0d]}
 
 ### 交易島エンパ防止
-execute as @a[scores={UseEnderPearl=1..},predicate=tusb_remake:area/tradeisland] at @s run function tusb_remake:area/itemcheck/trade_pearl
+execute as @a[scores={UseEnderPearl=1..},predicate=tusb_remake:area/tradeisland] at @s run function area:itemcheck/trade_pearl
