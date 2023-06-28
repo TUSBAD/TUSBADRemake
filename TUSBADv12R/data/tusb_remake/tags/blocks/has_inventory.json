@@ -1,8 +1,8 @@
 {
     "values": [
-        "#tusb_remake:containers",
+        "#item:containers",
         "#tusb_remake:command_blocks",
-        "#anvil",
+        "#item:anvil",
         "enchanting_table",
         "loom",
         "stonecutter",

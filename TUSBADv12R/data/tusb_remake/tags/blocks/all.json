@@ -1,7 +1,7 @@
 {
     "values": [
     "#minecraft:all_signs",
-    "#minecraft:anvil",
+    "#item:anvil",
     "#minecraft:bamboo_blocks",
     "#minecraft:banners",
     "#minecraft:beds",
