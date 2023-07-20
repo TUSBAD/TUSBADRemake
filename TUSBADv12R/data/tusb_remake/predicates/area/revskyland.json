@@ -1,6 +1,12 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"dimension": "tusb_remake:revskyland"
+        "position": {
+            "y": {
+              "min": 256,
+              "max": 512
+            }
+          },
+		"dimension": "tusb_remake:newskyland"
 	}
 }
