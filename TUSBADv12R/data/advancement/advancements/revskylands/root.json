@@ -8,23 +8,33 @@
                 "text": ""
             },
             {
-                "translate": "-%1$s %2$s = %3$s =-",
+                "translate": "-%1$s %2$s%3$s%4$s = %5$s =-",
                 "color": "gray",
                 "bold": true,
                 "with": [
                     {
                         "translate": "新",
+                        "color": "red",
+                        "bold": true
+                    },
+                    {
+                        "translate": "通",
                         "color": "light_purple",
                         "bold": true
                     },
                     {
-                        "translate": "通常世界",
-                        "color": "white",
+                        "translate": "常",
+                        "color": "red",
                         "bold": true
                     },
                     {
-                        "translate": "下層",
-                        "color": "gray",
+                        "translate": "世界",
+                        "color": "light_purple",
+                        "bold": true
+                    },
+                    {
+                        "translate": "上層",
+                        "color": "red",
                         "bold": true
                     }
                 ]
@@ -34,14 +44,14 @@
             "translate": "%1$s",
             "with": [
                 {
-                    "translate": "世界を救うための冒険が始まる...",
-                    "color": "gray"
+                    "translate": "終焉のその先へ...",
+                    "color": "red"
                 }
             ],
             "color": "green",
             "bold": true
         },
-        "background": "minecraft:textures/block/cyan_stained_glass.png",
+        "background": "minecraft:textures/block/red_stained_glass.png",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -59,8 +69,8 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": -64,
-                                        "max": 254
+                                        "min": 255,
+                                        "max": 512
                                     }
                                 }
                             }
