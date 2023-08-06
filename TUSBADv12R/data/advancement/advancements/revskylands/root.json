@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:grass_block"
+            "item": "minecraft:reinforced_deepslate"
         },
         "title": [
             {
@@ -59,7 +59,7 @@
     },
     "criteria": {
         "enter": {
-            "trigger": "minecraft:changed_dimension",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {
@@ -69,15 +69,15 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": 255,
+                                        "min": 257,
                                         "max": 512
                                     }
-                                }
+                                },
+                                "dimension": "tusb_remake:newskyland"
                             }
                         }
                     }
-                ],
-                "to": "tusb_remake:newskyland"
+                ]
             }
         }
     }

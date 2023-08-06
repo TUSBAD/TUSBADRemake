@@ -1,52 +1,45 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:grass_block"
+            "item": "minecraft:end_portal_frame"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "- %1$s %2$s - = %3$s =",
-                "color": "gray",
-                "bold": true,
-                "with": [
-                    {
-                        "translate": "新",
-                        "color": "light_purple",
-                        "bold": true
-                    },
-                    {
-                        "translate": "通常世界",
-                        "color": "white",
-                        "bold": true
-                    },
-                    {
-                        "translate": "下層",
-                        "color": "gray",
-                        "bold": true
-                    }
-                ]
+                "translate": "待ち受ける島群",
+                "color": "light_purple",
+                "bold": true
             }
         ],
         "description": {
-            "translate": "%1$s",
+            "translate": "%1$sには、様々な%2$sが待ち受けています。\n%2$sを攻略すると%3$sされ安全になります。",
+            "color": "white",
             "with": [
                 {
-                    "translate": "世界を救うための冒険が始まる...",
-                    "color": "gray"
-                }
-            ],
-            "color": "green",
-            "bold": true
+                  "translate": "通常世界 下層",
+                  "color": "gray",
+                  "bold": true
+                },
+                {
+                  "translate": "島",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                    "translate": "周囲が浄化",
+                    "color": "green",
+                    "bold": true
+                  }
+              ]
         },
-        "background": "minecraft:textures/block/cyan_stained_glass.png",
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
+    "parent": "advancement:skylands/root",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",

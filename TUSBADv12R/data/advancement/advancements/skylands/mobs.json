@@ -1,52 +1,40 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:grass_block"
+            "item": "minecraft:zombie_head"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "- %1$s %2$s - = %3$s =",
-                "color": "gray",
-                "bold": true,
-                "with": [
-                    {
-                        "translate": "新",
-                        "color": "light_purple",
-                        "bold": true
-                    },
-                    {
-                        "translate": "通常世界",
-                        "color": "white",
-                        "bold": true
-                    },
-                    {
-                        "translate": "下層",
-                        "color": "gray",
-                        "bold": true
-                    }
-                ]
+                "translate": "待ち受ける敵達",
+                "color": "red",
+                "bold": true
             }
         ],
         "description": {
-            "translate": "%1$s",
+            "translate": "%1$sには、様々な%2$sが待ち受けています。\n%2$s事で倒した敵が表示されます。",
+            "color": "white",
             "with": [
                 {
-                    "translate": "世界を救うための冒険が始まる...",
-                    "color": "gray"
+                  "translate": "通常世界 下層",
+                  "color": "gray",
+                  "bold": true
+                },
+                {
+                  "translate": "敵を倒す",
+                  "color": "red",
+                  "bold": true
                 }
-            ],
-            "color": "green",
-            "bold": true
+              ]
         },
-        "background": "minecraft:textures/block/cyan_stained_glass.png",
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
+    "parent": "advancement:skylands/root",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",
