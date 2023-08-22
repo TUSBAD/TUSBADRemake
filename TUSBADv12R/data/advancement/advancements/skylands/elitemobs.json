@@ -8,7 +8,7 @@
                 "text": ""
             },
             {
-                "translate": "出現する強敵",
+                "translate": "出現する強敵             ",
                 "color": "dark_red",
                 "bold": true
             }
@@ -23,7 +23,7 @@
                   "bold": true
                 },
                 {
-                  "translate": "強力なモンスター",
+                  "translate": "強力な敵",
                   "color": "red",
                   "bold": true
                 }

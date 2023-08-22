@@ -9,13 +9,13 @@
                 "text": ""
             },
             {
-                "translate": "強敵：BOSS",
+                "translate": "強敵：BOSS            ",
                 "color": "dark_red",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "様々な%1$sでプレイヤーに襲い掛かる強敵達。",
+            "translate": "様々な%1$s等でプレイヤーに襲い掛かる強敵達。",
             "color": "white",
             "with": [
                 {

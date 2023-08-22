@@ -1,30 +1,26 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:observer"
+            "item": "minecraft:netherite_sword",
+            "nbt": "{Enchantments:[{}]}"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "ギミック               ",
-                "color": "gold",
+                "translate": "強敵：BOSS              ",
+                "color": "dark_red",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "%1$sに存在する%2$s。",
+            "translate": "様々な%1$s等でプレイヤーに襲い掛かる強敵達。",
             "color": "white",
             "with": [
                 {
-                  "translate": "新通常世界 下層",
-                  "color": "gray",
-                  "bold": true
-                },
-                {
-                  "translate": "ギミック",
-                  "color": "gold",
+                  "translate": "スキル",
+                  "color": "red",
                   "bold": true
                 }
               ]
@@ -34,7 +30,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement:skylands/root",
+    "parent": "advancement:skylands/elitemobs",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",

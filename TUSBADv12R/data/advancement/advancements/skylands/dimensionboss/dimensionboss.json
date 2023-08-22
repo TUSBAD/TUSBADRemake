@@ -1,32 +1,33 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:observer"
+            "item": "minecraft:crying_obsidian",
+            "nbt": "{Enchantments:[{}]}"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "ギミック               ",
-                "color": "gold",
+                "translate": "強敵：DimensionGuardians",
+                "color": "dark_purple",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "%1$sに存在する%2$s。",
+            "translate": "各世界の%1$sに鎮座する世界の%2$s。",
             "color": "white",
             "with": [
                 {
-                  "translate": "新通常世界 下層",
-                  "color": "gray",
+                  "translate": "最奥",
+                  "color": "dark_red",
                   "bold": true
                 },
                 {
-                  "translate": "ギミック",
-                  "color": "gold",
-                  "bold": true
-                }
+                    "translate": "守護者",
+                    "color": "dark_purple",
+                    "bold": true
+                  }
               ]
         },
         "frame": "task",
@@ -34,7 +35,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement:skylands/root",
+    "parent": "advancement:skylands/elitemobs",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",

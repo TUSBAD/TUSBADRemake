@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "translate": "様々な島",
+                "translate": "様々な島                 ",
                 "color": "light_purple",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "%1$sには、様々な%2$sが待ち受けています。\n%2$sを攻略すると%3$sされ安全になります。",
+            "translate": "%1$sに存在する様々な%2$s。",
             "color": "white",
             "with": [
                 {
@@ -26,12 +26,7 @@
                   "translate": "島",
                   "color": "red",
                   "bold": true
-                },
-                {
-                    "translate": "周囲が浄化",
-                    "color": "green",
-                    "bold": true
-                  }
+                }
               ]
         },
         "frame": "task",
