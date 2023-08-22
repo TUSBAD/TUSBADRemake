@@ -26,7 +26,7 @@
             }
         ],
         "description": {
-            "translate": "通常世界の守護者%1$sと対峙し、\n%2$sから解放する。",
+            "translate": "通常世界下層の守護者%1$sと対峙し、\n%2$sから解放する。",
             "color": "white",
             "with": [
                 {

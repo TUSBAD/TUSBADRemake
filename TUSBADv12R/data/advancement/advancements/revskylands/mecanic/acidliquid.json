@@ -36,40 +36,27 @@
     },
     "parent": "advancement:revskylands/mechanic",
     "criteria": {
-      "acidliquid": {
-        "trigger": "minecraft:enter_block",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "position": {
-                  "y": {
-                    "min": 257,
-                    "max": 512
-                  }
-                },
-                "fluid": {
-                  "tag": "minecraft:lava"
-                }
-              }
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "position": {
-                  "y": {
-                    "min": 257,
-                    "max": 512
-                  }
-                },
-                "fluid": {
-                  "tag": "minecraft:water"
-                }
-              }
+        "enter": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": 257,
+                                        "max": 512
+                                    }
+                                },
+                                "dimension": "tusb_remake:newskyland"
+                            }
+                        }
+                    }
+                ]
             }
-          ]
         }
-      }
     }
   }
