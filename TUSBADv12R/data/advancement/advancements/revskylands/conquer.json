@@ -1,29 +1,29 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "item": "minecraft:end_portal_frame"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "出現する敵",
-                "color": "red",
+                "translate": "様々な島",
+                "color": "light_purple",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "%1$sに出現する様々な%2$s。",
+            "translate": "%1$sに存在する様々な%2$s。",
             "color": "white",
             "with": [
                 {
-                  "translate": "新通常世界 下層",
-                  "color": "gray",
+                  "translate": "新通常世界 上層",
+                  "color": "red",
                   "bold": true
                 },
                 {
-                  "translate": "敵",
+                  "translate": "島",
                   "color": "red",
                   "bold": true
                 }
@@ -34,7 +34,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement:skylands/root",
+    "parent": "advancement:revskylands/root",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",
@@ -47,8 +47,8 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": 0,
-                                        "max": 256
+                                        "min": 257,
+                                        "max": 512
                                     }
                                 },
                                 "dimension": "tusb_remake:newskyland"

@@ -1,29 +1,25 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:zombie_head"
+            "item": "minecraft:netherite_sword",
+            "nbt": "{Enchantments:[{}]}"
         },
         "title": [
             {
                 "text": ""
             },
             {
-                "translate": "出現する敵",
-                "color": "red",
+                "translate": "強敵：BOSS",
+                "color": "dark_red",
                 "bold": true
             }
         ],
         "description": {
-            "translate": "%1$sに出現する様々な%2$s。",
+            "translate": "様々な%1$sでプレイヤーに襲い掛かる強敵達。",
             "color": "white",
             "with": [
                 {
-                  "translate": "新通常世界 下層",
-                  "color": "gray",
-                  "bold": true
-                },
-                {
-                  "translate": "敵",
+                  "translate": "スキル",
                   "color": "red",
                   "bold": true
                 }
@@ -34,7 +30,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement:skylands/root",
+    "parent": "advancement:revskylands/elitemobs",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",
@@ -47,8 +43,8 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": 0,
-                                        "max": 256
+                                        "min": 257,
+                                        "max": 512
                                     }
                                 },
                                 "dimension": "tusb_remake:newskyland"

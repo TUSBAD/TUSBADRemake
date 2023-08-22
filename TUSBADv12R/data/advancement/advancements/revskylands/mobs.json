@@ -18,8 +18,8 @@
             "color": "white",
             "with": [
                 {
-                  "translate": "新通常世界 下層",
-                  "color": "gray",
+                  "translate": "新通常世界 上層",
+                  "color": "red",
                   "bold": true
                 },
                 {
@@ -34,7 +34,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "advancement:skylands/root",
+    "parent": "advancement:revskylands/root",
     "criteria": {
         "enter": {
             "trigger": "minecraft:location",
@@ -47,8 +47,8 @@
                             "location": {
                                 "position": {
                                     "y": {
-                                        "min": 0,
-                                        "max": 256
+                                        "min": 257,
+                                        "max": 512
                                     }
                                 },
                                 "dimension": "tusb_remake:newskyland"

@@ -8,7 +8,7 @@
                 "text": ""
             },
             {
-                "translate": "待ち受ける島群",
+                "translate": "様々な島",
                 "color": "light_purple",
                 "bold": true
             }
@@ -18,7 +18,7 @@
             "color": "white",
             "with": [
                 {
-                  "translate": "通常世界 下層",
+                  "translate": "新通常世界 下層",
                   "color": "gray",
                   "bold": true
                 },
