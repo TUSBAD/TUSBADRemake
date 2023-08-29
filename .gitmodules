@@ -13,3 +13,15 @@
 [submodule "AnywhereTeleport"]
 	path = AnywhereTeleport
 	url = https://github.com/Ai-Akaishi/AnywhereTeleport.git
+[submodule "NoSleep"]
+	path = NoSleep
+	url = https://github.com/Ai-Akaishi/NoSleep.git
+[submodule "PlayerItemTuner"]
+	path = PlayerItemTuner
+	url = https://github.com/Ai-Akaishi/PlayerItemTuner.git
+[submodule "ScoreToHealth"]
+	path = ScoreToHealth
+	url = https://github.com/Ai-Akaishi/ScoreToHealth.git
+[submodule "OhMyDat"]
+	path = OhMyDat
+	url = https://github.com/Ai-Akaishi/OhMyDat.git
