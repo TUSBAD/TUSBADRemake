@@ -1,0 +1,3 @@
+[submodule "AiUtil"]
+	path = AiUtil
+	url = https://github.com/Ai-Akaishi/AiUtil.git
