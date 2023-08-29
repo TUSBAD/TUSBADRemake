@@ -4,3 +4,6 @@
 [submodule "AiMath"]
 	path = AiMath
 	url = https://github.com/Ai-Akaishi/AiMath.git
+[submodule "CloseDetector"]
+	path = CloseDetector
+	url = https://github.com/Ai-Akaishi/CloseDetector.git
