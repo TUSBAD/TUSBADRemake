@@ -7,3 +7,9 @@
 [submodule "CloseDetector"]
 	path = CloseDetector
 	url = https://github.com/Ai-Akaishi/CloseDetector.git
+[submodule "AnywhereFunction"]
+	path = AnywhereFunction
+	url = https://github.com/Ai-Akaishi/AnywhereFunction.git
+[submodule "AnywhereTeleport"]
+	path = AnywhereTeleport
+	url = https://github.com/Ai-Akaishi/AnywhereTeleport.git
