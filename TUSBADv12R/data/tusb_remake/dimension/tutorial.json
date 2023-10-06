@@ -4,7 +4,8 @@
     "type": "minecraft:flat",
     "settings": {
       "biome": "tusb_remake:tutorial",
-      "layers": []
+      "layers": [],
+      "structure_overrides": []
     }
   }
 }

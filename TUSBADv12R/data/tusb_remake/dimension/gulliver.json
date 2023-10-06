@@ -4,7 +4,8 @@
     "type": "minecraft:flat",
     "settings": {
       "biome": "tusb_remake:gulliver",
-      "layers": []
+      "layers": [],
+      "structure_overrides": []
     }
   }
 }
