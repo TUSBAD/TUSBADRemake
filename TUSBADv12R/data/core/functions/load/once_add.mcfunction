@@ -6,25 +6,29 @@
 #AD二次創作にて追加する処理群はこっちに記入すること
 
 #> ADのverを設定
-    data modify storage tusb_remake: mapversion set value "α"
+    data modify storage ad_remake: mapversion set value "1 α"
 
 #> 各種Prefixを設定
-    data modify storage tusb_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
-    data modify storage tusb_remake: Prefix.TIPS set value "§bTIPS >> §r"
-    data modify storage tusb_remake: Prefix.SUCCESS set value "§aSUCCESS >> §r"
-    data modify storage tusb_remake: Prefix.FAILED set value "§7FAILED >> §r"
-    data modify storage tusb_remake: Prefix.ERROR set value "§cERROR >> §r"
-    data modify storage tusb_remake: Prefix.CRIT set value "§4CRITICAL >> §r"
-    function tusb_remake:load/bad_effect_message
+    data modify storage ad_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
+    data modify storage ad_remake: Prefix.TIPS set value "§bTIPS >> §r"
+    data modify storage ad_remake: Prefix.SUCCESS set value "§aSUCCESS >> §r"
+    data modify storage ad_remake: Prefix.FAILED set value "§7FAILED >> §r"
+    data modify storage ad_remake: Prefix.ERROR set value "§cERROR >> §r"
+    data modify storage ad_remake: Prefix.CRIT set value "§4CRITICAL >> §r"
+    function core:load/bad_effect_message
+
+#> ディメンション設定
+data modify storage ad_remake: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
+data modify storage ad_remake: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
 
 #> forceload chunks
 #一時的にデバッグエリアの10000,10000にマーカー群を配置する
 #変更の余地あり
-    execute in tusb_remake:test run forceload add 10001 10001
-    execute in tusb_remake:test run setblock 10002 2 10002 shulker_box
-    execute in tusb_remake:test positioned 10005 5 10005 run function calc:system_marker/tp_00000
-    execute in tusb_remake:test positioned 10005 5 10005 run function calc:system_marker/tp_00001
-    execute in tusb_remake:test positioned 10005 5 10005 run function calc:system_marker/tp_00002
+    execute in area:test run forceload add 10001 10001
+    execute in area:test run setblock 10002 2 10002 shulker_box
+    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00000
+    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00001
+    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00002
 
 #> ステータススコア
     scoreboard objectives add Level dummy {"text":"レベル"}
