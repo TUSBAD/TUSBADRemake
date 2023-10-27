@@ -4,15 +4,15 @@
 		"terms": [
 			{
 				"condition": "reference",
-				"name": "tusb_remake:area/underworld"
+				"name": "area:area/underworld"
 			},
 			{
 				"condition": "reference",
-				"name": "tusb_remake:area/nether_dungeon"
+				"name": "area:area/nether_dungeon"
 			},
 			{
 				"condition": "reference",
-				"name": "tusb_remake:area/niflheimr"
+				"name": "area:area/niflheimr"
 			}
 		]
 	},
