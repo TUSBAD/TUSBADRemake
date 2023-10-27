@@ -16,7 +16,7 @@
             }
           }
         ],
-        "to": "tusb_remake:newskyland"
+        "to": "area:newskyland"
       }
     }
   },

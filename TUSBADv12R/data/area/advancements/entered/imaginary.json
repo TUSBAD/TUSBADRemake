@@ -3,7 +3,7 @@
     "requirement": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "tusb_remake:imaginary"
+        "to": "area:imaginary"
       }
     }
   },
