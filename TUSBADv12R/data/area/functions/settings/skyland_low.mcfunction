@@ -1,2 +1,2 @@
 #> area:settings/skyland
-data modify storage tusb_remake: "アドベンチャーエリア" set value false
+data modify storage ad_remake: "アドベンチャーエリア" set value false

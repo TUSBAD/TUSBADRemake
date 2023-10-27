@@ -3,24 +3,24 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-execute if predicate tusb_remake:area/nether run function area:conquer/nether
-execute if predicate tusb_remake:area/nether_dungeon run function area:conquer/nether_dungeon
-execute if predicate tusb_remake:area/end run function area:conquer/end
-execute if predicate tusb_remake:area/skyland run function area:conquer/skyland
-execute if predicate tusb_remake:area/underworld run function area:conquer/underworld
-execute if predicate tusb_remake:area/cloudia run function area:conquer/cloudia
-execute if predicate tusb_remake:area/table_mountain run function area:conquer/table_mountain
-execute if predicate tusb_remake:area/gullivers_land run function area:conquer/gullivers_land
-execute if predicate tusb_remake:area/tocult_colde run function area:conquer/tocult_colde
-execute if predicate tusb_remake:area/tradeisland run function area:conquer/traders_island
-execute if predicate tusb_remake:area/revskyland run function area:conquer/revskyland
-execute if predicate tusb_remake:area/library run function area:conquer/library
-execute if predicate tusb_remake:area/imaginary run function area:conquer/imaginary
-execute if predicate tusb_remake:area/niflheimr run function area:conquer/niflheimr
-execute if predicate tusb_remake:area/unusual run function area:conquer/unusual_space
-execute if predicate tusb_remake:area/airport run function area:conquer/airport
-execute if predicate tusb_remake:area/another_dimension run function area:conquer/another_dimension
-execute if predicate tusb_remake:area/ancient_field run function area:conquer/ancient_field
+execute if predicate area:area/nether run function area:conquer/nether
+execute if predicate area:area/nether_dungeon run function area:conquer/nether_dungeon
+execute if predicate area:area/end run function area:conquer/end
+execute if predicate area:area/skyland run function area:conquer/skyland
+execute if predicate area:area/underworld run function area:conquer/underworld
+execute if predicate area:area/cloudia run function area:conquer/cloudia
+execute if predicate area:area/table_mountain run function area:conquer/table_mountain
+execute if predicate area:area/gullivers_land run function area:conquer/gullivers_land
+execute if predicate area:area/tocult_colde run function area:conquer/tocult_colde
+execute if predicate area:area/tradeisland run function area:conquer/traders_island
+execute if predicate area:area/revskyland run function area:conquer/revskyland
+execute if predicate area:area/library run function area:conquer/library
+execute if predicate area:area/imaginary run function area:conquer/imaginary
+execute if predicate area:area/niflheimr run function area:conquer/niflheimr
+execute if predicate area:area/unusual run function area:conquer/unusual_space
+execute if predicate area:area/airport run function area:conquer/airport
+execute if predicate area:area/another_dimension run function area:conquer/another_dimension
+execute if predicate area:area/ancient_field run function area:conquer/ancient_field
 
 ## 00.0%
 function area:conquer/total

@@ -1,1 +1,1 @@
-execute in tusb_remake:revskyland run tp @s 0 5 0
+execute in area:revskyland run tp @s 0 5 0

@@ -1,1 +1,1 @@
-execute in tusb_remake:trade run tp @s 0 105 0
+execute in area:trade run tp @s 0 105 0

@@ -1,1 +1,1 @@
-execute in tusb_remake:imaginary run tp @s 1000 100 1000 0 0
+execute in area:imaginary run tp @s 1000 100 1000 0 0

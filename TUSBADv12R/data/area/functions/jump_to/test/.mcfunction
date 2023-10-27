@@ -1,1 +1,1 @@
-execute in tusb_remake:test run tp @s 0 105 0
+execute in area:test run tp @s 0 105 0
