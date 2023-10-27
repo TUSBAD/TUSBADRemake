@@ -3,19 +3,19 @@
 	"terms": [
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/skyland"
+			"name": "area:area/skyland"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/underworld"
+			"name": "area:area/underworld"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/nether"
+			"name": "area:area/nether"
 		},
 		{
 			"condition": "reference",
-			"name": "tusb_remake:area/revskyland"
+			"name": "area:area/revskyland"
 		}
 	]
 }

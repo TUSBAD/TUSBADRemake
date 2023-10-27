@@ -3,10 +3,10 @@
 	"predicate": {
         "position": {
             "y": {
-              "min": 256,
-              "max": 512
+              "min": -64,
+              "max": 255
             }
           },
-		"dimension": "tusb_remake:newskyland"
+		"dimension": "area:newskyland"
 	}
 }
