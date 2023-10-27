@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:revskyland",
+  "type": "area:niflheimr",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:revskyland",
+      "biome": "area:niflheimr",
       "layers": [],
       "structure_overrides": []
     }

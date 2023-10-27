@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:gulliver",
+  "type": "area:revskyland",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:gulliver",
+      "biome": "area:revskyland",
       "layers": [],
       "structure_overrides": []
     }

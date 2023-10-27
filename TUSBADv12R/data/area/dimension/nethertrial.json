@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:unusual",
+  "type": "area:nethertrial",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:unusual",
+      "biome": "area:nethertrial",
       "layers": [],
       "structure_overrides": []
     }

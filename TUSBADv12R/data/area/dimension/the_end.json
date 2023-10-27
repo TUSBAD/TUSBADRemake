@@ -1,9 +1,9 @@
 {
-    "type": "tusb_remake:newskyland",
+    "type": "area:the_end",
     "generator": {
       "type": "minecraft:flat",
       "settings": {
-        "biome": "tusb_remake:newskyland",
+        "biome": "area:the_end",
         "layers": [],
         "structure_overrides": []
       }

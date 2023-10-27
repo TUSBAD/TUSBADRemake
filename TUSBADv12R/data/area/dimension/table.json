@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:tradeisland",
+  "type": "area:table",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:tradeisland",
+      "biome": "area:table",
       "layers": [],
       "structure_overrides": []
     }

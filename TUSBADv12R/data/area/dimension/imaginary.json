@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:tocult",
+  "type": "area:imaginary",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:tocult",
+      "biome": "area:imaginary",
       "layers": [],
       "structure_overrides": []
     }

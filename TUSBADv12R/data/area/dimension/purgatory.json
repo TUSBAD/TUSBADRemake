@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:imaginary",
+  "type": "area:purgatory",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:imaginary",
+      "biome": "area:purgatory",
       "layers": [],
       "structure_overrides": []
     }

@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:tutorial",
+  "type": "area:ancient",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:tutorial",
+      "biome": "area:ancient",
       "layers": [],
       "structure_overrides": []
     }

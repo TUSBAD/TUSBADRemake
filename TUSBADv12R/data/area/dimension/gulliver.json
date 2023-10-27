@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:cloudia",
+  "type": "area:gulliver",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:cloudia",
+      "biome": "area:gulliver",
       "layers": [],
       "structure_overrides": []
     }

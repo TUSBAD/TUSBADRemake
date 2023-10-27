@@ -1,9 +1,9 @@
 {
-    "type": "tusb_remake:the_nether",
+    "type": "area:newskyland",
     "generator": {
       "type": "minecraft:flat",
       "settings": {
-        "biome": "tusb_remake:the_nether",
+        "biome": "area:newskyland",
         "layers": [],
         "structure_overrides": []
       }

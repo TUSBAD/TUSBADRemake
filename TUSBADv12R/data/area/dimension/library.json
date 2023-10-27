@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:airport",
+  "type": "area:library",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:airport",
+      "biome": "area:library",
       "layers": [],
       "structure_overrides": []
     }

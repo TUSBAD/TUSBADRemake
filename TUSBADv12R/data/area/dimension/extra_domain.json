@@ -1,9 +1,9 @@
 {
-  "type": "tusb_remake:niflheimr",
+  "type": "area:exdomain",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "tusb_remake:niflheimr",
+      "biome": "area:exdomain",
       "layers": [],
       "structure_overrides": []
     }
