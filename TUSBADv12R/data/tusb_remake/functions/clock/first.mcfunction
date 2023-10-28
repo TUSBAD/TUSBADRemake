@@ -3,9 +3,6 @@
 ### Copyright © 2022 フレイシェル
 ### This software is released under the MIT License, see LICENSE.
 
-### ハード固定化
-function tusb_remake:system/force_difficulty
-
 ### ワープポータル処理待ちの時はチェックする
 execute as @a[tag=PortalCheck] at @s run function tusb_remake:portal/warp/
 
