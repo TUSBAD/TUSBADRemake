@@ -18,8 +18,8 @@
     function core:load/bad_effect_message
 
 #> ディメンション設定
-data modify storage ad_remake: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
-data modify storage ad_remake: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
+data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
+data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
 
 #> forceload chunks
 #一時的にデバッグエリアの10000,10000にマーカー群を配置する
