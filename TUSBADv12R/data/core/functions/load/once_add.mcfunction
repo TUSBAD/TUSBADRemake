@@ -59,6 +59,22 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add Damage dummy {"text":"ダメージ"}
     scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 
+### チーム
+    team add FriendlyTeam
+    team modify FriendlyTeam friendlyFire false
+    team modify FriendlyTeam seeFriendlyInvisibles true
+    team modify FriendlyTeam collisionRule never
+    team modify FriendlyTeam deathMessageVisibility always
+    team modify FriendlyTeam color aqua
+    team modify FriendlyTeam nametagVisibility always
+    team modify FriendlyTeam prefix {"text":"✨","color":"#ff00ff"}
+    team modify FriendlyTeam suffix {"text":"✨","color":"#ff00ff"}
+    team add Yellow
+    team modify Yellow color yellow
+    team modify Yellow collisionRule never
+    team add NoCollision
+    team modify NoCollision collisionRule never
+
 #> 変数スコア
     scoreboard objectives add _ dummy {"text":"一時変数 その1"}
     scoreboard objectives add __ dummy {"text":"一時変数 その2"}

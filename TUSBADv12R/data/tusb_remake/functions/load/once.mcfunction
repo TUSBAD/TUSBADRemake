@@ -289,19 +289,7 @@ scoreboard objectives add PotentialSkill dummy "Mobに発動する可能性の�
 ### 使用判定
 scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl "エンパ使用回数"
 
-### チーム
-team add FriendlyTeam
-team modify FriendlyTeam friendlyFire false
-team modify FriendlyTeam seeFriendlyInvisibles true
-team modify FriendlyTeam collisionRule never
-team modify FriendlyTeam deathMessageVisibility always
-team modify FriendlyTeam deathMessageVisibility always
-team modify FriendlyTeam nametagVisibility always
-team add Yellow
-team modify Yellow color yellow
-team modify Yellow collisionRule never
-team add NoCollision
-team modify NoCollision collisionRule never
+
 
 ### ゲームルール / ワールド設定
 gamerule logAdminCommands false
