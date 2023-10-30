@@ -14,3 +14,5 @@ scoreboard players operation @s MPCount %= _ _
 #MPが満タンだったらMPCountを初期化する
 execute if score @s MP >= @s MPMax run scoreboard players set @s MPCount 0
 execute if score @s MP >= @s MPMax run scoreboard players operation @s MP = @s MPMax
+
+execute if score _ _ matches 1 run function player:mp_bar/set

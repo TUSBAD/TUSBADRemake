@@ -6,7 +6,7 @@
 #AD二次創作にて追加する処理群はこっちに記入すること
 
 #> ADのverを設定
-    data modify storage ad_remake: mapversion set value "1 α"
+    data modify storage ad_remake: mapversion set value "ver1 α"
 
 #> 各種Prefixを設定
     data modify storage ad_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
