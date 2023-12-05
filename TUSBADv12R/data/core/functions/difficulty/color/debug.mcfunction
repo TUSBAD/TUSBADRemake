@@ -4,7 +4,7 @@
 #
 #@within difficulty:*
 # デバッグ
-# #FFFFFF
+# #808080
 
-team modify Friendly suffix {"text":"✨","color":"#FFFFFF"}
-team modify Friendly prefix {"text":"✨","color":"#FFFFFF"}
+team modify Friendly suffix {"text":"🛠️","color":"#808080"}
+team modify Friendly prefix {"text":"🛠️","color":"#808080"}

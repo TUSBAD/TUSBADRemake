@@ -66,10 +66,7 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     team modify Friendly seeFriendlyInvisibles true
     team modify Friendly collisionRule never
     team modify Friendly deathMessageVisibility always
-    team modify Friendly color green
     team modify Friendly nametagVisibility always
-#    team modify FriendlyTeam prefix {"text":"✨","color":"#ff00ff"}
-#    team modify FriendlyTeam suffix {"text":"✨","color":"#ff00ff"}
     team add NoCollision {"text":"衝突判定なし"}
     team modify NoCollision collisionRule never
     team add Enemy {"text":"敵チーム"}
