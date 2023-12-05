@@ -6,7 +6,7 @@
 # 難易度：デバッグ
 
 #> チーム色変更
-function core:difficulty/color/picnic
+function core:difficulty/color/debug
 
 data modify storage core: difficult.world set value "debug"
 
