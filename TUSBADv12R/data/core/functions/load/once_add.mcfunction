@@ -12,6 +12,7 @@
     data modify storage ad_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
     data modify storage ad_remake: Prefix.TIPS set value "§bTIPS >> §r"
     data modify storage ad_remake: Prefix.SUCCESS set value "§aSUCCESS >> §r"
+    data modify storage ad_remake: Prefix.INFO set value "§9INFO >> §r"
     data modify storage ad_remake: Prefix.FAILED set value "§7FAILED >> §r"
     data modify storage ad_remake: Prefix.ERROR set value "§cERROR >> §r"
     data modify storage ad_remake: Prefix.CRIT set value "§4CRITICAL >> §r"

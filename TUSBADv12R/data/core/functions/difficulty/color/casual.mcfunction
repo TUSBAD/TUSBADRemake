@@ -4,7 +4,7 @@
 #
 #@within difficulty:*
 # カジュアル
-# #ff00ff
+# #FF2A2A
 
-team modify Friendly suffix {"text":"✨","color":"#ff00ff"}
-team modify Friendly prefix {"text":"✨","color":"#ff00ff"}
+team modify Friendly suffix {"text":"✨","color":"#FF2A2A"}
+team modify Friendly prefix {"text":"✨","color":"#FF2A2A"}

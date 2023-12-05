@@ -4,7 +4,7 @@
 #
 #@within difficulty:*
 # アナザー(エキスパート)
-# #8313ff
+# #ff00ff
 
-team modify Friendly suffix {"text":"✨","color":"#8313ff"}
-team modify Friendly prefix {"text":"✨","color":"#8313ff"}
+team modify Friendly suffix {"text":"✨","color":"#ff00ff"}
+team modify Friendly prefix {"text":"✨","color":"#ff00ff"}

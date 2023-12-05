@@ -4,7 +4,7 @@
 #
 #@within difficulty:*
 # ハードコア
-# #FF2A2A
+# #ff00ff
 
-team modify Friendly suffix {"text":"☠","color":"#FF2A2A"}
-team modify Friendly prefix {"text":"☠","color":"#FF2A2A"}
+team modify Friendly suffix {"text":"☠","color":"#ff00ff"}
+team modify Friendly prefix {"text":"☠","color":"#ff00ff"}
