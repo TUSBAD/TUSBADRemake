@@ -40,8 +40,9 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add HPHealing dummy {"text":"HP回復量"}
     scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
     scoreboard objectives add MPMax dummy {"text":"MP最大値"}
-    scoreboard objectives add MPRegen dummy {"text":"MP回復量"}
-    scoreboard objectives add MPCount dummy {"text":"MP回復カウント"}
+    scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+    scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
+    scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
     scoreboard objectives add ElementPyro dummy {"text":"炎属性値"}
     scoreboard objectives add ElementHydro dummy {"text":"水属性値"}
     scoreboard objectives add ElementCryo dummy {"text":"氷属性値"}
