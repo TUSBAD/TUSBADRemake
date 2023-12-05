@@ -98,14 +98,6 @@ scoreboard objectives add Drop minecraft.custom:minecraft.drop
 # scoreboard objectives add MP dummy {"text": "MP","color": "#3ecfff","bold": true}
 # scoreboard objectives add MPMax dummy "最大MP"
 scoreboard objectives add MPMaxFlag dummy "MP回復済フラグ"
-scoreboard objectives add XPbar dummy "経験値バー"
-scoreboard players set #1000 XPbar 1000
-scoreboard players set #10 XPbar 10
-### MP回復タイミング
-scoreboard objectives add CoolTickSpan dummy "クールティックスパン"
-scoreboard objectives add CoolTickCounter minecraft.custom:time_since_death
-scoreboard objectives add MPIncrement dummy "MP定期回復量"
-scoreboard objectives add MPConsumption dummy "MP消費量"
 
 ### 乱数
 scoreboard objectives add Random dummy "乱数"
