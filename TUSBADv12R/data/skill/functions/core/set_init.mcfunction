@@ -5,8 +5,8 @@
 #
 
 # 初期化
-    data remove storage ad_skill: Data
-    data remove storage ad_skill: Temp
+    data remove storage skill: Data
+    data remove storage skill: Temp
 
 # デバッグ用
     function #player:skill_init/template
