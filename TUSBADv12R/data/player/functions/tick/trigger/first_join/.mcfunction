@@ -12,7 +12,6 @@
     scoreboard players set @s HP 20
     scoreboard players set @s HPMax 20
     scoreboard players set @s MP 100
-    scoreboard players set @s MPCount 0
     scoreboard players set @s MPMax 100
     scoreboard players set @s ElementPyro 1000
     scoreboard players set @s ElementHydro 1000
@@ -28,7 +27,6 @@
     scoreboard players set @s DEF 1
     scoreboard players set @s MDEF 1
     scoreboard players set @s LUCK 1
-    scoreboard players set @s MPRegen 50
 
 # Modiferの初期化
     function oh_my_dat:please
