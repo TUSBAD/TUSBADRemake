@@ -1,12 +1,12 @@
-#> player:skill/core/set_init
+#> skill:core/set_init
 #
 # スキルストレージデータの設定 開始処理
 #
 #
 
 # 初期化
-    data remove storage tusb_remake_skill: Data
-    data remove storage tusb_remake_skill: Temp
+    data remove storage ad_skill: Data
+    data remove storage ad_skill: Temp
 
 # デバッグ用
     function #player:skill_init/template
