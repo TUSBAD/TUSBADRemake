@@ -7,7 +7,7 @@
 ### MP更新
 
 ### MPアクセラ
-execute unless score @s MPAcceleration matches 900.. run scoreboard players add @s MPAcceleration 1
+execute unless score @s MPAcceleration matches 1000.. run scoreboard players add @s MPAcceleration 1
 
 ### Lv + MPMax/10 + 40 2000で1回復
 scoreboard players operation _ _ = @s Level
