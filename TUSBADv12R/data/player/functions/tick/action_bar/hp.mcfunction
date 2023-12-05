@@ -5,13 +5,13 @@
 #
 
 #HPバー用ストレージの作成（すでに枠組みは入れておく）
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF80C","font":"space"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF80B","font":"space"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF808","font":"space"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"<","font":"hpbar"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF80B","font":"space"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF809","font":"space"}'
-data modify storage tusb_remake: HP_Bar append value '{"translate":"\\uF802","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF80C","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF80B","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF808","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"<","font":"hpbar"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF80B","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF809","font":"space"}'
+data modify storage player: HP_Bar append value '{"translate":"\\uF802","font":"space"}'
 
 #プレイヤーのHP割合の取得（緩衝体力込み）
 execute store result score _ _ run attribute @s generic.max_health get 10
