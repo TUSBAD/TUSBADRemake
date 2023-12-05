@@ -56,7 +56,7 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add MATK dummy {"text":"魔法攻撃力"}
     scoreboard objectives add DEF dummy {"text":"物理防御力"}
     scoreboard objectives add MDEF dummy {"text":"魔法防御力"}
-    scoreboard objectives add LUCK dummy {"text":"運"}
+    scoreboard objectives add LUCK dummy {"text":"幸運"}
     scoreboard objectives add Damage dummy {"text":"ダメージ"}
     scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 
@@ -90,4 +90,7 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 
 #> スキルデータ登録
-    function player:skill/core/set_init
+    function skill:core/set_init
+
+#> 難易度リセット カジュアル
+function core:difficulty/reset

@@ -51,4 +51,4 @@
     # Hit属性 (boolean[])
         data modify storage ad_skill: Temp.Hit_Sub set value [true]
 
-function player:skill/core/set_data
+function skill:core/set_data
