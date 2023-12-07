@@ -1,10 +1,8 @@
-#> tusb_remake:load/bad_effect_message
-# リロード時リセット
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
-
-
-### 特殊デバフの名前と説明の初期設定
+#> settings:effects/too_bad_effects
+#
+#> 特殊デバフの名前と説明の初期設定
+#
+#@within function core:load/once_add
 
 #> 特殊デバフの名前を使用するとき。
 #

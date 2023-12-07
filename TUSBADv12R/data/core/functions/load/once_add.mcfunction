@@ -19,7 +19,7 @@
     data modify storage ad_remake: Prefix.FAILED set value "§7FAILED >> §r"
     data modify storage ad_remake: Prefix.ERROR set value "§cERROR >> §r"
     data modify storage ad_remake: Prefix.CRIT set value "§4CRITICAL >> §r"
-    function core:load/bad_effect_message
+    function settings:effects/bad_effect_message
 
 #> ディメンション設定
 data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
