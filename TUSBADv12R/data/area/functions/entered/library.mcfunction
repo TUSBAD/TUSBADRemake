@@ -4,7 +4,7 @@
 # トリガー解除
 advancement revoke @s only area:entered/library
 # 設定反映
-function area:settings/library
+function settings:area/library
 function area:entered/
 # 演出表示
 function area:makeup/library

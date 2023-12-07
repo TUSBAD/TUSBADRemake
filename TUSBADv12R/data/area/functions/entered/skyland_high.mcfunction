@@ -4,7 +4,7 @@
 # トリガー解除
 advancement revoke @s only area:entered/skyland_high
 # 設定反映
-function area:settings/skyland_high
+function settings:area/skyland_high
 function area:entered/
 # 演出表示
 function area:makeup/skyland_high
