@@ -2,11 +2,14 @@
 #
 # #load時に一回だけ実行される処理群（追加）
 #
-#
 #AD二次創作にて追加する処理群はこっちに記入すること
 
-#> ADのverを設定
-    data modify storage ad_remake: mapversion set value "ver1 α"
+#> ゲームルール
+    execute unless data storage core: {debug:1b} run time set 14000
+    function settings:core/gamerule
+
+#> バージョン
+    function settings:version/check/
 
 #> 各種Prefixを設定
     data modify storage ad_remake: Prefix.DEBUG set value "§3DEBUG >> §r"
@@ -91,4 +94,4 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     function skill:core/set_init
 
 #> 難易度リセット カジュアル
-function core:difficulty/reset
+    function core:difficulty/reset

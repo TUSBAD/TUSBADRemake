@@ -1,4 +1,4 @@
-#> tusb_remake:system/warning
+#> core:system/warning
 
 title @a times 5 40 10
 title @a subtitle [{"text":"⚠ ","color":"dark_red"},{"text":"Warning","color":"red"},{"text":" ⚠"}]
