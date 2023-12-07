@@ -1,9 +1,10 @@
-#> area:makeup/underworld
-# 地下世界に移動したときの演出
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
+#> makeup:area/entered/underworld
+#
+#> 地下世界演出
+#
+#@within function area:/entered/**
 
-function area:makeup/
+function makeup:area/entered/
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 0.5
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 1.0
 playsound minecraft:ambient.cave_12 master @s ~ ~ ~ 1.0 0.501

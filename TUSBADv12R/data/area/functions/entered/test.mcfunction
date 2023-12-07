@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/test
 function settings:area/test
 function area:entered/
 # 演出表示
-function area:makeup/test
+function makeup:area/entered/test

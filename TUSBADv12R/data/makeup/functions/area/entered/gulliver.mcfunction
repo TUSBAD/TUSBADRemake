@@ -1,9 +1,10 @@
-#> area:makeup/gulliver
-# ガリバーランドに移動したときの演出
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
+#> makeup:area/entered/gulliver
+#
+#> ガリバー演出
+#
+#@within function area:/entered/**
 
-function area:makeup/
+function makeup:area/entered/
 playsound minecraft:ambient.cave_2 master @s ~ ~ ~ 4 1.4 0
 playsound minecraft:ambient.cave_2 master @s ~ ~ ~ 4 1.7 0
 title @s subtitle [{"text":"= ","color":"white"},{"text":"小さき隠者達の逆転世界","bold":true,"color":"#ffd700"},{"text":" =","color":"white"}]

@@ -1,9 +1,10 @@
-#> area:makeup/tocult
-# トカルトに移動したときの演出
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
+#> makeup:area/entered/tocult
+#
+#> トカルトコルデ演出
+#
+#@within function area:/entered/**
 
-function area:makeup/
+function makeup:area/entered/
 playsound minecraft:ambient.crimson_forest.shine_1 master @s ~ ~ ~ 4 1.8 0
 playsound minecraft:ambient.crimson_forest.shine_2 master @s ~ ~ ~ 4 0.7 0
 playsound minecraft:ambient.crimson_forest.shine_3 master @s ~ ~ ~ 4 0.9 0

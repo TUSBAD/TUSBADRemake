@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/imaginary
 function settings:area/imaginary
 function area:entered/
 # 演出表示
-function area:makeup/imaginary
+function makeup:area/entered/imaginary

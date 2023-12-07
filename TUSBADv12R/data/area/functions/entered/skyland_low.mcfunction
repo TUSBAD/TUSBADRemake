@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/skyland_low
 function settings:area/skyland_low
 function area:entered/
 # 演出表示
-function area:makeup/skyland_low
+function makeup:area/entered/skyland_low

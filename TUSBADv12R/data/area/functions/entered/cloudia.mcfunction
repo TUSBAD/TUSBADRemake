@@ -7,4 +7,4 @@ advancement revoke @s only area:entered/cloudia
 function settings:area/cloudia
 function area:entered/
 # 演出表示
-function area:makeup/cloudia
+function makeup:area/entered/cloudia

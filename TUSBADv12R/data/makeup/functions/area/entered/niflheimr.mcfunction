@@ -1,9 +1,10 @@
-#> area:makeup/niflheimr
-# ニヴルに移動したときの演出
-### Copyright © 2022 フレイシェル
-### This software is released under the MIT License, see LICENSE.
+#> makeup:area/entered/niflheimr
+#
+#> ニヴルヘイム演出
+#
+#@within function area:/entered/**
 
-function area:makeup/
+function makeup:area/entered/
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.1 0
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.101 0
 playsound minecraft:ambient.underwater.loop.additions.ultra_rare_4 master @s ~ ~ ~ 4 1.3 0
