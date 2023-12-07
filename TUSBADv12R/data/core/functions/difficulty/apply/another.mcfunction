@@ -11,6 +11,8 @@ execute unless data storage core: difficult{world:"another"} run function core:d
 data modify storage core: difficult.world set value "another"
 
 #> 難易度による補正欄
+# アナザー/ハードコアのみKeepInventoryはfalseとなる
+gamerule keepInventory false
 
 #> チャット表示
 tellraw @a [{"storage":"ad_remake:","nbt":"Prefix.SUCCESS"},{"translate":"難易度を%1$sに変更しました。","with":[{"translate":"アナザー","color":"#FF00FF"}]}]
