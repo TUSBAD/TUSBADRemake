@@ -9,10 +9,12 @@
 # 合わせて Damage /= 20000すれば良い
     scoreboard players set _ ScoreDamageCore 20000
     scoreboard players operation $Damage ScoreDamageCore /= _ ScoreDamageCore
-# Damage << 19   有効範囲に合わせるため19ビット左へシフト
-    scoreboard players operation $Damage ScoreDamageCore *= $2^19 ScoreDamageCore
+# Damage << 19   有効範囲に合わせるため19ビット左へシフト $2^19
+    scoreboard players set _ ScoreDamageCore 524288
+    scoreboard players operation $Damage ScoreDamageCore *= _ ScoreDamageCore
 # Damage << 1   1ビット左へシフト
-    scoreboard players operation $Damage ScoreDamageCore *= $2 ScoreDamageCore
+    scoreboard players set _ ScoreDamageCore 2
+    scoreboard players operation $Damage ScoreDamageCore *= _ ScoreDamageCore
 # オーバーフローしてたらParticle表示
     execute if score $Damage ScoreDamageCore matches ..-1 run particle damage_indicator ~ ~1.2 ~ 0.5 0.5 0.5 0 2048
 # 0になるまでやる
