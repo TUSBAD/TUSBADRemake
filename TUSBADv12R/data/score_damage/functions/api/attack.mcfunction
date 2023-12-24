@@ -9,7 +9,7 @@
 #       与えるダメージを入力
 #   Argument.EPF: int
 #       軽減効果のある[エンチャントプロテクションファクター](https://minecraft.gamepedia.com/Armor#Enchantments)の合計値
-#   Argument.DamageType: list, ["Global","Fire","Blast","Projectile","Fall"]
+#   Argument.DamageType: "None" | "Fire" | "Blast" | "Projectile" | "Fall"
 #       ダメージの種類 EPFを自動取得する場合にどのエンチャントを参照するかに関わります
 #   Argument.DisableParticle: boolean
 #       パーティクルを表示するか否か, bool値
@@ -17,8 +17,6 @@
 #       防御力/防具強度を無視するか否か, bool値
 #   Argument.BypassResistance: boolean
 #       耐性エフェクトを無視するか否か, bool値
-#   Argument.DeathCause: string,raw_json
-#       カスタム死亡メッセージを表示する。
 # @context EPFが-1以下の時 EntityのProtectionを参照します
 # @api
 
@@ -29,7 +27,7 @@
 # 引数チェック
     execute unless data storage score_damage: Argument.Damage run tellraw @a [{"text":"ERROR >>","color":"red"},{"text":"引数が足りません","color":"white"},{"text":"\nMissing Damage at score_damage:api/attack","color":"white"}]
     execute unless data storage score_damage: Argument.EPF run data modify storage score_damage: Argument.EPF set value -1
-    execute unless data storage score_damage: Argument.DamageType run data modify storage score_damage: Argument.DamageType set value Global
+    execute unless data storage score_damage: Argument.DamageType run data modify storage score_damage: Argument.DamageType set value "None"
     execute unless data storage score_damage: Argument.DisableParticle run data modify storage score_damage: Argument.DisableParticle set value 0b
     execute unless data storage score_damage: Argument.BypassArmor run data modify storage score_damage: Argument.BypassArmor set value 0b
     execute unless data storage score_damage: Argument.BypassResistance run data modify storage score_damage: Argument.BypassResistance set value 0b

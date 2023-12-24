@@ -36,6 +36,3 @@
 # scoreboard players set $10000 ScoreDamageCore 10000
 # scoreboard players set $20000 ScoreDamageCore 20000
 # scoreboard players set $2^19 ScoreDamageCore 524288
-
-#> 定数宣言の削除
-# TheUnusualSkyBlockのデータパック内では定数宣言を禁止するルールとなっている。

@@ -15,11 +15,11 @@
 # 明示的に0に設定
     scoreboard players set $EPF ScoreDamageCore 0
 # 各種エンチャントの加算
-    execute if data storage score_damage: Argument{DamageType:Global} run function score_damage:core/get_default_epf/enchant/global
-    execute if data storage score_damage: Argument{DamageType:Fire} run function score_damage:core/get_default_epf/enchant/fire
-    execute if data storage score_damage: Argument{DamageType:Blast} run function score_damage:core/get_default_epf/enchant/blast
-    execute if data storage score_damage: Argument{DamageType:Projectile} run function score_damage:core/get_default_epf/enchant/projectile
-    execute if data storage score_damage: Argument{DamageType:Fall} run function score_damage:core/get_default_epf/enchant/fall
+    execute if data storage score_damage: Argument{DamageType:[Global]} run function score_damage:core/get_default_epf/enchant/global
+    execute if data storage score_damage: Argument{DamageType:[Fire]} run function score_damage:core/get_default_epf/enchant/fire
+    execute if data storage score_damage: Argument{DamageType:[Blast]} run function score_damage:core/get_default_epf/enchant/blast
+    execute if data storage score_damage: Argument{DamageType:[Projectile]} run function score_damage:core/get_default_epf/enchant/projectile
+    execute if data storage score_damage: Argument{DamageType:[Fall]} run function score_damage:core/get_default_epf/enchant/fall
 # リセット
     scoreboard players reset $Temp ScoreDamageCore
     data remove storage score_damage: Protection
