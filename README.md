@@ -14,9 +14,9 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
 
-# TUSBAD_v12R
-TUSB二次創作「TUSBAD_v12R」開発用データパックリポジトリ<br>
-[Modver「TUSBAD_v12RModded」開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADModded)
+# TUSBAD_Remake
+TUSB二次創作「TUSBAD_Remake」開発用データパックリポジトリ<br>
+[Modver「TUSBAD_RemakeModded」開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADModded)
 [TUSBADResourcePack開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADResource)
 
 Discord:https://discord.gg/rTVWQm4ykR
@@ -26,7 +26,6 @@ Discord:https://discord.gg/rTVWQm4ykR
 # 内容
 最終的なMCverは1.20になる予定です。<br>
 また、最初からすべて実装というわけではなく、アプデ毎に追加されていく形式をとります。<br>
-**※1.10.2版v12を1.19.xへアプデしたTUSBv12Rを元に作成しています。**
 
 # 追加要素
 
