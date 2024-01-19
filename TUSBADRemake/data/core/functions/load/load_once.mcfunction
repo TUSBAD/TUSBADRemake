@@ -89,6 +89,7 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add FirstJoin minecraft.custom:play_time {"text": "初回ログイン"}
     scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒クリック"}
     scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
+    scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
     scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
     scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 

@@ -140,7 +140,6 @@ scoreboard objectives add ModeState dummy "モード状態"
 
 ### スキル全般
 scoreboard objectives add ActivatedSkill dummy "発動スキル"
-scoreboard objectives add ChangeSkill dummy "変更先スキル"
 scoreboard objectives add ShowSkill dummy "表示スキル"
 scoreboard objectives add MPCost dummy "スキル消費MP"
 
