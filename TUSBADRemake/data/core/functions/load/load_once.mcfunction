@@ -1,8 +1,9 @@
-#> core:load/once_add
+#> core:load/load_once
 #
 # #load時に一回だけ実行される処理群（追加）
 #
 #AD二次創作にて追加する処理群はこっちに記入すること
+#最終的にこっちに全部移すことになる予定
 
 #> ゲームルール
     execute unless data storage core: {debug:1b} run time set 14000
@@ -19,7 +20,7 @@
     data modify storage ad_remake: Prefix.FAILED set value "§7FAILED >> §r"
     data modify storage ad_remake: Prefix.ERROR set value "§cERROR >> §r"
     data modify storage ad_remake: Prefix.CRIT set value "§4CRITICAL >> §r"
-    function settings:effects/bad_effect_message
+    function settings:effects/too_bad_effects
 
 #> ディメンション設定
 data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
@@ -85,10 +86,11 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives remove FirstJoin
 
 #> トリガー
-### tusb_remake側と重複があるので完成後remake側を削除したほうがよさそう。
     scoreboard objectives add FirstJoin minecraft.custom:play_time {"text": "初回ログイン"}
     scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒クリック"}
     scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
+    scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
+    scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 
 #> スキルデータ登録
     function skill:core/set_init
