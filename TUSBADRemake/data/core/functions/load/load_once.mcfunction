@@ -84,6 +84,7 @@ data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},c
     scoreboard objectives add __ dummy {"text":"一時変数 その2"}
     scoreboard objectives add Calc dummy {"text":"計算変数"}
     scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
+    scoreboard objectives add Count dummy {"text": "カウント"}
 
 #> リセット必須トリガー
     scoreboard objectives remove FirstJoin
@@ -96,6 +97,10 @@ data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},c
     scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
     scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
     scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
+
+#> 時間初期化
+execute unless score $Hours Count matches 0.. run scoreboard players set $Hours Count 0
+execute unless score $Minutes Count matches 0.. run scoreboard players set $Minutes Count 0
 
 #> スキルデータ登録
     function skill:core/set_init
