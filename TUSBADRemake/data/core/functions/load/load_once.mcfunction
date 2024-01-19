@@ -23,8 +23,8 @@
     function settings:effects/too_bad_effects
 
 #> ディメンション設定
-data remove storage area: capture
-data merge storage area: {capture:{skylands:{},tradeisland:{},cloudia:{}}}
+data remove storage area: purified
+data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},cloudia:{},underworld:{},gullivers_land:{},table_mountain:{},tocult_colde:{},niflheimr:{},library:{},purgatory:{},end:{},imaginary_space:{},unusual_space:{},another_dimension:{},ancient_field:{}}}
 #data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
 #data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
 
@@ -83,6 +83,7 @@ data merge storage area: {capture:{skylands:{},tradeisland:{},cloudia:{}}}
     scoreboard objectives add _ dummy {"text":"一時変数 その1"}
     scoreboard objectives add __ dummy {"text":"一時変数 その2"}
     scoreboard objectives add Calc dummy {"text":"計算変数"}
+    scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
 
 #> リセット必須トリガー
     scoreboard objectives remove FirstJoin
