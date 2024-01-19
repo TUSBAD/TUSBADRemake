@@ -23,8 +23,10 @@
     function settings:effects/too_bad_effects
 
 #> ディメンション設定
-data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
-data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
+data remove storage area: capture
+data merge storage area: {capture:{skylands:{},tradeisland:{},cloudia:{}}}
+#data modify storage area: area_name set value {underworld:"???",cloudia:"???",table_mountain:"???",gullivers_land:"???",tocult_colde:"???",trade:"???",purgatory:"???",rev_skyland:"???",library:"???",airport:"???",ancient:"???",another:"???",niflheimr:"???",unusual:"???",imaginary:"???"}
+#data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,underworld:0,cloudia:0,table_mountain:0,gullivers_land:0,tocult_colde:0,trade:0,purgatory:0,rev_skyland:0,library:0,airport:0,ancient:0,another:0,niflheimr:0,unusual:0,imaginary:0}
 
 #> forceload chunks
 #一時的にデバッグエリアの10000,10000にマーカー群を配置する
@@ -90,6 +92,7 @@ data modify storage area: conquer.count set value {skyland:0,nether:0,end:0,unde
     scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒クリック"}
     scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
     scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
+    scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
     scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
     scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 
