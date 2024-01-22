@@ -6,7 +6,7 @@
 
 tellraw @s "====================================================="
 
-tellraw @s [{"translate":"[前のページ]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}}," / " ,{"translate":"[次のページ]","color":"#60ffff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 202"}}]
+tellraw @s [{"translate":"[前のページ]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}},{"translate":" / ","color": "white"},{"translate":"[次のページ]","color":"#60ffff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 202"}},{"translate":" / ","color": "white"},{"translate":"[最初のページ]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}}]
 
 execute if data storage core: difficult{world:"picnic"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"ピクニック","color":"#80ff00"}]
 execute if data storage core: difficult{world:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"カジュアル","color":"#FF2A2A"}]
@@ -30,9 +30,12 @@ execute store result score _ Calc run data get storage area: purified.tradeislan
 execute store result score # _ run function calc:island/get_total/tradeisland
 tellraw @s [{"translate":"交易島","color":"#70f158","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 230"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
+#> 240-249: クラウディア
+execute store result score _ Calc run data get storage area: purified.cloudia
+execute store result score # _ run function calc:island/get_total/cloudia
+tellraw @s [{"translate":"クラウディア","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 240"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="
-#Todo [前のページ]/[次のページ]を追加して複数ページで攻略率を見れるようにする。
