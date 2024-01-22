@@ -97,6 +97,7 @@ data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},c
     scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
     scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
     scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
+    scoreboard objectives add DeathCount minecraft.custom:minecraft.deaths {"text":"死亡回数"}
 
 #> 時間初期化
 execute unless score $Hours Count matches 0.. run scoreboard players set $Hours Count 0
