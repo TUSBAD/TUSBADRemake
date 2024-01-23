@@ -21,11 +21,11 @@ execute store result score # _ run function calc:island/get_total
 execute store result score # Calc run function calc:island/clear_count_percent
 tellraw @s [{"translate":"島 浄化率"}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
 
-#> 浄化数概要
+#> 瘴気の有無
+tellraw @s "瘴気の有無の表示"
 
-tellraw @s "浄化率概要 作成中"
 #> 死亡回数
-tellraw @s [{"translate":"死亡回数"}," ： ",{"score":{"name": "@s","objective": "DeathCount"}}]
+tellraw @s [{"translate":"死亡回数"}," ： ",{"score":{"name": "@s","objective": "DeathCount"},"color":"#ff3333"}]
 
 tellraw @s "後なんか一つ表示したい"
 
@@ -34,4 +34,3 @@ tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="
-#Todo [前のページ]/[次のページ]を追加して複数ページで攻略率を見れるようにする。
