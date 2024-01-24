@@ -1,6 +1,6 @@
 {
 	"values": [
-		"tusb_remake:load/",
-		"core:load/reload"
+		"core:load",
+		"core:reload"
 	]
 }

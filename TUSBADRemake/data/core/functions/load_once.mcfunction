@@ -84,7 +84,6 @@ data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},c
     scoreboard objectives add __ dummy {"text":"一時変数 その2"}
     scoreboard objectives add Calc dummy {"text":"計算変数"}
     scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
-    scoreboard objectives add Count dummy {"text": "カウント"}
 
 #> リセット必須トリガー
     scoreboard objectives remove FirstJoin

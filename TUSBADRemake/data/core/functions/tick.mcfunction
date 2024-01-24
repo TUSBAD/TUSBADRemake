@@ -1,4 +1,4 @@
-#> core:tick/
+#> core:tick
 #
 # #毎tick処理群（追加）
 #
