@@ -9,6 +9,7 @@
 #> チーム色変更
 execute unless data storage core: difficult{world:"casual"} run function core:difficulty/color/casual
 
+data modify storage core: difficult.before set from storage core: difficult.world
 data modify storage core: difficult.world set value "casual"
 
 #> 難易度による補正欄
