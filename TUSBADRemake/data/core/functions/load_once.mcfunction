@@ -1,9 +1,12 @@
-#> core:load/load_once
+#> core:load_once
 #
 # #load時に一回だけ実行される処理群（追加）
 #
 #AD二次創作にて追加する処理群はこっちに記入すること
 #最終的にこっちに全部移すことになる予定
+
+#> デバッグ用
+data modify storage core: debug set value 1b
 
 #> ゲームルール
     execute unless data storage core: {debug:1b} run time set 14000
