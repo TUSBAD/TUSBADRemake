@@ -31,11 +31,11 @@ data merge storage area: {purified:{skylands:{},rev_skylands:{},tradeisland:{},c
 #> forceload chunks
 #一時的にデバッグエリアの10000,10000にマーカー群を配置する
 #変更の余地あり
-    execute in area:test run forceload add 10001 10001
-    execute in area:test run setblock 10002 2 10002 shulker_box
-    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00000
-    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00001
-    execute in area:test positioned 10005 5 10005 run function calc:system_marker/tp_00002
+    execute in area:control run forceload add 0 0
+    execute in area:control run setblock 2 2 2 shulker_box
+    execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00000
+    execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00001
+    execute in area:control positioned 5 5 5 run function calc:system_marker/tp_00002
 
 #> ステータススコア
     scoreboard objectives add Level dummy {"text":"レベル"}
@@ -107,3 +107,4 @@ execute unless score $Minutes Count matches 0.. run scoreboard players set $Minu
 
 #> 難易度リセット カジュアル
     function core:difficulty/reset
+    execute if data storage core: {debug:1b} run function core:difficulty/select/debug
