@@ -1,9 +1,0 @@
-{
-    "values": [
-        "#item:has_durability/tool/axes",
-        "#item:has_durability/tool/hoes",
-        "#item:has_durability/tool/pickaxes",
-        "#item:has_durability/tool/shovels",
-        "#item:has_durability/tool/swords"
-    ]
-}

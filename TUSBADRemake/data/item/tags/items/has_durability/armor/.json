@@ -1,8 +1,0 @@
-{
-    "values": [
-        "#item:has_durability/armor/helmets",
-        "#item:has_durability/armor/chestplates",
-        "#item:has_durability/armor/leggings",
-        "#item:has_durability/armor/boots"
-    ]
-}
