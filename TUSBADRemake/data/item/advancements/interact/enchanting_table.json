@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "tusb_remake:item/enchanting_table/interact"
+    "function": "item:enchanting_table/interact"
   }
 }

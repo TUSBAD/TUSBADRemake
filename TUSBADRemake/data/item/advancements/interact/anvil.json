@@ -22,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "tusb_remake:item/anvil/interact"
+    "function": "item:anvil/interact"
   }
 }

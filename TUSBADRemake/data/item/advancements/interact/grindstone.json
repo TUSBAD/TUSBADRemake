@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "tusb_remake:item/grindstone/interact"
+    "function": "item:grindstone/interact"
   }
 }
