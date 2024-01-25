@@ -1,14 +1,14 @@
-![TUSBAD version](https://img.shields.io/badge/ADversion-12R_1.0α-blueviolet.svg?)
-![Minecraft version](https://img.shields.io/badge/MCversion-1.20-green.svg?logo=minecraft)
+![TUSBAD version](https://img.shields.io/badge/ADversion-1.0α-blueviolet.svg?)
+![Minecraft version](https://img.shields.io/badge/MCversion-1.20.5-green.svg?logo=minecraft)
 [![discord](https://img.shields.io/discord/715245045300723775?logo=discord&label=discord)](https://discord.gg/rTVWQm4ykR)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/TUSBAD/TUSBADv12R?include_prereleases)
-![GitHub](https://img.shields.io/github/license/TUSBAD/TUSBADv12R)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/TUSBAD/TUSBADRemake?include_prereleases)
+![GitHub](https://img.shields.io/github/license/TUSBAD/TUSBADRemake)
 <br>
-[![activity](https://img.shields.io/github/commit-activity/m/TUSBAD/TUSBv12R?label=commit&logo=github&color=brightgreen)](https://github.com/TUSBAD/TUSBADv12R/commits/1.20.x)
-![GitHub issues](https://img.shields.io/github/issues/TUSBAD/TUSBADv12R?logo=github)
-![GitHub pr](https://img.shields.io/github/issues-pr/TUSBAD/TUSBADv12R?logo=github)
-![GitHub all releases](https://img.shields.io/github/downloads/TUSBAD/TUSBADv12R/total?logo=github)
-![GitHub contributors](https://img.shields.io/github/contributors/TUSBAD/TUSBADv12R?color=aqua&logo=github)
+[![activity](https://img.shields.io/github/commit-activity/m/TUSBAD/TUSBv12R?label=commit&logo=github&color=brightgreen)](https://github.com/TUSBAD/TUSBADRemake/commits/1.20.x)
+![GitHub issues](https://img.shields.io/github/issues/TUSBAD/TUSBADRemake?logo=github)
+![GitHub pr](https://img.shields.io/github/issues-pr/TUSBAD/TUSBADRemake?logo=github)
+![GitHub all releases](https://img.shields.io/github/downloads/TUSBAD/TUSBADRemake/total?logo=github)
+![GitHub contributors](https://img.shields.io/github/contributors/TUSBAD/TUSBADRemake?color=aqua&logo=github)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 <br>
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
@@ -21,7 +21,7 @@ TUSB二次創作「TUSBAD_Remake」開発用データパックリポジトリ<br
 
 Discord:https://discord.gg/rTVWQm4ykR
 
-**非公式二次創作です。**
+**非公式TUSBv13二次創作です。**
 
 # 内容
 最終的なMCverは1.20になる予定です。<br>
@@ -30,10 +30,8 @@ Discord:https://discord.gg/rTVWQm4ykR
 # 追加要素
 
 # バグ報告・要望等
-[こちら](https://github.com/TUSBAD/TUSBADv12R/issues/new/choose) か [Discord](https://discord.gg/rTVWQm4ykR) までお願いします。
+[こちら](https://github.com/TUSBAD/TUSBADRemake/issues/new/choose) か [Discord](https://discord.gg/rTVWQm4ykR) までお願いします。
 
-# Wiki
-[こちら](https://github.com/FreyCIelu/TUSBFanMade-Another_Dimension/wiki)
 
 # 注意点
 このマップは非公式です。連絡は[ツイッター](https://twitter.com/FreyCielu)か [discord](https://discord.gg/rTVWQm4ykR) までお願いします。<br>
@@ -68,7 +66,6 @@ Discord:https://discord.gg/rTVWQm4ykR
 
 # 謝辞
 このリポジトリでは以下のリポジトリ/ライブラリを使用させていただいています。<br>
-(v12Rに組み込まれている物も含みます)
 
 #### [TUSB](https://github.com/TUSB/TheUnusualSkyBlock)
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock)
@@ -90,7 +87,6 @@ Discord:https://discord.gg/rTVWQm4ykR
 
 # ライセンス
 このリポジトリでは、以下のライブラリを除いて、[MIT License](LICENSE)が適用されます。<br>
-(v12Rに組み込まれている物も含みます)
 
 * [TheUnusualSkyBlock v13](https://github.com/TUSB/TheUnusualSkyBlock) (Copyright by サークルTUSB)
 * [ScoreToHealth](ScoreToHealth)ディレクトリ ([Apache-2.0 License](ScoreToHealth/LICENSE) / Copyright by 赤石愛)
