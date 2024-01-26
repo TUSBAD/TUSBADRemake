@@ -1,4 +1,4 @@
-#> area:itemcheck/trade_pearl
+#> area:system/tradeisland/trade_pearl
 ### 交易島エンパ防止
 
 execute if entity @s[gamemode=!creative,predicate=area:area/tradeisland] run summon item ~ ~ ~ {Tags:["Tradecheck"],PickupDelay:0,Item:{id:"minecraft:ender_pearl",Count:1b}}
