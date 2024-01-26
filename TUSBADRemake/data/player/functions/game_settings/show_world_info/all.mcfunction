@@ -17,7 +17,7 @@ tellraw @s ""
 
 #>クリア数抽出
 execute store result score _ Calc run function calc:island/clear_count
-execute store result score # _ run function calc:island/get_total
+execute store result score # _ run function #calc:island/get_total
 execute store result score # Calc run function calc:island/clear_count_percent
 tellraw @s [{"translate":"島 浄化率"}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
 

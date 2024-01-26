@@ -4,5 +4,4 @@
 #
 #
 
-scoreboard players set _ Ret 4
-scoreboard players get _ Ret
+return 4
