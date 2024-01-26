@@ -10,7 +10,7 @@
     gamerule tntExplosionDropDecay false
     execute unless data storage core: {debug:1b} run gamerule doFireTick true
     gamerule maxCommandChainLength 1048576
-#    gamerule maxCommandForkCount 1048576
+    gamerule maxCommandForkCount 1048576
     gamerule doVinesSpread true
     gamerule fireDamage true
     execute unless data storage core: {debug:1b} run gamerule reducedDebugInfo true
@@ -51,7 +51,7 @@
     gamerule spectatorsGenerateChunks true
     execute unless data storage core: {debug:1b} run gamerule sendCommandFeedback false
     gamerule doPatrolSpawning true
-#   gamerule enderPearlsVanishOnDeath true
-#   gamerule playersNetherPortalCreativeDelay 1
-#   gamerule playersNetherPortalDefaultDelay 40
-#   gamerule projectilesCanBreakBlocks true
+    gamerule enderPearlsVanishOnDeath true
+    gamerule playersNetherPortalCreativeDelay 1
+    gamerule playersNetherPortalDefaultDelay 40
+    gamerule projectilesCanBreakBlocks true
