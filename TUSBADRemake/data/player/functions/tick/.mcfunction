@@ -26,4 +26,4 @@ execute unless score @s ChangeSkill matches 0 run function skill:trigger/
 #execute unless score @s ChangeJob matches 0 run function job:change/check
 
 #> アクションバー描画
-execute if entity @s[predicate=player:player] run function player:tick/action_bar/
+execute if entity @s[predicate=entity:player] run function player:tick/action_bar/
