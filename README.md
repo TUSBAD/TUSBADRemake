@@ -14,9 +14,9 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/FreyCielu.svg?style=social)
 ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCdKnAER_nZTSWAAhvYpgGrw?label=Subscribe%20%40%E3%83%95%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A7%E3%83%AB&style=social)
 
-# TUSBAD_Remake
-TUSB二次創作「TUSBAD_Remake」開発用データパックリポジトリ<br>
-[Modver「TUSBAD_RemakeModded」開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADModded)
+# TUSBAD_Reboot
+TUSB二次創作「TUSBAD_Reboot」開発用データパックリポジトリ<br>
+[Modver「TUSBAD_RebootModded」開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADModded)
 [TUSBADResourcePack開発用リポジトリはこちら](https://github.com/TUSBAD/TUSBADResource)
 
 Discord:https://discord.gg/rTVWQm4ykR
