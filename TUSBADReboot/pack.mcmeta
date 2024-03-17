@@ -1,11 +1,11 @@
 {
     "pack": {
-        "pack_format": 18,
+        "pack_format": 22,
         "supported_formats": {
-            "min_inclusive": 18,
-            "max_inclusive": 26
+            "min_inclusive": 22,
+            "max_inclusive": 29
           },
-        "description": "TUSBAD Remake"
+        "description": "TUSBAD Reboot"
     },
     "filter": {
         "block": [
