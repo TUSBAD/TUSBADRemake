@@ -14,7 +14,6 @@
     "calc:island/get_total/niflheimr",
     "calc:island/get_total/imaginary_space",
     "calc:island/get_total/unusual_space",
-    "calc:island/get_total/another_dimension",
-    "calc:island/get_total/ancient_field"
+    "calc:island/get_total/another_dimension"
   ]
 }

@@ -7,7 +7,7 @@
 function calc:island/clear_count
 ##係数定数
 # _ _ 占有
-scoreboard players set _ _ 100
+scoreboard players set _ _ 101
 ##算出
 scoreboard players operation _ Ret *= _ _
 # _ _ 解放
