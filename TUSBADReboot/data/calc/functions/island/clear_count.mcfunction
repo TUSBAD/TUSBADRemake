@@ -50,8 +50,5 @@ scoreboard players operation _ Ret += _ _
 #> another_dimension
 execute store result score _ _ run data get storage area: purified.another_dimension
 scoreboard players operation _ Ret += _ _
-#> ancient_field
-execute store result score _ _ run data get storage area: purified.ancient_field
-scoreboard players operation _ Ret += _ _
 
 return run scoreboard players get _ Ret
