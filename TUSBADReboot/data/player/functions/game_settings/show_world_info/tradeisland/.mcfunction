@@ -4,10 +4,14 @@
 #
 #
 tellraw @s "====================================================="
-tellraw @s [{"translate":"[最初に戻る]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[一覧に戻る]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 201"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[前のページ]","color":"#808080","clickEvent":{"action": "run_command","value": ""}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[次のページ]","color":"#808080","clickEvent":{"action": "run_command","value": ""}}]
-tellraw @s ""
+tellraw @s [{"translate":"[一覧に戻る]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[最初に戻る]","color":"#ff8040","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 230"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[前のページ]","color":"#808080","clickEvent":{"action": "run_command","value": ""}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[次のページ]","color":"#808080","clickEvent":{"action": "run_command","value": ""}}]
+tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"text":"E","color":"gray","font":"icon"},{"text": "：未攻略"},{"translate":" / ","color": "white"},{"text":"E","font":"icon"},{"text": "：攻略済"}]
 tellraw @s [{"translate":"[ 交 易 島 ]","color":"#70f158"}]
-tellraw @s [{"translate":"教会","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon","hoverEvent": {"action":"show_text","value":[{"translate":"まだ未浄化のようだ。","color": "white"}]}}]
+execute store result score _ Calc run data get storage area: purified.tradeisland
+execute store result score # _ run function calc:island/get_total/tradeisland
+tellraw @s [{"translate":"エリア浄化数"}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+tellraw @s ""
+tellraw @s [{"translate":"教会","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
 
 tellraw @s ""
 tellraw @s ""

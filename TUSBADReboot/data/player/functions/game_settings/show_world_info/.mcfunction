@@ -15,8 +15,12 @@ execute if score @s ChangeSettings matches 203 run function player:game_settings
 #> 204:Page4
 execute if score @s ChangeSettings matches 204 run function player:game_settings/show_world_info/page_4
 
-# 210-219: 通常世界下層
-# execute if score @s ChangeSettings matches 210..219 run function player:game_settings/show_world_info/skylands/
+#> 210-219: 通常世界下層
+ execute if score @s ChangeSettings matches 210 run function player:game_settings/show_world_info/skylands/page_1
+ execute if score @s ChangeSettings matches 211 run function player:game_settings/show_world_info/skylands/page_2
+ execute if score @s ChangeSettings matches 212 run function player:game_settings/show_world_info/skylands/page_3
+ execute if score @s ChangeSettings matches 213 run function player:game_settings/show_world_info/skylands/page_4
+ execute if score @s ChangeSettings matches 214 run function player:game_settings/show_world_info/skylands/page_5
 #> 230-239: 交易島
  execute if score @s ChangeSettings matches 230..239 run function player:game_settings/show_world_info/tradeisland/
 # 220-229: 通常世界上層
