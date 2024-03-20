@@ -17,8 +17,8 @@ tellraw @s [{"translate":"たけのこ島","color":"#ffffff"}," : ",{"text":"E",
 tellraw @s [{"translate":"大釜とホッパー島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
 tellraw @s [{"translate":"製図台島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
 tellraw @s [{"translate":"海賊船","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
-tellraw @s [{"translate":"スケルトンs島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
-tellraw @s [{"translate":"エンダーs島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
+tellraw @s [{"translate":"スケルトン's島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
+tellraw @s [{"translate":"エンダー's島","color":"#ffffff"}," : ",{"text":"E","color":"gray","font":"icon"}]
 
 tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
