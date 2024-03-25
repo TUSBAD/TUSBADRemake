@@ -2,11 +2,11 @@
 #
 #> ワールドデータ表示
 #
-#> トカルト・図書館・エンド・ニヴル
+#> その他
 
 tellraw @s "====================================================="
 
-tellraw @s [{"translate":"[前のページ]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 201"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[次のページ]","color":"#60ffff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 203"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[最初のページ]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}}]
+tellraw @s [{"translate":"[前のページ]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 201"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[次のページ]","color":"#808080","clickEvent":{"action": "run_command","value": ""}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[最初のページ]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}}]
 
 execute if data storage core: difficult{world:"picnic"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"ピクニック","color":"#80ff00"}]
 execute if data storage core: difficult{world:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"カジュアル","color":"#FF2A2A"}]
@@ -17,25 +17,21 @@ tellraw @s ""
 tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
 tellraw @s ""
 
-#> 290-299: トカルト
-execute store result score _ Calc run data get storage area: purified.tocult_colde
-execute store result score # _ run function calc:island/get_total/tocult_colde
-tellraw @s [{"translate":"トカルトコルデ","color":"#14fffb","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 290"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+#> 異空間開放数
+#execute store result score _ Calc run data get storage area: purified.unusual_space
+#execute store result score # _ run function calc:island/get_total/unusual_space
+tellraw @s [{"translate":"異空間解放数"}," ： ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
-#> 300-309: 図書館
-execute store result score _ Calc run data get storage area: purified.library
-execute store result score # _ run function calc:island/get_total/library
-tellraw @s [{"translate":"大図書館","color":"#fda31c","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 300"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+#> 死亡回数
+tellraw @s [{"translate":"死亡回数"}," ： ",{"score":{"name": "@s","objective": "DeathCount"},"color":"#ff3333"}]
 
-#> 310-319: エンド
-execute store result score _ Calc run data get storage area: purified.end
-execute store result score # _ run function calc:island/get_total/end
-tellraw @s [{"translate":"エ ン ド","color":"#c11eff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 310"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
-#> 320-329: ニヴル
-execute store result score _ Calc run data get storage area: purified.niflheimr
-execute store result score # _ run function calc:island/get_total/niflheimr
-tellraw @s [{"translate":"ニヴルヘイム","color":"#2693ff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 320"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+tellraw @s "後なにか表示したい"
+
+
+tellraw @s "後なにか表示したい"
+
+
 
 tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]

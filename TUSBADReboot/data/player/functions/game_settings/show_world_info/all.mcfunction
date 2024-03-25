@@ -2,7 +2,7 @@
 #
 #> ワールドデータ表示
 #
-#> 通常世界上/下・交易島・クラウディア
+#> 通常世界上/下・交易島・クラウディア・地下世界・ガリバー・テーブル・煉獄
 
 tellraw @s "====================================================="
 
@@ -41,7 +41,29 @@ execute store result score _ Calc run data get storage area: purified.cloudia
 execute store result score # _ run function calc:island/get_total/cloudia
 tellraw @s [{"translate":"クラウディア","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 240"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
+#> 250-259: 地下世界
+execute store result score _ Calc run data get storage area: purified.underworld
+execute store result score # _ run function calc:island/get_total/underworld
+tellraw @s [{"translate":"地下世界","color":"#586bfe","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 250"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 260-269: ガリバーランド
+execute store result score _ Calc run data get storage area: purified.gullivers_land
+execute store result score # _ run function calc:island/get_total/gullivers_land
+tellraw @s [{"translate":"ガリバーランド","color":"#ffd700","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 260"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 270-279: テーブル
+execute store result score _ Calc run data get storage area: purified.table_mountain
+execute store result score # _ run function calc:island/get_total/table_mountain
+tellraw @s [{"translate":"テーブルマウンテン","color":"#31fb2d","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 270"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 280-289: 煉獄
+execute store result score _ Calc run data get storage area: purified.purgatory
+execute store result score # _ run function calc:island/get_total/purgatory
+tellraw @s [{"translate":"煉 獄","color":"#f42f2f","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 280"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+tellraw @s ""
 tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
+tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
 
 tellraw @s "====================================================="
