@@ -1,12 +1,12 @@
-#> player:game_settings/show_world_info/page_1
+#> player:game_settings/show_world_info/all
 #
 #> ワールドデータ表示
 #
-#> トカルト・図書館・エンド・ニヴル・虚数空間・異空間・異次元・朽ち果てた戦場
+#> 通常世界上/下・交易島・クラウディア・地下世界・ガリバー・テーブル・煉獄
 
 tellraw @s "====================================================="
 
-tellraw @s [{"translate":"[前のページ]","color":"#ff8080","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[次のページ]","color":"#60ffff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 202"}},{"translate":" / ","color": "white","clickEvent":{"action": "run_command","value": ""}},{"translate":"[最初のページ]","color":"#00ff80","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 200"}}]
+tellraw @s [{"translate":"[前のページ]","color":"#808080"},{"translate":" / ","color": "white"},{"translate":"[次のページ]","color":"#60ffff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 201"}},{"translate":" / ","color": "white"},{"translate":"[最初のページ]","color":"#808080"}]
 
 execute if data storage core: difficult{world:"picnic"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"ピクニック","color":"#80ff00"}]
 execute if data storage core: difficult{world:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"カジュアル","color":"#FF2A2A"}]
@@ -14,51 +14,55 @@ execute if data storage core: difficult{world:"another"} run tellraw @s [{"trans
 execute if data storage core: difficult{world:"hardcore"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"ハードコア","color":"#FF00FF"}]
 execute if data storage core: difficult{world:"debug"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"デバッグ","color":"dark_gray"}]
 tellraw @s ""
+#>クリア数抽出
+execute store result score _ Calc run function calc:island/clear_count
+execute store result score # _ run function #calc:island/get_total
+execute store result score # Calc run function calc:island/clear_count_percent
+tellraw @s [{"translate":"全体浄化率"}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
+tellraw @s ""
+
+#> 210-219: 通常世界下層
+execute store result score _ Calc run data get storage area: purified.skylands
+execute store result score # _ run function calc:island/get_total/skylands
+tellraw @s [{"translate":"通常世界 下層","color":"#b7b7b7","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 210"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 220-229: 通常世界上層
+execute store result score _ Calc run data get storage area: purified.rev_skylands
+execute store result score # _ run function calc:island/get_total/rev_skylands
+tellraw @s [{"translate":"通常世界 上層","color":"#ff3948","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 220"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 230-239: 交易島
+execute store result score _ Calc run data get storage area: purified.tradeisland
+execute store result score # _ run function calc:island/get_total/tradeisland
+tellraw @s [{"translate":"交易島","color":"#70f158","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 230"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 240-249: クラウディア
+execute store result score _ Calc run data get storage area: purified.cloudia
+execute store result score # _ run function calc:island/get_total/cloudia
+tellraw @s [{"translate":"クラウディア","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 240"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 250-259: 地下世界
+execute store result score _ Calc run data get storage area: purified.underworld
+execute store result score # _ run function calc:island/get_total/underworld
+tellraw @s [{"translate":"地下世界","color":"#586bfe","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 250"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 260-269: ガリバーランド
+execute store result score _ Calc run data get storage area: purified.gullivers_land
+execute store result score # _ run function calc:island/get_total/gullivers_land
+tellraw @s [{"translate":"ガリバーランド","color":"#ffd700","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 260"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 270-279: テーブル
+execute store result score _ Calc run data get storage area: purified.table_mountain
+execute store result score # _ run function calc:island/get_total/table_mountain
+tellraw @s [{"translate":"テーブルマウンテン","color":"#31fb2d","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 270"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+#> 280-289: 煉獄
+execute store result score _ Calc run data get storage area: purified.purgatory
+execute store result score # _ run function calc:island/get_total/purgatory
+tellraw @s [{"translate":"煉 獄","color":"#f42f2f","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 280"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+
+tellraw @s ""
 tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"translate":"各ディメンション名を%1$sで詳細情報を確認できます。","bold": true,"with":[{"translate":"クリック","color":"#ff9e57","bold": true}]}]
-tellraw @s ""
-tellraw @s ""
-
-#> 290-299: トカルト
-execute store result score _ Calc run data get storage area: purified.tocult_colde
-execute store result score # _ run function calc:island/get_total/tocult_colde
-tellraw @s [{"translate":"トカルトコルデ","color":"#14fffb","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 290"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 300-309: 図書館
-execute store result score _ Calc run data get storage area: purified.library
-execute store result score # _ run function calc:island/get_total/library
-tellraw @s [{"translate":"大図書館","color":"#fda31c","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 300"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 310-319: エンド
-execute store result score _ Calc run data get storage area: purified.end
-execute store result score # _ run function calc:island/get_total/end
-tellraw @s [{"translate":"エ ン ド","color":"#c11eff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 310"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 320-329: ニヴル
-execute store result score _ Calc run data get storage area: purified.niflheimr
-execute store result score # _ run function calc:island/get_total/niflheimr
-tellraw @s [{"translate":"ニヴルヘイム","color":"#2693ff","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 320"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 330-339: 虚数空間
-execute store result score _ Calc run data get storage area: purified.imaginary_space
-execute store result score # _ run function calc:island/get_total/imaginary_space
-tellraw @s [{"translate":"虚数空間","color":"#758492","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 330"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 340-349: 異空間
-execute store result score _ Calc run data get storage area: purified.unusual_space
-execute store result score # _ run function calc:island/get_total/unusual_space
-tellraw @s [{"translate":"異 空 間","color":"#e60005","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 340"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 350-359: 異次元
-execute store result score _ Calc run data get storage area: purified.another_dimension
-execute store result score # _ run function calc:island/get_total/another_dimension
-tellraw @s [{"translate":"異 次 元","color":"#02ca9d","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 350"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-#> 360-369: 朽ち果てた戦場
-execute store result score _ Calc run data get storage area: purified.ancient_field
-execute store result score # _ run function calc:island/get_total/ancient_field
-tellraw @s [{"translate":"朽ち果てた戦場","color":"#b9176c","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 360"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
-
-tellraw @s ""
 tellraw @s ""
 tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
 
