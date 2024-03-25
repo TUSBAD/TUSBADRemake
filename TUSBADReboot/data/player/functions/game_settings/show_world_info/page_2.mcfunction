@@ -21,16 +21,20 @@ tellraw @s ""
 #execute store result score _ Calc run data get storage area: purified.unusual_space
 #execute store result score # _ run function calc:island/get_total/unusual_space
 tellraw @s [{"translate":"異空間解放数"}," ： ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
+tellraw @s ""
 
 #> 死亡回数
 tellraw @s [{"translate":"死亡回数"}," ： ",{"score":{"name": "@s","objective": "DeathCount"},"color":"#ff3333"}]
-
-
-tellraw @s "後なにか表示したい"
-
+tellraw @s ""
 
 tellraw @s "後なにか表示したい"
+tellraw @s ""
 
+tellraw @s "後なにか表示したい"
+tellraw @s ""
+
+tellraw @s ""
+tellraw @s ""
 
 
 tellraw @s ""
