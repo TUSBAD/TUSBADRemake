@@ -18,7 +18,7 @@ tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"translate":"各ディ
 tellraw @s ""
 
 #> 異空間開放数
-#execute store result score _ Calc run data get storage area: purified.unusual_space
+#execute store result score _ Calc run data get storage area: capture.unusual_space
 #execute store result score # _ run function calc:island/get_total/unusual_space
 tellraw @s [{"translate":"異空間解放数"}," ： ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 tellraw @s ""

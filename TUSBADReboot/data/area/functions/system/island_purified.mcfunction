@@ -3,10 +3,10 @@
 #> 攻略判定と表示
 #
 #> Skylands_under
-execute if entity @s[advancements={area:system/island_purified={skylands.001=true}}] run data modify storage area: purified.skylands.001 set value true
+execute if entity @s[advancements={area:system/island_purified={skylands.001=true}}] run data modify storage area: capture.skylands.01 set value 1
 
 #> tradeisland
-execute if entity @s[advancements={area:system/island_purified={tradeisland.001=true}}] run data modify storage area: purified.tradeisland.001 set value true
+execute if entity @s[advancements={area:system/island_purified={tradeisland.001=true}}] run data modify storage area: capture.tradeisland.01 set value 1
 
 
 

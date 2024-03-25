@@ -5,11 +5,11 @@
 #
 
 #> 200:ALL
-execute if score @s ChangeSettings matches 200 run function player:game_settings/show_world_info/all
+execute if score @s ChangeSettings matches 200 run function player:game_settings/show_world_info/page_1
 #> 201:Page1
-execute if score @s ChangeSettings matches 201 run function player:game_settings/show_world_info/page_1
+execute if score @s ChangeSettings matches 201 run function player:game_settings/show_world_info/page_2
 #> 202:Page2
-execute if score @s ChangeSettings matches 202 run function player:game_settings/show_world_info/page_2
+execute if score @s ChangeSettings matches 202 run function player:game_settings/show_world_info/page_3
 
 #> 210-219: 通常世界下層
  execute if score @s ChangeSettings matches 210 run function player:game_settings/show_world_info/skylands/page_1

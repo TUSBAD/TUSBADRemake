@@ -22,42 +22,42 @@ tellraw @s [{"translate":"全体浄化率"}," : ",{"score":{"name": "_","objecti
 tellraw @s ""
 
 #> 210-219: 通常世界下層
-execute store result score _ Calc run data get storage area: purified.skylands
+execute store result score _ Calc run data get storage area: capture.skylands
 execute store result score # _ run function calc:island/get_total/skylands
 tellraw @s [{"translate":"通常世界 下層","color":"#b7b7b7","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 210"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 220-229: 通常世界上層
-execute store result score _ Calc run data get storage area: purified.rev_skylands
+execute store result score _ Calc run data get storage area: capture.rev_skylands
 execute store result score # _ run function calc:island/get_total/rev_skylands
 tellraw @s [{"translate":"通常世界 上層","color":"#ff3948","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 220"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 230-239: 交易島
-execute store result score _ Calc run data get storage area: purified.tradeisland
+execute store result score _ Calc run data get storage area: capture.tradeisland
 execute store result score # _ run function calc:island/get_total/tradeisland
 tellraw @s [{"translate":"交易島","color":"#70f158","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 230"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 240-249: クラウディア
-execute store result score _ Calc run data get storage area: purified.cloudia
+execute store result score _ Calc run data get storage area: capture.cloudia
 execute store result score # _ run function calc:island/get_total/cloudia
 tellraw @s [{"translate":"クラウディア","color":"#23DDFA","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 240"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 250-259: 地下世界
-execute store result score _ Calc run data get storage area: purified.underworld
+execute store result score _ Calc run data get storage area: capture.underworld
 execute store result score # _ run function calc:island/get_total/underworld
 tellraw @s [{"translate":"地下世界","color":"#586bfe","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 250"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 260-269: ガリバーランド
-execute store result score _ Calc run data get storage area: purified.gullivers_land
+execute store result score _ Calc run data get storage area: capture.gullivers_land
 execute store result score # _ run function calc:island/get_total/gullivers_land
 tellraw @s [{"translate":"ガリバーランド","color":"#ffd700","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 260"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 270-279: テーブル
-execute store result score _ Calc run data get storage area: purified.table_mountain
+execute store result score _ Calc run data get storage area: capture.table_mountain
 execute store result score # _ run function calc:island/get_total/table_mountain
 tellraw @s [{"translate":"テーブルマウンテン","color":"#31fb2d","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 270"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
 #> 280-289: 煉獄
-execute store result score _ Calc run data get storage area: purified.purgatory
+execute store result score _ Calc run data get storage area: capture.purgatory
 execute store result score # _ run function calc:island/get_total/purgatory
 tellraw @s [{"translate":"煉 獄","color":"#f42f2f","clickEvent":{"action": "run_command","value": "/trigger ChangeSettings set 280"}}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 
