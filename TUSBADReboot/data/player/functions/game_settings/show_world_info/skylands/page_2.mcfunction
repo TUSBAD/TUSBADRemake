@@ -9,8 +9,8 @@ tellraw @s [{"storage":"ad_remake:","nbt":"Prefix.TIPS"},{"text":"0","color":"gr
 tellraw @s [{"translate":"[ 通常世界 ]","color":"#b7b7b7"},{"translate":" 2/5","color":"#FFFFFF"}]
 tellraw @s ""
 tellraw @s [{"translate":"花火クリーパー島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{012:0}.012","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{012:1}.012","font":"ender_eye"}]
-tellraw @s [{"translate":"エメラルド島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{013:0}.013","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{013:1}.013","font":"ender_eye"}]
-tellraw @s [{"translate":"墓場島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{014:0}.014","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{014:1}.014","font":"ender_eye"}]
+tellraw @s [{"translate":"墓場島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{013:0}.013","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{013:1}.013","font":"ender_eye"}]
+tellraw @s [{"translate":"エメラルド島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{014:0}.014","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{014:1}.014","font":"ender_eye"}]
 tellraw @s [{"translate":"遺跡島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{015:0}.015","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{015:1}.015","font":"ender_eye"}]
 tellraw @s [{"translate":"オアシス島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{016:0}.016","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{016:1}.016","font":"ender_eye"}]
 tellraw @s [{"translate":"スティーブ島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{017:0}.017","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{017:1}.017","font":"ender_eye"}]
