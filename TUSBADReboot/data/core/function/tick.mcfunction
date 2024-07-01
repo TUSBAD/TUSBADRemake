@@ -10,3 +10,7 @@
 
 #> プレイヤーTick
     execute as @a at @s run function player:tick/
+
+#> 1秒処理
+scoreboard players add $Tick Count 1
+execute if score $Tick Count matches 20.. run function core:one_second

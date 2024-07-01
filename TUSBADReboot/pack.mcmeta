@@ -1,9 +1,9 @@
 {
     "pack": {
-        "pack_format": 22,
+        "pack_format": 48,
         "supported_formats": {
-            "min_inclusive": 22,
-            "max_inclusive": 29
+            "min_inclusive": 48,
+            "max_inclusive": 48
           },
         "description": "TUSBAD Reboot"
     },
