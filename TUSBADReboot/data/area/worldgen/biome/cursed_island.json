@@ -5,18 +5,18 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 8840958,
-    "fog_color": 4752894,
-    "water_color": 28415,
-    "water_fog_color": 13055,
-    "grass_color": 9698924,
-    "foliage_color": 16689639,
+    "sky_color": 6184542,
+    "fog_color": 4210752,
+    "water_color": 10724259,
+    "water_fog_color": 9408399,
+    "grass_color": 10066329,
+    "foliage_color": 7566195,
     "ambient_sound": {
-      "sound_id": "minecraft:block.amethyst_block.chime"
+      "sound_id": "minecraft:ambient.warped_forest_enish"
     },
     "mood_sound": {
       "sound": {
-        "sound_id": "minecraft:ambient.cave"
+        "sound_id": "minecraft:ambient.crimson_forest.mood"
       },
       "tick_delay": 6000,
       "block_search_extent": 8,
@@ -24,13 +24,13 @@
     },
     "additions_sound": {
       "sound": {
-        "sound_id": "minecraft:crimson_forest_shine"
+        "sound_id": "minecraft:ambient.basalt_deltas_twist"
       },
-      "tick_chance": 0.01
+      "tick_chance": 0.001
     },
     "music": {
       "sound": {
-        "sound_id": "music:echo_in_the_wind"
+        "sound_id": "music:nether.warmth"
       },
       "min_delay": 0,
       "max_delay": 2000,
@@ -38,9 +38,9 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:cherry_leaves"
+        "type": "minecraft:soul"
       },
-      "probability": 0.0005
+      "probability": 0.001
     }
   },
   "spawners": {},
