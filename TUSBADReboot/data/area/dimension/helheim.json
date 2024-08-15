@@ -1,9 +1,9 @@
 {
-    "type": "area:the_nether",
+    "type": "area:helheim",
     "generator": {
       "type": "minecraft:flat",
       "settings": {
-        "biome": "area:the_nether",
+        "biome": "area:helheim",
         "layers": [],
         "structure_overrides": []
       }
